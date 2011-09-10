@@ -1,4 +1,6 @@
 PathfinderWorld::Application.routes.draw do
+  get "dragon_builder/index"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
