@@ -51,7 +51,9 @@
   %><b>防御的能力</b> <%= @dragon["defensive_ability"] %><%
   end
   if @dragon["dr"] != ""
-  %>; <b>DR</b> <%= @dragon["dr"] %>; <%
+  %><% if @dragon["defensive_ability"] != ""
+  %>; <%
+  end %><b>DR</b> <%= @dragon["dr"] %>; <%
   end %><b>完全耐性</b> <%= @dragon["immune"] %><%
   if @dragon["sr"] > 0
   %>; <b>SR</b> <%= @dragon["sr"] %>
