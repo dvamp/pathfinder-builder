@@ -10,9 +10,310 @@ class DragonBuilderController < ApplicationController
       if @dragon_id[:dragon_race] > 5
       @dragon_id[:dragon_race] = 1
       @dragon_id[:dragon_age] = 1
-      else
 
+      else if params[:dragon] != nil
+      dragon_race = DragonRace.find(params[:dragon_race].to_i)
+      dragon_age_category = DragonAgeCategory.find(params[:dragon_age].to_i)
       @dragon = {}
+      @dragon["dragon_race_name"] = dragon_race.name
+      @dragon["dragon_age_name"] = dragon_age_category.age_category
+      @dragon["cr"] = dragon_race.cr + dragon_age_category.cr
+      @dragon["size"] = dragon_race.size + dragon_age_category.size
+      @dragon["alignment"] = dragon_race.alignment
+      @dragon["types"] = dragon_race.creature_category
+      @dragon["subtypes"] = dragon_race.creature_subcategory
+      @dragon["natural_armor"] = dragon_race.natural_armor + dragon_age_category.natural_armor
+      @dragon["hit_dice_count"] = dragon_race.hit_dice + dragon_age_category.hit_dice
+      @dragon["str"] = dragon_race.str + dragon_age_category.str
+      @dragon["dex"] = dragon_race.dex + dragon_age_category.dex
+      @dragon["con"] = dragon_race.con + dragon_age_category.con
+      @dragon["int"] = dragon_race.int + dragon_age_category.int
+      @dragon["wis"] = dragon_race.wis + dragon_age_category.wis
+      @dragon["chr"] = dragon_race.chr + dragon_age_category.chr
+
+      @dragon["hit_dice_number"] = 12
+      @dragon["language"] = "竜語"
+
+      @dragon["environment"] = dragon_race.env
+      @dragon["organization"] = dragon_race.organization
+      @dragon["treasure"] = dragon_race.treasure
+
+      @dragon["defence_describe"] = ""  #固定ではない？
+      @dragon["burrow_speed"] = ""
+      @dragon["swim_speed"] = ""
+      @dragon["defensive_ability"] = ""
+        case @dragon_id[:dragon_age]
+        when 1..4
+          @dragon["dr"] = ""
+        when 5..6
+          @dragon["dr"] = "5/魔法"
+        when 7..8
+          @dragon["dr"] = "10/魔法"
+        when 9..10
+          @dragon["dr"] = "15/魔法"
+        when 11..12
+          @dragon["dr"] = "20/魔法"
+        end
+        case @dragon_id[:dragon_age]
+        when 1..4
+          @dragon["sr_flag"] = false
+        when 5..12
+          @dragon["sr_flag"] = true
+        end
+        @dragon["additional_move"] = ""
+          @dragon["sense"] = "竜の超感覚"
+          @dragon["immune"] = "［酸］、麻痺、睡眠"
+          @dragon["weakness"] = ""
+          @dragon["land_speed"] = "40ft."
+          @dragon["swim_speed"] = "40ft."
+          case @dragon_id[:dragon_age]
+          when 1..2
+            @dragon["spell_like_ability"] = ""
+          when 3
+            @dragon["spell_like_ability"] = "エンタングル"
+          when 4..5
+            @dragon["spell_like_ability"] = "エンタングル、チャーム・パースン"
+          when 6..7
+            @dragon["spell_like_ability"] = "エンタングル、チャーム・パースン、サジェスチョン"
+          when 8..9
+            @dragon["spell_like_ability"] = "エンタングル、チャーム・パースン、サジェスチョン、プラント・グロウス"
+          when 10..11
+            @dragon["spell_like_ability"] = "エンタングル、チャーム・パースン、サジェスチョン、プラント・グロウス、ドミネイト・パースン"
+          when 12
+            @dragon["spell_like_ability"] = "エンタングル、チャーム・パースン、サジェスチョン、プラント・グロウス、ドミネイト・パースン、コマンド・プランツ"
+          end
+          @dragon["spell_caster_level"] = -7 + (@dragon_id[:dragon_age] * 2)
+          @dragon["spell_caster_source"] = "ソーサラー"
+          @dragon["racial_modifer"] = "+8 〈水泳〉"
+          case @dragon_id[:dragon_age]
+          when 1
+            @dragon["sq"] = "水中呼吸"
+          when 2
+            @dragon["sq"] = "水中呼吸、森渡り"
+          when 6..7
+            @dragon["sq"] = "水中呼吸、森渡り、跡なき足取り"
+          when 8..12
+            @dragon["sq"] = "水中呼吸、森渡り、跡なき足取り、カモフラージュ"
+          end
+          case @dragon_id[:dragon_age]
+          when 1
+            @dragon["aura"] = ""
+            @dragon["melee"] = "噛みつき (1d6+1)、爪(x2) (1d4+1)"
+            @dragon["special_attack"] = "ブレス攻撃 (円錐形 15ft.、 DC13、2d6 ［酸］)"
+          when 2
+            @dragon["aura"] = ""
+            @dragon["melee"] = "噛みつき (1d8+4)、爪(x2) (1d6+3)、翼(x2) (1d4+3)"
+            @dragon["special_attack"] = "ブレス攻撃 (円錐形 20ft.、 DC15、4d6 ［酸］)"
+          when 3
+            @dragon["aura"] = ""
+            @dragon["melee"] = "噛みつき (2d6+7)、爪(x2) (1d8+5)、翼(x2) (1d6+2)、尾の打撃 (1d8+7)"
+            @dragon["special_attack"] = "ブレス攻撃 (円錐形 30ft.、 DC17、6d6 ［酸］)"
+          when 4
+            @dragon["aura"] = "畏怖すべき存在(120ft.、DC17)"
+            @dragon["melee"] = "噛みつき (2d6+9)、爪(x2) (1d8+6)、翼(x2) (1d6+3)、尾の打撃 (1d8+9)"
+            @dragon["special_attack"] = "ブレス攻撃 (円錐形 40ft.、 DC19、8d6 ［酸］)"
+          when 5
+            @dragon["aura"] = "畏怖すべき存在(150ft.、DC18)"
+            @dragon["melee"] = "噛みつき (2d8+10)、爪(x2) (2d6+7)、翼(x2) (1d8+3)、尾の打撃 (2d6+10)"
+            @dragon["special_attack"] = "ブレス攻撃 (円錐形 50ft.、 DC20、10d6［酸］)、押し潰し (小型、DC20、2d8+10)"
+          when 6
+            @dragon["aura"] = "畏怖すべき存在(180ft.、DC20)"
+            @dragon["melee"] = "噛みつき (2d8+12)、爪(x2) (2d6+8)、翼(x2) (1d8+4)、尾の打撃 (2d6+12)"
+            @dragon["special_attack"] = "ブレス攻撃 (円錐形 50ft.、 DC22、12d6［酸］)、押し潰し (小型、DC22、2d8+12)"
+          when 7
+            @dragon["aura"] = "畏怖すべき存在(210ft.、DC21)"
+            @dragon["melee"] = "噛みつき (2d8+13)、爪(x2) (2d6+9)、翼(x2) (1d8+4)、尾の打撃 (2d6+13)"
+            @dragon["special_attack"] = "ブレス攻撃 (円錐形 50ft.、 DC23、14d6［酸］)、押し潰し (小型、DC23、2d8+13)"
+          when 8
+            @dragon["aura"] = "畏怖すべき存在(240ft.、DC23)"
+            @dragon["melee"] = "噛みつき (4d6+15)、爪(x2) (2d8+10)、翼(x2) (2d6+5)、尾の打撃 (2d8+15)"
+            @dragon["special_attack"] = "ブレス攻撃 (円錐形 60ft.、 DC25、16d6［酸］)、押し潰し (中型、DC25、4d6+15)、尾による一掃 (小型、DC25、2d6+15)"
+          when 9
+            @dragon["aura"] = "畏怖すべき存在(270ft.、DC24)"
+            @dragon["melee"] = "噛みつき (4d6+16)、爪(x2) (2d8+11)、翼(x2) (2d6+5)、尾の打撃 (2d8+16)"
+            @dragon["special_attack"] = "ブレス攻撃 (円錐形 60ft.、 DC26、18d6［酸］)、押し潰し (中型、DC26、4d6+16)、尾による一掃 (小型、DC26、2d6+16)"
+          when 10
+            @dragon["aura"] = "畏怖すべき存在(300ft.、DC26)"
+            @dragon["melee"] = "噛みつき (4d6+18)、爪(x2) (2d8+12)、翼(x2) (2d6+6)、尾の打撃 (2d8+18)"
+            @dragon["special_attack"] = "ブレス攻撃 (円錐形 60ft.、 DC28、20d6［酸］)、押し潰し (中型、DC28、4d6+18)、尾による一掃 (小型、DC28、2d6+18)、瘴気"
+          when 11
+            @dragon["aura"] = "畏怖すべき存在(330ft.、DC27)"
+            @dragon["melee"] = "噛みつき (4d6+19)、爪(x2) (2d8+13)、翼(x2) (2d6+6)、尾の打撃 (2d8+19)"
+            @dragon["special_attack"] = "ブレス攻撃 (円錐形 60ft.、 DC29、22d6［酸］)、押し潰し (中型、DC29、4d6+19)、尾による一掃 (小型、DC29、2d6+19)、瘴気"
+          when 12
+            @dragon["aura"] = "畏怖すべき存在(360ft.、DC29)"
+            @dragon["melee"] = "噛みつき (4d8+21)、爪(x2) (4d6+14)、翼(x2) (2d8+7)、尾の打撃 (4d6+21)"
+            @dragon["special_attack"] = "ブレス攻撃 (円錐形 70ft.、 DC31、24d6［酸］)、押し潰し (大型、DC31、4d8+21)、尾による一掃 (中型、DC31、2d8+21)、瘴気、トリエント覚醒"
+          end
+        case @dragon["size"]
+        when 3
+          @dragon["size"] = "超小型"
+        when 4
+          @dragon["size"] = "小型"
+        when 5
+          @dragon["size"] = "中型"
+        when 6
+          @dragon["size"] = "大型"
+        when 7
+          @dragon["size"] = "超大型"
+        when 8
+          @dragon["size"] = "巨大"
+        when 9
+          @dragon["size"] = "超巨大"
+        end
+        @dragon["str_modifer"] = ((@dragon["str"] - 10) / 2).to_i
+        @dragon["dex_modifer"] = ((@dragon["dex"] - 10) / 2).to_i
+        @dragon["con_modifer"] = ((@dragon["con"] - 10) / 2).to_i
+        @dragon["int_modifer"] = ((@dragon["int"] - 10) / 2).to_i
+        @dragon["wis_modifer"] = ((@dragon["wis"] - 10) / 2).to_i
+        @dragon["chr_modifer"] = ((@dragon["chr"] - 10) / 2).to_i
+        if @dragon["dex_modifer"] > 0
+          @dragon["init"] = "+" + @dragon["dex_modifer"].to_s
+        else
+          @dragon["init"] = @dragon["dex_modifer"]
+        end
+        if @dragon["size"] == "超小型"
+          @dragon["size_modifer_attack"] = 2
+          @dragon["size_modifer_cmb"] = @dragon["size_modifer_attack"] * -1
+          @dragon["fly_speed"] = "100ft."
+          @dragon["fly_muverabillity"] = "標準"
+          @dragon["space"] = "2.5ft."
+          @dragon["reach"] = "0ft."
+          @dragon["bite_reach"] = "5ft."
+        elsif @dragon["size"] == "小型"
+          @dragon["size_modifer_attack"] = 1
+          @dragon["size_modifer_cmb"] = @dragon["size_modifer_attack"] * -1
+          @dragon["fly_speed"] = "150ft."
+          @dragon["fly_muverabillity"] = "標準"
+          @dragon["space"] = "5ft."
+          @dragon["reach"] = "5ft."
+          @dragon["bite_reach"] = "5ft."
+        elsif @dragon["size"] == "中型"
+          @dragon["size_modifer_attack"] = 0
+          @dragon["size_modifer_cmb"] = @dragon["size_modifer_attack"] * -1
+          @dragon["fly_speed"] = "150ft."
+          @dragon["fly_muverabillity"] = "標準"
+          @dragon["space"] = "5ft."
+          @dragon["reach"] = "5ft."
+          @dragon["bite_reach"] = "5ft."
+        elsif @dragon["size"] == "大型"
+          @dragon["size_modifer_attack"] = -1
+          @dragon["size_modifer_cmb"] = @dragon["size_modifer_attack"] * -1
+          @dragon["fly_speed"] = "200ft."
+          @dragon["fly_muverabillity"] = "貧弱"
+          @dragon["space"] = "10ft."
+          @dragon["reach"] = "5ft."
+          @dragon["bite_reach"] = "10ft."
+        elsif @dragon["size"] == "超大型"
+          @dragon["size_modifer_attack"] = -2
+          @dragon["size_modifer_cmb"] = @dragon["size_modifer_attack"] * -1
+          @dragon["fly_speed"] = "200ft."
+          @dragon["fly_muverabillity"] = "貧弱"
+          @dragon["space"] = "15ft."
+          @dragon["reach"] = "10ft."
+          @dragon["bite_reach"] = "15ft."
+        elsif @dragon["size"] == "巨大"
+          @dragon["size_modifer_attack"] = -4
+          @dragon["size_modifer_cmb"] = @dragon["size_modifer_attack"] * -1
+          @dragon["fly_speed"] = "250ft."
+          @dragon["fly_muverabillity"] = "劣悪"
+          @dragon["space"] = "20ft."
+          @dragon["reach"] = "15ft."
+          @dragon["bite_reach"] = "20ft."
+        elsif @dragon["size"] == "超巨大"
+          @dragon["size_modifer_attack"] = -8
+          @dragon["size_modifer_cmb"] = @dragon["size_modifer_attack"] * -1
+          @dragon["fly_speed"] = "250ft."
+          @dragon["fly_muverabillity"] = "劣悪"
+          @dragon["space"] = "30ft."
+          @dragon["reach"] = "20ft."
+          @dragon["bite_reach"] = "30ft."
+        end
+        if @dragon["dex_modifer"] > 0
+          @dragon["defence_describe"] = "(+" + @dragon["dex_modifer"].to_s + " 【敏】"
+        elsif @dragon["dex_modifer"] < 0
+          @dragon["defence_describe"] = "(" + @dragon["dex_modifer"].to_s + " 【敏】"
+        end
+        if @dragon["defence_describe"] != ""
+          @dragon["defence_describe"] = @dragon["defence_describe"] + ", +" + @dragon["natural_armor"].to_s + " 外皮"
+        else
+          @dragon["defence_describe"] = "(+" + @dragon["natural_armor"].to_s + " 外皮"
+        end
+        if @dragon["size_modifer_attack"] > 0
+          @dragon["defence_describe"] = @dragon["defence_describe"] + ", +" + @dragon["size_modifer_attack"].to_s + " サイズ)"
+        elsif @dragon["size_modifer_attack"] < 0
+          @dragon["defence_describe"] = @dragon["defence_describe"] + ", " + @dragon["size_modifer_attack"].to_s + " サイズ)"
+        else
+          @dragon["defence_describe"] = @dragon["defence_describe"] + ")"
+        end
+        @dragon["ac"] = 10 + @dragon["dex_modifer"] + @dragon["natural_armor"] + @dragon["size_modifer_attack"]
+        @dragon["touch"] = 10 + @dragon["dex_modifer"] + @dragon["size_modifer_attack"]
+        @dragon["flat_footed"] = 10 + @dragon["natural_armor"] + @dragon["size_modifer_attack"]
+        if @dragon["dex_modifer"] < 0
+          @dragon["flat_footed"] = @dragon["flat_footed"] + @dragon["dex_modifer"]
+        end
+        @dragon["hp"] = (@dragon["hit_dice_count"] / 2).to_i * 7 + (@dragon["hit_dice_count"] - (@dragon["hit_dice_count"] / 2).to_i) * 6 + @dragon["con_modifer"] * @dragon["hit_dice_count"]
+        if @dragon["con_modifer"] > 0
+          @dragon["hp_con_modifer"] = "+" + (@dragon["con_modifer"] * @dragon["hit_dice_count"]).to_s
+        else
+          @dragon["hp_con_modifer"] = ""
+        end
+        @dragon["fort"] = "+" + ((@dragon["hit_dice_count"] / 2).to_i + 2 + @dragon["con_modifer"]).to_s
+        @dragon["ref"] = "+" + ((@dragon["hit_dice_count"] / 2).to_i + 2 + @dragon["dex_modifer"]).to_s
+        @dragon["will"] = "+" + ((@dragon["hit_dice_count"] / 2).to_i + 2 + @dragon["wis_modifer"]).to_s
+        @dragon["speed"] = @dragon["land_speed"]
+        if @dragon["burrow_speed"] != ""
+          @dragon["speed"] = @dragon["speed"] + ", 穴掘り " + @dragon["burrow_speed"]
+        end
+        if @dragon["swim_speed"] != ""
+          @dragon["speed"] = @dragon["speed"] + ", 水泳 " + @dragon["swim_speed"]
+        end
+        @dragon["speed"] = @dragon["speed"] + ", 飛行 " + @dragon["fly_speed"] + "(" + @dragon["fly_muverabillity"] + ")"
+        if @dragon["additional_move"] != ""
+          @dragon["speed"] = @dragon["speed"] + "; " + @dragon["additional_move"]
+        end
+        if @dragon["spell_like_ability"] != ""
+          @dragon["spell_like_ability_cl"] = @dragon["hit_dice_count"]
+          @dragon["spell_like_ability_concentration"] = @dragon["hit_dice_count"] + @dragon["chr_modifer"]
+        else
+          @dragon["spell_like_ability_cl"] = ""
+          @dragon["spell_like_ability_concentration"] = ""
+        end
+        if @dragon["spell_caster_level"] != ""
+          @dragon["spell_caster_concentration"] = @dragon["spell_caster_level"] + @dragon["chr_modifer"]
+        else
+          @dragon["spell_caster_concentration"] = ""
+        end
+        @dragon["base_attack"] = "+" + @dragon["hit_dice_count"].to_s
+        @dragon["cmb"] = "+" + (@dragon["hit_dice_count"] + @dragon["size_modifer_cmb"] + @dragon["str_modifer"]).to_s 
+        @dragon["cmd"] = (10 + @dragon["hit_dice_count"] + @dragon["size_modifer_cmb"] + @dragon["str_modifer"] + @dragon["dex_modifer"])
+        @dragon["cmd"] = @dragon["cmd"].to_s + " (" + (@dragon["cmd"] + 4).to_s + " 対足払い)"
+        @dragon["feet_count"] = (@dragon["hit_dice_count"] / 2).to_i + 1
+        @dragon["skill_per_rank"] = @dragon["int_modifer"] + 6
+        @dragon["skill_sum_rank"] = @dragon["skill_per_rank"] * @dragon["hit_dice_count"]
+        if @dragon["int_modifer"] < 0
+          @dragon["language_count"] = 0
+        else
+          @dragon["language_count"] = @dragon["int_modifer"]
+        end
+        i = 0
+        base = 1
+        while i < (@dragon["cr"] / 2).to_i
+          base = base * 2
+          i += 1
+        end
+        if (@dragon["cr"] & 1) == 1
+          @dragon["xp"] = 400 * base
+        else
+          @dragon["xp"] = 300 * base
+        end
+        if @dragon["sr_flag"] == true
+          @dragon["sr"] = @dragon["cr"] + 11
+        else
+          @dragon["sr"] = 0
+        end
+      else
+              @dragon = {}
       @dragon["types"] = "竜"
       @dragon["hit_dice_number"] = 12
       @dragon["language"] = "竜語"
@@ -962,6 +1263,7 @@ class DragonBuilderController < ApplicationController
         @dragon["sr"] = @dragon["cr"] + 11
       else
         @dragon["sr"] = 0
+      end
       end
       end
     end
