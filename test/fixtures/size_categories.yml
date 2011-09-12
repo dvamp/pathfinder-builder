@@ -1,0 +1,261 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+Fine:
+  size_id: 1
+  name: 極小
+  pose: ""
+  ba_size_modifer: 8
+  cmb_size_modifer: -8
+  space: 0.5ft.
+  reach: 0ft.
+  bite_reach: 0ft.
+  fly_speed: ""
+  fly_muverabillity: ""
+  bite_damage: ""
+  claws_damage: ""
+  wings_damage: ""
+  tail_slap_damage: ""
+  crush_damage: ""
+  tail_sweep_damage: ""
+  breath_range_line: ""
+  breath_range_cone: ""
+
+Diminutive:
+  size_id: 2
+  name: 微小
+  pose: ""
+  ba_size_modifer: 4
+  cmb_size_modifer: -4
+  space: 1ft.
+  reach: 0ft.
+  bite_reach: 0ft.
+  fly_speed: ""
+  fly_muverabillity: ""
+  bite_damage: ""
+  claws_damage: ""
+  wings_damage: ""
+  tail_slap_damage: ""
+  crush_damage: ""
+  tail_sweep_damage: ""
+  breath_range_line: ""
+  breath_range_cone: ""
+
+Tiny:
+  size_id: 3
+  name: 超小型
+  pose: ""
+  ba_size_modifer: 2
+  cmb_size_modifer: -2
+  space: 2.5ft.
+  reach: 0ft.
+  bite_reach: 5ft.
+  fly_speed: 100ft.
+  fly_muverabillity: 標準
+  bite_damage: 1d4
+  claws_damage: 1d3
+  wings_damage: ""
+  tail_slap_damage: ""
+  crush_damage: ""
+  tail_sweep_damage: ""
+  breath_range_line: 30ft.
+  breath_range_cone: 15ft.
+
+Small:
+  size_id: 4
+  name: 小型
+  pose: ""
+  ba_size_modifer: 1
+  cmb_size_modifer: -1
+  space: 5ft.
+  reach: 5ft.
+  bite_reach: 5ft.
+  fly_speed: 150ft.
+  fly_muverabillity: 標準
+  bite_damage: 1d6
+  claws_damage: 1d4
+  wings_damage: ""
+  tail_slap_damage: ""
+  crush_damage: ""
+  tail_sweep_damage: ""
+  breath_range_line: 40ft.
+  breath_range_cone: 20ft.
+
+Medium:
+  size_id: 5
+  name: 中型
+  pose: ""
+  ba_size_modifer: 0
+  cmb_size_modifer: 0
+  space: 5ft.
+  reach: 5ft.
+  bite_reach: 5ft.
+  fly_speed: 150ft.
+  fly_muverabillity: 標準
+  bite_damage: 1d8
+  claws_damage: 1d6
+  wings_damage: 1d4
+  tail_slap_damage: ""
+  crush_damage: ""
+  tail_sweep_damage: ""
+  breath_range_line: 60ft.
+  breath_range_cone: 30ft.
+
+Large tall:
+  size_id: 6
+  name: 大型
+  pose: 立ち
+  ba_size_modifer: -1
+  cmb_size_modifer: 1
+  space: 10ft.
+  reach: 10ft.
+  bite_reach: 15ft.
+  fly_speed: 200ft.
+  fly_muverabillity: 貧弱
+  bite_damage: 2d6
+  claws_damage: 1d8
+  wings_damage: 1d6
+  tail_slap_damage: 1d8
+  crush_damage: ""
+  tail_sweep_damage: ""
+  breath_range_line: 80ft.
+  breath_range_cone: 40ft.
+
+Large long:
+  size_id: 6
+  name: 大型
+  pose: 伏せ
+  ba_size_modifer: -1
+  cmb_size_modifer: 1
+  space: 10ft.
+  reach: 5ft.
+  bite_reach: 10ft.
+  fly_speed: 200ft.
+  fly_muverabillity: 貧弱
+  bite_damage: 2d6
+  claws_damage: 1d8
+  wings_damage: 1d6
+  tail_slap_damage: 1d8
+  crush_damage: ""
+  tail_sweep_damage: ""
+  breath_range_line: 80ft.
+  breath_range_cone: 40ft.
+
+Huge tall:
+  size_id: 7
+  name: 超大型
+  pose: 立ち
+  ba_size_modifer: -2
+  cmb_size_modifer: 2
+  space: 15ft.
+  reach: 15ft.
+  bite_reach: 20ft.
+  fly_speed: 200ft.
+  fly_muverabillity: 貧弱
+  bite_damage: 2d8
+  claws_damage: 2d6
+  wings_damage: 1d8
+  tail_slap_damage: 2d6
+  crush_damage: 2d8
+  tail_sweep_damage: ""
+  breath_range_line: 100ft.
+  breath_range_cone: 50ft.
+
+Huge long:
+  size_id: 7
+  name: 超大型
+  pose: 伏せ
+  ba_size_modifer: -2
+  cmb_size_modifer: 2
+  space: 15ft.
+  reach: 10ft.
+  bite_reach: 15ft.
+  fly_speed: 200ft.
+  fly_muverabillity: 貧弱
+  bite_damage: 2d8
+  claws_damage: 2d6
+  wings_damage: 1d8
+  tail_slap_damage: 2d6
+  crush_damage: 2d8
+  tail_sweep_damage: ""
+  breath_range_line: 100ft.
+  breath_range_cone: 50ft.
+
+Gargantuan tall:
+  size_id: 8
+  name: 巨大
+  pose: 立ち
+  ba_size_modifer: -4
+  cmb_size_modifer: 4
+  space: 20ft.
+  reach: 20ft.
+  bite_reach: 30ft.
+  fly_speed: 250ft.
+  fly_muverabillity: 劣悪
+  bite_damage: 4d6
+  claws_damage: 2d8
+  wings_damage: 2d6
+  tail_slap_damage: 2d8
+  crush_damage: 4d6
+  tail_sweep_damage: 2d6
+  breath_range_line: 120ft.
+  breath_range_cone: 60ft.
+
+Gargantuan long:
+  size_id: 8
+  name: 巨大
+  pose: 伏せ
+  ba_size_modifer: -4
+  cmb_size_modifer: 4
+  space: 20ft.
+  reach: 15ft.
+  bite_reach: 20ft.
+  fly_speed: 250ft.
+  fly_muverabillity: 劣悪
+  bite_damage: 4d6
+  claws_damage: 2d8
+  wings_damage: 2d6
+  tail_slap_damage: 2d8
+  crush_damage: 4d6
+  tail_sweep_damage: 2d6
+  breath_range_line: 120ft.
+  breath_range_cone: 60ft.
+
+Colossal tall:
+  size_id: 9
+  name: 超巨大
+  pose: 立ち
+  ba_size_modifer: -8
+  cmb_size_modifer: 8
+  space: 30ft.
+  reach: 30ft.
+  bite_reach: 40ft.
+  fly_speed: 250ft.
+  fly_muverabillity: 劣悪
+  bite_damage: 4d8
+  claws_damage: 4d6
+  wings_damage: 2d8
+  tail_slap_damage: 4d6
+  crush_damage: 4d8
+  tail_sweep_damage: 2d8
+  breath_range_line: 140ft.
+  breath_range_cone: 70ft.
+
+Colossal long:
+  size_id: 9
+  name: 超巨大
+  pose: 伏せ
+  ba_size_modifer: -8
+  cmb_size_modifer: 8
+  space: 30ft.
+  reach: 20ft.
+  bite_reach: 30ft.
+  fly_speed: 250ft.
+  fly_muverabillity: 劣悪
+  bite_damage: 4d8
+  claws_damage: 4d6
+  wings_damage: 2d8
+  tail_slap_damage: 4d6
+  crush_damage: 4d8
+  tail_sweep_damage: 2d8
+  breath_range_line: 140ft.
+  breath_range_cone: 70ft.

@@ -1,0 +1,901 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+Green wyrmling:
+  race_id: 1
+  age_id: 1
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ""
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 水中呼吸
+
+Green very young:
+  race_id: 1
+  age_id: 2
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ""
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 水中呼吸、森渡り
+
+Green young:
+  race_id: 1
+  age_id: 3
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: エンタングル
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 水中呼吸、森渡り
+
+Green juvenile:
+  race_id: 1
+  age_id: 4
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: エンタングル、チャーム・パースン
+  caster_level: 1
+  caster_source: ソーサラー
+  sq: 水中呼吸、森渡り
+
+Green young adult:
+  race_id: 1
+  age_id: 5
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: エンタングル、チャーム・パースン
+  caster_level: 3
+  caster_source: ソーサラー
+  sq: 水中呼吸、森渡り
+
+Green adult:
+  race_id: 1
+  age_id: 6
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: エンタングル、チャーム・パースン、サジェスチョン
+  caster_level: 5
+  caster_source: ソーサラー
+  sq: 水中呼吸、森渡り、跡なき足取り
+
+Green mature adult:
+  race_id: 1
+  age_id: 7
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: エンタングル、チャーム・パースン、サジェスチョン
+  caster_level: 7
+  caster_source: ソーサラー
+  sq: 水中呼吸、森渡り、跡なき足取り
+
+Green old:
+  race_id: 1
+  age_id: 8
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: エンタングル、チャーム・パースン、サジェスチョン、プラント・グロウス
+  caster_level: 9
+  caster_source: ソーサラー
+  sq: 水中呼吸、森渡り、跡なき足取り、カモフラージュ
+
+Green very old:
+  race_id: 1
+  age_id: 9
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 15/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: エンタングル、チャーム・パースン、サジェスチョン、プラント・グロウス
+  caster_level: 11
+  caster_source: ソーサラー
+  sq: 水中呼吸、森渡り、跡なき足取り、カモフラージュ
+
+Green ancient:
+  race_id: 1
+  age_id: 10
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 15/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Miasma
+  sp: エンタングル、チャーム・パースン、サジェスチョン、プラント・グロウス、ドミネイト・パースン
+  caster_level: 13
+  caster_source: ソーサラー
+  sq: 水中呼吸、森渡り、跡なき足取り、カモフラージュ
+
+Green wyrm:
+  race_id: 1
+  age_id: 11
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 20/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Miasma
+  sp: エンタングル、チャーム・パースン、サジェスチョン、プラント・グロウス、ドミネイト・パースン
+  caster_level: 15
+  caster_source: ソーサラー
+  sq: 水中呼吸、森渡り、跡なき足取り、カモフラージュ
+
+Green great wyrm:
+  race_id: 1
+  age_id: 12
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 20/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Miasma, Awaken treants
+  sp: エンタングル、チャーム・パースン、サジェスチョン、プラント・グロウス、ドミネイト・パースン、コマンド・プランツ
+  caster_level: 17
+  caster_source: ソーサラー
+  sq: 水中呼吸、森渡り、跡なき足取り、カモフラージュ
+
+Black wyrmling:
+  race_id: 2
+  age_id: 1
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ""
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 水中呼吸
+
+Black very young:
+  race_id: 2
+  age_id: 2
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ""
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 水中呼吸、沼渡り
+
+Black young:
+  race_id: 2
+  age_id: 3
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ""
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 水中呼吸、沼渡り、爬虫類との会話
+
+Black juvenile:
+  race_id: 2
+  age_id: 4
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ダークネス
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 水中呼吸、沼渡り、爬虫類との会話
+
+Black young adult:
+  race_id: 2
+  age_id: 5
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ダークネス
+  caster_level: 1
+  caster_source: ソーサラー
+  sq: 水中呼吸、沼渡り、爬虫類との会話
+
+Black adult:
+  race_id: 2
+  age_id: 6
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Corrupt water
+  sp: ダークネス
+  caster_level: 3
+  caster_source: ソーサラー
+  sq: 水中呼吸、沼渡り、爬虫類との会話
+
+Black mature adult:
+  race_id: 2
+  age_id: 7
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Corrupt water
+  sp: ダークネス
+  caster_level: 5
+  caster_source: ソーサラー
+  sq: 水中呼吸、沼渡り、爬虫類との会話
+
+Black old:
+  race_id: 2
+  age_id: 8
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Corrupt water, Acidic bite
+  sp: ダークネス、プラント・グロウス
+  caster_level: 7
+  caster_source: ソーサラー
+  sq: 水中呼吸、沼渡り、爬虫類との会話
+
+Black very old:
+  race_id: 2
+  age_id: 9
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 15/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Corrupt water, Acidic bite
+  sp: ダークネス、プラント・グロウス
+  caster_level: 9
+  caster_source: ソーサラー
+  sq: 水中呼吸、沼渡り、爬虫類との会話
+
+Black ancient:
+  race_id: 2
+  age_id: 10
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 15/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Corrupt water, Acidic bite, Acid pool
+  sp: ダークネス、プラント・グロウス、インセクト・プレイグ
+  caster_level: 11
+  caster_source: ソーサラー
+  sq: 水中呼吸、沼渡り、爬虫類との会話
+
+Black wyrm:
+  race_id: 2
+  age_id: 11
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 20/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Corrupt water, Acidic bite, Acid pool
+  sp: ダークネス、プラント・グロウス、インセクト・プレイグ
+  caster_level: 13
+  caster_source: ソーサラー
+  sq: 水中呼吸、沼渡り、爬虫類との会話
+
+Black great wyrm:
+  race_id: 2
+  age_id: 12
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 20/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Corrupt water, Acidic bite, Acid pool
+  sp: ダークネス、プラント・グロウス、インセクト・プレイグ
+  caster_level: 15
+  caster_source: ソーサラー
+  sq: 水中呼吸、沼渡り、爬虫類との会話、爬虫類魅惑
+
+Blue wyrmling:
+  race_id: 3
+  age_id: 1
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon, Desert thirst
+  sp: ""
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: ""
+
+Blue very young:
+  race_id: 3
+  age_id: 2
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon, Desert thirst
+  sp: ""
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 音真似
+
+Blue young:
+  race_id: 3
+  age_id: 3
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon, Desert thirst
+  sp: ゴースト・サウンド
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 音真似
+
+Blue juvenile:
+  race_id: 3
+  age_id: 4
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon, Desert thirst
+  sp: ゴースト・サウンド、マイナー・イメージ
+  caster_level: 1
+  caster_source: ソーサラー
+  sq: 音真似
+
+Blue young adult:
+  race_id: 3
+  age_id: 5
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Desert thirst
+  sp: ゴースト・サウンド、マイナー・イメージ
+  caster_level: 3
+  caster_source: ソーサラー
+  sq: 音真似
+
+Blue adult:
+  race_id: 3
+  age_id: 6
+  sense: 竜の超感覚
+  aura: Frightful presence, Electricity aura
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Desert thirst
+  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム
+  caster_level: 5
+  caster_source: ソーサラー
+  sq: 音真似
+
+Blue mature adult:
+  race_id: 3
+  age_id: 7
+  sense: 竜の超感覚
+  aura: Frightful presence, Electricity aura
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Desert thirst
+  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム
+  caster_level: 7
+  caster_source: ソーサラー
+  sq: 音真似
+
+Blue old:
+  race_id: 3
+  age_id: 8
+  sense: 竜の超感覚
+  aura: Frightful presence, Electricity aura
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Desert thirst, Mirage
+  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム、ハリューサナトリ・テレイン
+  caster_level: 9
+  caster_source: ソーサラー
+  sq: 音真似
+
+Blue very old:
+  race_id: 3
+  age_id: 9
+  sense: 竜の超感覚
+  aura: Frightful presence, Electricity aura
+  defensive_ability: ""
+  dr: 15/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Desert thirst, Mirage
+  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム、ハリューサナトリ・テレイン
+  caster_level: 11
+  caster_source: ソーサラー
+  sq: 音真似
+
+Blue ancient:
+  race_id: 3
+  age_id: 10
+  sense: 竜の超感覚
+  aura: Frightful presence, Electricity aura
+  defensive_ability: ""
+  dr: 15/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Desert thirst, Mirage, Storm breath
+  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム、ハリューサナトリ・テレイン、ヴェイル
+  caster_level: 13
+  caster_source: ソーサラー
+  sq: 音真似
+
+Blue wyrm:
+  race_id: 3
+  age_id: 11
+  sense: 竜の超感覚
+  aura: Frightful presence, Electricity aura
+  defensive_ability: ""
+  dr: 20/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Desert thirst, Mirage, Storm breath
+  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム、ハリューサナトリ・テレイン、ヴェイル
+  caster_level: 15
+  caster_source: ソーサラー
+  sq: 音真似
+
+Blue great wyrm:
+  race_id: 3
+  age_id: 12
+  sense: 竜の超感覚
+  aura: Frightful presence, Electricity aura
+  defensive_ability: ""
+  dr: 20/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Desert thirst, Mirage, Storm breath, Sandstorm
+  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム、ハリューサナトリ・テレイン、ヴェイル、ミラージュ・アーケイナ
+  caster_level: 17
+  caster_source: ソーサラー
+  sq: 音真似
+
+White wyrmling:
+  race_id: 4
+  age_id: 1
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ""
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 氷上歩行
+
+White very young:
+  race_id: 4
+  age_id: 2
+  sense: 竜の超感覚、雪の見通し
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ""
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 氷上歩行
+
+White young:
+  race_id: 4
+  age_id: 3
+  sense: 竜の超感覚、雪の見通し
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ""
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 氷上歩行、氷の形成
+
+White juvenile:
+  race_id: 4
+  age_id: 4
+  sense: 竜の超感覚、雪の見通し
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: フォッグ・クラウド
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 氷上歩行、氷の形成
+
+White young adult:
+  race_id: 4
+  age_id: 5
+  sense: 竜の超感覚、雪の見通し
+  aura: ""
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: 氷上歩行、氷の形成
+
+White adult:
+  race_id: 4
+  age_id: 6
+  sense: 竜の超感覚、雪の見通し
+  aura: Cold aura, Frightful presence
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド
+  caster_level: 1
+  caster_source: ソーサラー
+  sq: 氷上歩行、氷の形成
+
+White mature adult:
+  race_id: 4
+  age_id: 7
+  sense: 竜の超感覚、雪の見通し
+  aura: Cold aura, Frightful presence
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド
+  caster_level: 3
+  caster_source: ソーサラー
+  sq: 氷上歩行、氷の形成
+
+White old:
+  race_id: 4
+  age_id: 8
+  sense: 竜の超感覚、雪の見通し
+  aura: Cold aura, Frightful presence
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Freezing fog
+  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド
+  caster_level: 5
+  caster_source: ソーサラー
+  sq: 氷上歩行、氷の形成
+
+White very old:
+  race_id: 4
+  age_id: 9
+  sense: 竜の超感覚、雪の見通し
+  aura: Cold aura, Frightful presence
+  defensive_ability: ""
+  dr: 15/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Freezing fog
+  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド
+  caster_level: 7
+  caster_source: ソーサラー
+  sq: 氷上歩行、氷の形成
+
+White ancient:
+  race_id: 4
+  age_id: 10
+  sense: 竜の超感覚、雪の見通し
+  aura: Cold aura, Frightful presence
+  defensive_ability: ""
+  dr: 15/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Freezing fog, Blizzard
+  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド、ウォール・オヴ・アイス
+  caster_level: 9
+  caster_source: ソーサラー
+  sq: 氷上歩行、氷の形成
+
+White wyrm:
+  race_id: 4
+  age_id: 11
+  sense: 竜の超感覚、雪の見通し
+  aura: Cold aura, Frightful presence
+  defensive_ability: ""
+  dr: 20/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Freezing fog, Blizzard
+  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド、ウォール・オヴ・アイス
+  caster_level: 11
+  caster_source: ソーサラー
+  sq: 氷上歩行、氷の形成
+
+White great wyrm:
+  race_id: 4
+  age_id: 12
+  sense: 竜の超感覚、雪の見通し
+  aura: Cold aura, Frightful presence
+  defensive_ability: ""
+  dr: 20/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Freezing fog, Blizzard, Ice tomb
+  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド、ウォール・オヴ・アイス、コントロール・ウェザー
+  caster_level: 13
+  caster_source: ソーサラー
+  sq: 氷上歩行、氷の形成
+
+Red wyrmling:
+  race_id: 5
+  age_id: 1
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ""
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: ""
+
+Red very young:
+  race_id: 5
+  age_id: 2
+  sense: 竜の超感覚、煙の見通し
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ""
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: ""
+
+Red young:
+  race_id: 5
+  age_id: 3
+  sense: 竜の超感覚、煙の見通し
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ディテクト・マジック
+  caster_level: 1
+  caster_source: ソーサラー
+  sq: ""
+
+Red juvenile:
+  race_id: 5
+  age_id: 4
+  sense: 竜の超感覚、煙の見通し
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ディテクト・マジック、パイロテクニクス
+  caster_level: 3
+  caster_source: ソーサラー
+  sq: ""
+
+Red young adult:
+  race_id: 5
+  age_id: 5
+  sense: 竜の超感覚、煙の見通し
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ディテクト・マジック、パイロテクニクス
+  caster_level: 5
+  caster_source: ソーサラー
+  sq: ""
+
+Red adult:
+  race_id: 5
+  age_id: 6
+  sense: 竜の超感覚、煙の見通し
+  aura: Frightful presence, Fire aura
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン
+  caster_level: 7
+  caster_source: ソーサラー
+  sq: ""
+
+Red mature adult:
+  race_id: 5
+  age_id: 7
+  sense: 竜の超感覚、煙の見通し
+  aura: Frightful presence, Fire aura
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon
+  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン
+  caster_level: 9
+  caster_source: ソーサラー
+  sq: ""
+
+Red old:
+  race_id: 5
+  age_id: 8
+  sense: 竜の超感覚、煙の見通し
+  aura: Frightful presence, Fire aura
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Manipulate flames
+  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン、ウォール・オヴ・ファイアー
+  caster_level: 11
+  caster_source: ソーサラー
+  sq: ""
+
+Red very old:
+  race_id: 5
+  age_id: 9
+  sense: 竜の超感覚、煙の見通し
+  aura: Frightful presence, Fire aura
+  defensive_ability: ""
+  dr: 15/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Manipulate flames
+  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン、ウォール・オヴ・ファイアー
+  caster_level: 13
+  caster_source: ソーサラー
+  sq: ""
+
+Red ancient:
+  race_id: 5
+  age_id: 10
+  sense: 竜の超感覚、煙の見通し
+  aura: Frightful presence, Fire aura
+  defensive_ability: ""
+  dr: 15/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Manipulate flames, Melt stone
+  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン、ウォール・オヴ・ファイアー、ファインド・ザ・パス
+  caster_level: 15
+  caster_source: ソーサラー
+  sq: ""
+
+Red wyrm:
+  race_id: 5
+  age_id: 11
+  sense: 竜の超感覚、煙の見通し
+  aura: Frightful presence, Fire aura
+  defensive_ability: ""
+  dr: 20/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Manipulate flames, Melt stone
+  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン、ウォール・オヴ・ファイアー、ファインド・ザ・パス
+  caster_level: 17
+  caster_source: ソーサラー
+  sq: ""
+
+Red great wyrm:
+  race_id: 5
+  age_id: 12
+  sense: 竜の超感覚、煙の見通し
+  aura: Frightful presence, Fire aura
+  defensive_ability: ""
+  dr: 20/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Manipulate flames, Melt stone, Incinerate
+  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン、ウォール・オヴ・ファイアー、ファインド・ザ・パス、ディサーン・ロケーション
+  caster_level: 19
+  caster_source: ソーサラー
+  sq: ""

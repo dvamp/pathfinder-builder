@@ -14,11 +14,7 @@
   dragon_race) %><%= select_tag :dragon_race, options_for_select(
   {"グリーン" => 1, "ブラック" => 2, "ブルー" => 3, "ホワイト" => 4, "レッド" => 5}, dragon_race) %>
 <br />
-ドラゴンの年齢段階：<%= select_tag :dragon_age, options_for_select(
-  {"1 ワームリング" => 1, "2 ヴェリー・ヤング" => 2, "3 ヤング" => 3, "4 ジュヴナイル" => 4, "5 ヤング・アダルト" => 5,
-  "6 アダルト" => 6, "7 マチュア・アダルト" => 7, "8 オールド" => 8, "9 ヴェリー・オールド" => 9, "10 エンシャント" => 10,
-  "11 ワーム" => 11, "12 グレート・ワーム" => 12},
-  dragon_age) %>
+ドラゴンの年齢段階：<%= select_tag :dragon_age, options_from_collection_for_select(@dragon_age_categories, :id, :age_category, {:selected => dragon_age}) %>
 <br />
   <%= submit_tag "生成", {:disable_with => "生成中"} %>
 <% end %>
@@ -37,7 +33,7 @@
 <p>
   <b>XP <%= number_to_currency(@dragon["xp"], :separator => ".", :delimiter => ",", :format => "%n", :precision => 0) %></b><br />
   <b><%= @dragon["alignment"] %></b>/<%= @dragon["size"] %>サイズの<%= @dragon["types"] %>(<%= @dragon["subtypes"] %>)<br />
-  <b>イニシアチブ</b> <%= @dragon["init"] %>; <b>感覚</b> <%= @dragon["sense"] %><br />
+  <b>イニシアチブ</b> <%= sprintf("%+d", @dragon["dex_modifer"]) %>; <b>感覚</b> <%= @dragon["sense"] %><br />
   <% if @dragon["aura"] != "" %>
   <b>オーラ</b> <%= @dragon["aura"] %>
   <% end %>

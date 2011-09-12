@@ -9,7 +9,11 @@ class CreateDragonRaces < ActiveRecord::Migration
       t.integer :cr
       t.integer :size
       t.integer :hit_dice
-      t.string :speed
+      t.string :immune
+      t.string :weakness
+      t.string :land_speed
+      t.string :burrow_speed
+      t.string :swim_speed
       t.integer :natural_armor
       t.string :breath_shape
       t.integer :breath_damage_num
@@ -21,6 +25,8 @@ class CreateDragonRaces < ActiveRecord::Migration
       t.integer :int
       t.integer :wis
       t.integer :chr
+      t.string :racial_modifer
+      t.string :language
       t.string :env
       t.string :organization
       t.string :treasure

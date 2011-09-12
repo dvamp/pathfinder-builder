@@ -1,0 +1,193 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+Wyrmling:
+  id: 1
+  age_category: 'ワームリング'
+  age_in_years: '0-5'
+  cr: 0
+  size: 0
+  hit_dice: 0
+  natural_armor: 0
+  breath: 1
+  str: 0
+  dex: 0
+  con: 0
+  int: 0
+  wis: 0
+  chr: 0
+
+Very young:
+  id: 2
+  age_category: 'ヴェリー・ヤング'
+  age_in_years: '6-15'
+  cr: 2
+  size: 1
+  hit_dice: 2
+  natural_armor: 3
+  breath: 2
+  str: 4
+  dex: -2
+  con: 2
+  int: 2
+  wis: 2
+  chr: 2
+
+Young:
+  id: 3
+  age_category: 'ヤング'
+  age_in_years: '16-25'
+  cr: 4
+  size: 2
+  hit_dice: 4
+  natural_armor: 6
+  breath: 3
+  str: 8
+  dex: -2
+  con: 4
+  int: 2
+  wis: 2
+  chr: 2
+
+Juvenile:
+  id: 4
+  age_category: 'ジュヴナイル'
+  age_in_years: '26-50'
+  cr: 5
+  size: 2
+  hit_dice: 6
+  natural_armor: 9
+  breath: 4
+  str: 10
+  dex: -2
+  con: 6
+  int: 4
+  wis: 4
+  chr: 4
+
+Young adult:
+  id: 5
+  age_category: 'ヤング・アダルト'
+  age_in_years: '51-100'
+  cr: 7
+  size: 3
+  hit_dice: 8
+  natural_armor: 12
+  breath: 5
+  str: 12
+  dex: -4
+  con: 6
+  int: 4
+  wis: 4
+  chr: 4
+
+Adult:
+  id: 6
+  age_category: 'アダルト'
+  age_in_years: '101-200'
+  cr: 8
+  size: 3
+  hit_dice: 10
+  natural_armor: 15
+  breath: 6
+  str: 14
+  dex: -4
+  con: 8
+  int: 6
+  wis: 6
+  chr: 6
+
+Mature adult:
+  id: 7
+  age_category: 'マチュア・アダルト'
+  age_in_years: '201-400'
+  cr: 9
+  size: 3
+  hit_dice: 12
+  natural_armor: 18
+  breath: 7
+  str: 16
+  dex: -4
+  con: 8
+  int: 6
+  wis: 6
+  chr: 6
+
+Old:
+  id: 8
+  age_category: 'オールド'
+  age_in_years: '401-600'
+  cr: 11
+  size: 4
+  hit_dice: 14
+  natural_armor: 21
+  breath: 8
+  str: 18
+  dex: -6
+  con: 10
+  int: 8
+  wis: 8
+  chr: 8
+
+Very old:
+  id: 9
+  age_category: 'ヴェリー・オールド'
+  age_in_years: '601-800'
+  cr: 12
+  size: 4
+  hit_dice: 16
+  natural_armor: 24
+  breath: 9
+  str: 20
+  dex: -6
+  con: 10
+  int: 8
+  wis: 8
+  chr: 8
+
+Ancient:
+  id: 10
+  age_category: 'エインシャント'
+  age_in_years: '801-1000'
+  cr: 13
+  size: 4
+  hit_dice: 18
+  natural_armor: 27
+  breath: 10
+  str: 22
+  dex: -6
+  con: 12
+  int: 10
+  wis: 10
+  chr: 10
+
+Wyrm:
+  id: 11
+  age_category: 'ワーム'
+  age_in_years: '1001-1200'
+  cr: 14
+  size: 4
+  hit_dice: 20
+  natural_armor: 30
+  breath: 11
+  str: 24
+  dex: -8
+  con: 12
+  int: 10
+  wis: 10
+  chr: 10
+
+Great wyrm:
+  id: 12
+  age_category: 'グレート・ワーム'
+  age_in_years: '1200+'
+  cr: 16
+  size: 5
+  hit_dice: 22
+  natural_armor: 33
+  breath: 12
+  str: 26
+  dex: -8
+  con: 14
+  int: 12
+  wis: 12
+  chr: 12
