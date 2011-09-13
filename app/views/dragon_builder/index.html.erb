@@ -12,10 +12,10 @@
   {"グリーン" => 1, "ブラック" => 2, "ブルー" => 3, "ホワイト" => 4, "レッド" => 5,
   "カッパー" => 6, "シルヴァー" => 8},
   dragon_race) %><%= select_tag :dragon_race, options_for_select(
-  {"グリーン" => 1, "ブラック" => 2, "ブルー" => 3, "ホワイト" => 4, "レッド" => 5}, dragon_race) %>
+  {"グリーン" => 1, "ブラック" => 2, "ブルー" => 3, "ホワイト" => 4, "レッド" => 5,
+  "カッパー" => 6}, dragon_race) %>
 <br />
-ドラゴンの年齢段階：<%= select_tag :dragon_age, options_from_collection_for_select(@dragon_age_categories, :id, :age_category, {:selected => dragon_age}) %>
-<br />
+ドラゴンの年齢段階：<%= select_tag :dragon_age, options_from_collection_for_select(@dragon_age_categories, :id, :age_category, {:selected => dragon_age}) %><br />
   <%= submit_tag "生成", {:disable_with => "生成中"} %>
 <% end %>
 <% if @dragon != nil %>

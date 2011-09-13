@@ -48,6 +48,17 @@ class DragonRaceAge < ActiveRecord::Base
           aura = aura + "(5ft.、1d6 ［火］)"
         end
       end
+      if auras.strip == "Slow aura"
+        aura = aura + "、" if aura != ""
+        aura = aura + "減速化"
+        if dragon_race_age.age_id > 9
+          aura = aura + "(10ft.、DC" + (10 + (dragon["hit_dice_count"] * 0.5).to_i + dragon["con_modifer"]).to_s + "、1d4R)"
+        elsif dragon_race_age.age_id > 9
+          aura = aura + "(10ft.、DC" + (10 + (dragon["hit_dice_count"] * 0.5).to_i + dragon["con_modifer"]).to_s + "、1R)"
+        else
+          aura = aura + "(5ft.、DC" + (10 + (dragon["hit_dice_count"] * 0.5).to_i + dragon["con_modifer"]).to_s + "、1R)"
+        end
+      end
     }
     return aura
   end
@@ -80,6 +91,9 @@ class DragonRaceAge < ActiveRecord::Base
       special_attack = special_attack + "、炎の制御" if sp.strip == "Manipulate flames"
       special_attack = special_attack + "、溶岩" if sp.strip == "Melt stone"
       special_attack = special_attack + "、火葬" if sp.strip == "Incinerate"
+      special_attack = special_attack + "、減速化のブレス" if sp.strip == "Slow breath"
+      special_attack = special_attack + "、大受け(DC" + (10 + 6 + dragon["chr_modifer"]).to_s + ")" if sp.strip == "Mass laughter"
+      special_attack = special_attack + "、アブないジョーク(DC" + (10 + 9 + dragon["chr_modifer"]).to_s + ")" if sp.strip == "Deadly joke"
     }
     # サイズ段階で獲得する特殊攻撃
     if size_category.crush_damage != ""

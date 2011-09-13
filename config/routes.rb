@@ -1,5 +1,7 @@
 PathfinderWorld::Application.routes.draw do
-  get "dragon_builder/index"
+  resources :dragon_builder
+
+  root :to => "dragon_builder#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
