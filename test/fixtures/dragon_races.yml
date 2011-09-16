@@ -159,3 +159,67 @@ Red:
   env: 暑熱/山岳
   organization: 単体
   treasure: x3
+
+Copper:
+  id: 6
+  category_id: 2
+  name: カッパー
+  alignment: 混沌にして善
+  creature_category: 竜
+  creature_subcategory: 地
+  cr: 4
+  size: 3
+  hit_dice: 5
+  immune: ［酸］、麻痺、睡眠
+  weakness: ""
+  land_speed: "40ft."
+  burrow_speed: ""
+  swim_speed: ""
+  natural_armor: 4
+  breath_shape: 直線状
+  breath_damage_num: 2
+  breath_damage_dice: d6
+  breath_category: 酸
+  str: 11
+  dex: 16
+  con: 13
+  int: 12
+  wis: 13
+  chr: 12
+  racial_modifer: ""
+  language: 竜語
+  env: 暑熱/丘陵
+  organization: 単体
+  treasure: x3
+
+Gold:
+  id: 7
+  category_id: 2
+  name: ゴールド
+  alignment: 秩序にして善
+  creature_category: 竜
+  creature_subcategory: 火
+  cr: 7
+  size: 4
+  hit_dice: 8
+  immune: ［火］、麻痺、睡眠
+  weakness: ［冷気］に対する脆弱性
+  land_speed: "60ft."
+  burrow_speed: ""
+  swim_speed: "60ft."
+  natural_armor: 7
+  breath_shape: 円錐形
+  breath_damage_num: 2
+  breath_damage_dice: d10
+  breath_category: 火
+  str: 17
+  dex: 14
+  con: 15
+  int: 14
+  wis: 15
+  chr: 14
+  racial_modifer: "+8 〈水泳〉"
+  language: 竜語
+  env: 暑熱/平地
+  organization: 単体
+  treasure: x3

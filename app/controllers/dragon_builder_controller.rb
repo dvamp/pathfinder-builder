@@ -9,7 +9,7 @@ class DragonBuilderController < ApplicationController
       @dragon_id[:dragon_race] = params[:dragon_race].to_i
       @dragon_id[:dragon_age] = params[:dragon_age].to_i
 
-      if @dragon_id[:dragon_race] > 6
+      if @dragon_id[:dragon_race] > 7
       @dragon_id[:dragon_race] = 1
       @dragon_id[:dragon_age] = 1
 

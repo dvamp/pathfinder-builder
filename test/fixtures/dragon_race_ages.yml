@@ -899,3 +899,363 @@ Red great wyrm:
   caster_level: 19
   caster_source: ソーサラー
   sq: ""
+
+Copper wyrmling:
+  race_id: 6
+  age_id: 1
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon, Slow breath
+  sp: ""
+  caster_level: 0
+  caster_source: クレリック
+  sq: ""
+
+Copper very young:
+  race_id: 6
+  age_id: 2
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: 石登り
+  special_attack: Breath Weapon, Slow breath
+  sp: グリース
+  caster_level: 0
+  caster_source: ソーサラー
+  sq: ""
+
+Copper young:
+  race_id: 6
+  age_id: 3
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: 直感回避
+  dr: ""
+  sr: 0
+  additional_move: 石登り
+  special_attack: Breath Weapon, Slow breath
+  sp: グリース
+  caster_level: 1
+  caster_source: ソーサラー
+  sq: ""
+
+Copper juvenile:
+  race_id: 6
+  age_id: 4
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: 直感回避
+  dr: ""
+  sr: 0
+  additional_move: 石登り
+  special_attack: Breath Weapon, Slow breath
+  sp: グリース、ヒディアス・ラフター
+  caster_level: 3
+  caster_source: ソーサラー
+  sq: 罠の達人
+
+Copper young adult:
+  race_id: 6
+  age_id: 5
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: 直感回避
+  dr: 5/魔法
+  sr: 1
+  additional_move: 石登り
+  special_attack: Breath Weapon, Slow breath
+  sp: グリース、ヒディアス・ラフター
+  caster_level: 5
+  caster_source: ソーサラー
+  sq: 罠の達人
+
+Copper adult:
+  race_id: 6
+  age_id: 6
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: 直感回避
+  dr: 5/魔法
+  sr: 1
+  additional_move: 石登り
+  special_attack: Breath Weapon, Slow breath
+  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ
+  caster_level: 7
+  caster_source: ソーサラー
+  sq: 罠の達人
+
+Copper mature adult:
+  race_id: 6
+  age_id: 7
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: 直感回避
+  dr: 10/魔法
+  sr: 1
+  additional_move: 石登り
+  special_attack: Breath Weapon, Slow breath
+  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ
+  caster_level: 9
+  caster_source: ソーサラー
+  sq: 罠の達人
+
+Copper old:
+  race_id: 6
+  age_id: 8
+  sense: 竜の超感覚
+  aura: Frightful presence, Slow aura
+  defensive_ability: 直感回避
+  dr: 10/魔法
+  sr: 1
+  additional_move: 石登り
+  special_attack: Breath Weapon, Slow breath
+  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ、トランスミュート・ロック・トゥ・マッド
+  caster_level: 11
+  caster_source: ソーサラー
+  sq: 罠の達人
+
+Copper very old:
+  race_id: 6
+  age_id: 9
+  sense: 竜の超感覚
+  aura: Frightful presence, Slow aura
+  defensive_ability: 直感回避
+  dr: 15/魔法
+  sr: 1
+  additional_move: 石登り
+  special_attack: Breath Weapon, Slow breath
+  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ、トランスミュート・ロック・トゥ・マッドトランスミュート・マッド・トゥ・ロック
+  caster_level: 13
+  caster_source: ソーサラー
+  sq: 罠の達人
+
+Copper ancient:
+  race_id: 6
+  age_id: 10
+  sense: 竜の超感覚
+  aura: Frightful presence, Slow aura
+  defensive_ability: 直感回避
+  dr: 15/魔法
+  sr: 1
+  additional_move: 石登り
+  special_attack: Breath Weapon, Slow breath, Mass laughter
+  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ、トランスミュート・ロック・トゥ・マッド、トランスミュート・マッド・トゥ・ロック、ウォール・オヴ・ストーン
+  caster_level: 15
+  caster_source: ソーサラー
+  sq: 罠の達人
+
+Copper wyrm:
+  race_id: 6
+  age_id: 11
+  sense: 竜の超感覚
+  aura: Frightful presence, Slow aura
+  defensive_ability: 直感回避
+  dr: 20/魔法
+  sr: 1
+  additional_move: 石登り
+  special_attack: Breath Weapon, Slow breath, Mass laughter
+  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ、トランスミュート・ロック・トゥ・マッド、トランスミュート・マッド・トゥ・ロック、ウォール・オヴ・ストーン
+  caster_level: 17
+  caster_source: ソーサラー
+  sq: 罠の達人
+
+Copper great wyrm:
+  race_id: 6
+  age_id: 12
+  sense: 竜の超感覚
+  aura: Frightful presence, Slow aura
+  defensive_ability: 直感回避
+  dr: 20/魔法
+  sr: 1
+  additional_move: 石登り
+  special_attack: Breath Weapon, Slow breath, Mass laughter, Deadly joke
+  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ、トランスミュート・ロック・トゥ・マッド、トランスミュート・マッド・トゥ・ロック、ウォール・オヴ・ストーン、ムーヴ・アース
+  caster_level: 19
+  caster_source: ソーサラー
+  sq: 罠の達人
+
+Gold wyrmling:
+  race_id: 7
+  age_id: 1
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon, Weakening breath
+  sp: ""
+  caster_level: 0
+  caster_source: クレリック
+  sq: ""
+
+Gold very young:
+  race_id: 7
+  age_id: 2
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon, Weakening breath
+  sp: ディテクト・イーヴル
+  caster_level: 0
+  caster_source: クレリック
+  sq: 変身
+
+Gold young:
+  race_id: 7
+  age_id: 3
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon, Weakening breath
+  sp: ディテクト・イーヴル
+  caster_level: 1
+  caster_source: クレリック
+  sq: 変身、高速飛行、宝石感知
+
+Gold juvenile:
+  race_id: 7
+  age_id: 4
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon, Weakening breath
+  sp: ディテクト・イーヴル、ブレス
+  caster_level: 3
+  caster_source: クレリック
+  sq: 変身、高速飛行、宝石感知
+
+Gold young adult:
+  race_id: 7
+  age_id: 5
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Weakening breath
+  sp: ディテクト・イーヴル、ブレス
+  caster_level: 5
+  caster_source: クレリック
+  sq: 変身、高速飛行、宝石感知
+
+Gold adult:
+  race_id: 7
+  age_id: 6
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Weakening breath
+  sp: ディテクト・イーヴル、ブレス、デイライト
+  caster_level: 7
+  caster_source: クレリック
+  sq: 変身、高速飛行、宝石感知、幸運
+
+Gold mature adult:
+  race_id: 7
+  age_id: 7
+  sense: 竜の超感覚
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Weakening breath
+  sp: ディテクト・イーヴル、ブレス、デイライト
+  caster_level: 9
+  caster_source: クレリック
+  sq: 変身、高速飛行、宝石感知、幸運
+
+Gold old:
+  race_id: 7
+  age_id: 8
+  sense: 竜の超感覚
+  aura: Frightful presence, Fire aura gold dragon
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Weakening breath
+  sp: ディテクト・イーヴル、ブレス、デイライト、ギアス/クエスト
+  caster_level: 11
+  caster_source: クレリック
+  sq: 変身、高速飛行、宝石感知、幸運
+
+Gold very old:
+  race_id: 7
+  age_id: 9
+  sense: 竜の超感覚
+  aura: Frightful presence, Fire aura gold dragon
+  defensive_ability: ""
+  dr: 15/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Weakening breath
+  sp: ディテクト・イーヴル、ブレス、デイライト、ギアス/クエスト
+  caster_level: 13
+  caster_source: クレリック
+  sq: 変身、高速飛行、宝石感知、幸運
+
+Gold ancient:
+  race_id: 7
+  age_id: 10
+  sense: 竜の超感覚
+  aura: Frightful presence, Fire aura gold dragon
+  defensive_ability: ""
+  dr: 15/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Weakening breath
+  sp: ディテクト・イーヴル、ブレス、デイライト、ギアス/クエスト、サンバースト
+  caster_level: 15
+  caster_source: クレリック
+  sq: 変身、高速飛行、宝石感知、幸運
+
+Gold wyrm:
+  race_id: 7
+  age_id: 11
+  sense: 竜の超感覚
+  aura: Frightful presence, Fire aura gold dragon
+  defensive_ability: ""
+  dr: 20/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Weakening breath
+  sp: ディテクト・イーヴル、ブレス、デイライト、ギアス/クエスト、サンバースト
+  caster_level: 17
+  caster_source: クレリック
+  sq: 変身、高速飛行、宝石感知、幸運
+
+Gold great wyrm:
+  race_id: 7
+  age_id: 12
+  sense: 竜の超感覚
+  aura: Frightful presence, Fire aura gold dragon
+  defensive_ability: ""
+  dr: 20/魔法
+  sr: 1
+  additional_move: ""
+  special_attack: Breath Weapon, Weakening breath
+  sp: ディテクト・イーヴル、ブレス、デイライト、ギアス/クエスト、サンバースト、フォアサイト
+  caster_level: 19
+  caster_source: クレリック
+  sq: 変身、高速飛行、宝石感知、幸運、神性の助力

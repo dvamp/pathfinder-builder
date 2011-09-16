@@ -51,12 +51,23 @@ class DragonRaceAge < ActiveRecord::Base
       if auras.strip == "Slow aura"
         aura = aura + "、" if aura != ""
         aura = aura + "減速化"
-        if dragon_race_age.age_id > 9
+        if dragon_race_age.age_id > 11
           aura = aura + "(10ft.、DC" + (10 + (dragon["hit_dice_count"] * 0.5).to_i + dragon["con_modifer"]).to_s + "、1d4R)"
         elsif dragon_race_age.age_id > 9
           aura = aura + "(10ft.、DC" + (10 + (dragon["hit_dice_count"] * 0.5).to_i + dragon["con_modifer"]).to_s + "、1R)"
         else
           aura = aura + "(5ft.、DC" + (10 + (dragon["hit_dice_count"] * 0.5).to_i + dragon["con_modifer"]).to_s + "、1R)"
+        end
+      end
+      if auras.strip == "Fire aura gold dragon"
+        aura = aura + "、" if aura != ""
+        aura = aura + "［火］"
+        if dragon_race_age.age_id > 11
+          aura = aura + "(10ft.、2d6 ［火］)"
+        elsif dragon_race_age.age_id > 9
+          aura = aura + "(10ft.、1d6 ［火］)"
+        else
+          aura = aura + "(5ft.、1d6 ［火］)"
         end
       end
     }
