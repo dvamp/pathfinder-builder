@@ -7,8 +7,8 @@ class DragonRaceAge < ActiveRecord::Base
     sq_array.each {|sqs|
       fly_category = SizeCategory.find(:first, :conditions => ["size_id = ?", dragon_race.size + dragon_age_category.size + 1]) if sqs.strip == "高速飛行"
     }
-    speed = dragon_race.get_speed + fly_category.get_speed
-    speed = "; " + self.additional_move if self.additional_move != ""
+    speed = dragon_race.get_speed + fly_category.get_speed(self)
+    speed = speed + "; " + self.additional_move if self.additional_move != ""
     return speed
   end
 
@@ -75,6 +75,17 @@ class DragonRaceAge < ActiveRecord::Base
           aura = aura + "(5ft.、1d6 ［火］)"
         end
       end
+#      if auras.strip == "Cold aura silver dragon"
+#        aura = aura + "、" if aura != ""
+#        aura = aura + "［冷気］"
+#        if dragon_race_age.age_id > 11
+#          aura = aura + "(10ft.、2d6 ［冷気］)"
+#        elsif dragon_race_age.age_id > 9
+#          aura = aura + "(10ft.、1d6 ［冷気］)"
+#        else
+#          aura = aura + "(5ft.、1d6 ［冷気］)"
+#        end
+#      end
     }
     return aura
   end
@@ -110,6 +121,7 @@ class DragonRaceAge < ActiveRecord::Base
       special_attack = special_attack + "、減速化のブレス" if sp.strip == "Slow breath"
       special_attack = special_attack + "、大受け(DC" + (10 + 6 + dragon["chr_modifer"]).to_s + ")" if sp.strip == "Mass laughter"
       special_attack = special_attack + "、アブないジョーク(DC" + (10 + 9 + dragon["chr_modifer"]).to_s + ")" if sp.strip == "Deadly joke"
+#      special_attack = special_attack + "、麻痺のブレス" if sp.strip == "Paralyzing breath"
     }
     # サイズ段階で獲得する特殊攻撃
     if size_category.crush_damage != ""
