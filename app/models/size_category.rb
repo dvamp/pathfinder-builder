@@ -1,8 +1,14 @@
 # -*- encoding: utf-8 -*-
 
 class SizeCategory < ActiveRecord::Base
-  def get_speed
-    return ", 飛行 " + self.fly_speed + "(" + self.fly_muverabillity + ")"
+  def get_speed(dragon_race_age)
+    gra_fly_flag = 0
+    additional_move_array = dragon_race_age.additional_move.split("、")
+    additional_move_array.each {|array|
+      gra_fly_flag = -1 if array.strip == "優雅なる飛行"
+    }
+    fly_muverabillity = FlyMuverabillity.find(:first, :conditions => ["id = ?", self.fly_muverabillity.to_i + gra_fly_flag])
+    return ", 飛行 " + self.fly_speed + "(" + fly_muverabillity.name + ")"
   end
 
   def get_melee(dragon_race_age, dragon)

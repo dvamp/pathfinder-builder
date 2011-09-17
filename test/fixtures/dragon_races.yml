@@ -223,3 +223,35 @@ Gold:
   env: 暑熱/平地
   organization: 単体
   treasure: x3
+
+#Silver:
+#  id: 8
+#  category_id: 2
+#  name: シルヴァー
+#  alignment: 秩序にして善
+#  creature_category: 竜
+#  creature_subcategory: 氷
+#  cr: 6
+#  size: 4
+#  hit_dice: 7
+#  immune: ［酸］、［冷気］、麻痺、睡眠
+#  weakness: ［火］に対する脆弱性
+#  land_speed: "40ft."
+#  burrow_speed: ""
+#  swim_speed: ""
+#  natural_armor: 6
+#  breath_shape: 円錐形
+#  breath_damage_num: 2
+#  breath_damage_dice: d8
+#  breath_category: 冷気
+#  str: 13
+#  dex: 14
+#  con: 13
+#  int: 14
+#  wis: 15
+#  chr: 14
+#  racial_modifer: ""
+#  language: 竜語
+#  env: 温暖/山岳
+#  organization: 単体
+#  treasure: x3

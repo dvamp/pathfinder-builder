@@ -50,7 +50,7 @@ Tiny:
   reach: 0ft.
   bite_reach: 5ft.
   fly_speed: 100ft.
-  fly_muverabillity: 標準
+  fly_muverabillity: 3
   bite_damage: 1d4
   claws_damage: 1d3
   wings_damage: ""
@@ -70,7 +70,7 @@ Small:
   reach: 5ft.
   bite_reach: 5ft.
   fly_speed: 150ft.
-  fly_muverabillity: 標準
+  fly_muverabillity: 3
   bite_damage: 1d6
   claws_damage: 1d4
   wings_damage: ""
@@ -90,7 +90,7 @@ Medium:
   reach: 5ft.
   bite_reach: 5ft.
   fly_speed: 150ft.
-  fly_muverabillity: 標準
+  fly_muverabillity: 3
   bite_damage: 1d8
   claws_damage: 1d6
   wings_damage: 1d4
@@ -110,7 +110,7 @@ Large tall:
   reach: 10ft.
   bite_reach: 15ft.
   fly_speed: 200ft.
-  fly_muverabillity: 貧弱
+  fly_muverabillity: 4
   bite_damage: 2d6
   claws_damage: 1d8
   wings_damage: 1d6
@@ -130,7 +130,7 @@ Large long:
   reach: 5ft.
   bite_reach: 10ft.
   fly_speed: 200ft.
-  fly_muverabillity: 貧弱
+  fly_muverabillity: 4
   bite_damage: 2d6
   claws_damage: 1d8
   wings_damage: 1d6
@@ -150,7 +150,7 @@ Huge tall:
   reach: 15ft.
   bite_reach: 20ft.
   fly_speed: 200ft.
-  fly_muverabillity: 貧弱
+  fly_muverabillity: 4
   bite_damage: 2d8
   claws_damage: 2d6
   wings_damage: 1d8
@@ -170,7 +170,7 @@ Huge long:
   reach: 10ft.
   bite_reach: 15ft.
   fly_speed: 200ft.
-  fly_muverabillity: 貧弱
+  fly_muverabillity: 4
   bite_damage: 2d8
   claws_damage: 2d6
   wings_damage: 1d8
@@ -190,7 +190,7 @@ Gargantuan tall:
   reach: 20ft.
   bite_reach: 30ft.
   fly_speed: 250ft.
-  fly_muverabillity: 劣悪
+  fly_muverabillity: 5
   bite_damage: 4d6
   claws_damage: 2d8
   wings_damage: 2d6
@@ -210,7 +210,7 @@ Gargantuan long:
   reach: 15ft.
   bite_reach: 20ft.
   fly_speed: 250ft.
-  fly_muverabillity: 劣悪
+  fly_muverabillity: 5
   bite_damage: 4d6
   claws_damage: 2d8
   wings_damage: 2d6
@@ -230,7 +230,7 @@ Colossal tall:
   reach: 30ft.
   bite_reach: 40ft.
   fly_speed: 250ft.
-  fly_muverabillity: 劣悪
+  fly_muverabillity: 5
   bite_damage: 4d8
   claws_damage: 4d6
   wings_damage: 2d8
@@ -250,7 +250,7 @@ Colossal long:
   reach: 20ft.
   bite_reach: 30ft.
   fly_speed: 250ft.
-  fly_muverabillity: 劣悪
+  fly_muverabillity: 5
   bite_damage: 4d8
   claws_damage: 4d6
   wings_damage: 2d8
@@ -270,7 +270,7 @@ x number:
   reach: 30ft.
   bite_reach: 40ft.
   fly_speed: 300ft.
-  fly_muverabillity: 劣悪
+  fly_muverabillity: 5
   bite_damage: 6d6
   claws_damage: 4d8
   wings_damage: 4d6

@@ -1,0 +1,26 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+Perfect:
+  id: 1
+#  name: Perfect
+  name: 完璧
+
+Good:
+  id: 2
+#  name: Good
+  name: 良好
+
+Average:
+  id: 3
+#  name: Average
+  name: 標準
+
+Poor:
+  id: 4
+#  name: Poor
+  name: 貧弱
+
+Clumsy:
+  id: 5
+#  name: Clumsy
+  name: 劣悪

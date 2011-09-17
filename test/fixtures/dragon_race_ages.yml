@@ -1259,3 +1259,184 @@ Gold great wyrm:
   caster_level: 19
   caster_source: クレリック
   sq: 変身、高速飛行、宝石感知、幸運、神性の助力
+
+Silver wyrmling:
+  race_id: 8
+  age_id: 1
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: Breath Weapon, Paralyzing breath
+  sp: ""
+  caster_level: 0
+  caster_source: クレリック
+  sq: 変身
+
+Silver very young:
+  race_id: 8
+  age_id: 2
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: 雲歩き
+  special_attack: Breath Weapon, Paralyzing breath
+  sp: ディテクト・イーヴル
+  caster_level: 0
+  caster_source: クレリック
+  sq: 変身
+
+Silver young:
+  race_id: 8
+  age_id: 3
+  sense: 竜の超感覚
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: 雲歩き、優雅なる飛行
+  special_attack: Breath Weapon, Paralyzing breath
+  sp: ディテクト・イーヴル
+  caster_level: 1
+  caster_source: クレリック
+  sq: 変身
+
+Silver juvenile:
+  race_id: 8
+  age_id: 4
+  sense: 竜の超感覚、霧の見通し
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: 雲歩き、優雅なる飛行
+  special_attack: Breath Weapon, Paralyzing breath
+  sp: ディテクト・イーヴル、フェザー・フォール
+  caster_level: 3
+  caster_source: クレリック
+  sq: 変身
+
+Silver young adult:
+  race_id: 8
+  age_id: 5
+  sense: 竜の超感覚、霧の見通し
+  aura: ""
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: 雲歩き、優雅なる飛行
+  special_attack: Breath Weapon, Paralyzing breath
+  sp: ディテクト・イーヴル、フェザー・フォール
+  caster_level: 5
+  caster_source: クレリック
+  sq: 変身
+
+Silver adult:
+  race_id: 8
+  age_id: 6
+  sense: 竜の超感覚、霧の見通し
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 5/魔法
+  sr: 1
+  additional_move: 雲歩き、優雅なる飛行
+  special_attack: Breath Weapon, Paralyzing breath
+  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド
+  caster_level: 7
+  caster_source: クレリック
+  sq: 変身
+
+Silver mature adult:
+  race_id: 8
+  age_id: 7
+  sense: 竜の超感覚、霧の見通し
+  aura: Frightful presence
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: 雲歩き、優雅なる飛行
+  special_attack: Breath Weapon, Paralyzing breath
+  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド
+  caster_level: 9
+  caster_source: クレリック
+  sq: 変身
+
+Silver old:
+  race_id: 8
+  age_id: 8
+  sense: 竜の超感覚、霧の見通し
+  aura: Frightful presence, Cold aura silver dragon
+  defensive_ability: ""
+  dr: 10/魔法
+  sr: 1
+  additional_move: 雲歩き、優雅なる飛行
+  special_attack: Breath Weapon, Paralyzing breath
+  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド、コントロール・ウィンズ
+  caster_level: 11
+  caster_source: クレリック
+  sq: 変身
+
+Silver very old:
+  race_id: 8
+  age_id: 9
+  sense: 竜の超感覚、霧の見通し
+  aura: Frightful presence, Cold aura silver dragon
+  defensive_ability: ""
+  dr: 15/魔法
+  sr: 1
+  additional_move: 雲歩き、優雅なる飛行
+  special_attack: Breath Weapon, Paralyzing breath
+  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド、コントロール・ウィンズ
+  caster_level: 13
+  caster_source: クレリック
+  sq: 変身
+
+Silver ancient:
+  race_id: 8
+  age_id: 10
+  sense: 竜の超感覚、霧の見通し
+  aura: Frightful presence, Cold aura silver dragon
+  defensive_ability: 鱗による反射
+  dr: 15/魔法
+  sr: 1
+  additional_move: 雲歩き、優雅なる飛行
+  special_attack: Breath Weapon, Paralyzing breath
+  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド、コントロール・ウィンズ、コントロール・ウェザー
+  caster_level: 15
+  caster_source: クレリック
+  sq: 変身
+
+Silver wyrm:
+  race_id: 8
+  age_id: 11
+  sense: 竜の超感覚、霧の見通し
+  aura: Frightful presence, Cold aura silver dragon
+  defensive_ability: 鱗による反射
+  dr: 20/魔法
+  sr: 1
+  additional_move: 雲歩き、優雅なる飛行
+  special_attack: Breath Weapon, Paralyzing breath
+  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド、コントロール・ウィンズ、コントロール・ウェザー
+  caster_level: 17
+  caster_source: クレリック
+  sq: 変身
+
+Silver great wyrm:
+  race_id: 8
+  age_id: 12
+  sense: 竜の超感覚、霧の見通し
+  aura: Frightful presence, Cold aura silver dragon
+  defensive_ability: 鱗による反射
+  dr: 20/魔法
+  sr: 1
+  additional_move: 雲歩き、優雅なる飛行
+  special_attack: Breath Weapon, Paralyzing breath
+  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド、コントロール・ウィンズ、コントロール・ウェザー、リヴァース・グラヴィティ
+  caster_level: 19
+  caster_source: クレリック
+  sq: 変身、真の勇気
+
