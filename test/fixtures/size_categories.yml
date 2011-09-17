@@ -259,3 +259,23 @@ Colossal long:
   tail_sweep_damage: 2d8
   breath_range_line: 140ft.
   breath_range_cone: 70ft.
+
+x number:
+  size_id: 10
+  name: －
+  pose: －
+  ba_size_modifer: -16
+  cmb_size_modifer: 16
+  space: 40ft.
+  reach: 30ft.
+  bite_reach: 40ft.
+  fly_speed: 300ft.
+  fly_muverabillity: 劣悪
+  bite_damage: 6d6
+  claws_damage: 4d8
+  wings_damage: 4d6
+  tail_slap_damage: 4d8
+  crush_damage: 6d6
+  tail_sweep_damage: 4d6
+  breath_range_line: 160ft.
+  breath_range_cone: 80ft.

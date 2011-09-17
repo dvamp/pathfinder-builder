@@ -98,8 +98,8 @@ class DragonBuilderController < ApplicationController
         @dragon["fort"] = sprintf("%+d", ((@dragon["hit_dice_count"] / 2).to_i + 2 + @dragon["con_modifer"]))
         @dragon["ref"] = sprintf("%+d", ((@dragon["hit_dice_count"] / 2).to_i + 2 + @dragon["dex_modifer"]))
         @dragon["will"] = sprintf("%+d", ((@dragon["hit_dice_count"] / 2).to_i + 2 + @dragon["wis_modifer"]))
-        @dragon["speed"] = dragon_race.get_speed + size_category.get_speed + dragon_race_age.get_speed
-#        @dragon["speed"] = @dragon["speed"] + "; " + @dragon["additional_move"] if @dragon["additional_move"] != ""
+        @dragon["speed"] = dragon_race_age.get_speed(dragon_race, dragon_age_category, size_category)
+#        @dragon["speed"] = dragon_race.get_speed + size_category.get_speed + dragon_race_age.get_speed
         @dragon["spell_like_ability_cl"] = @dragon["hit_dice_count"]
         @dragon["spell_like_ability_concentration"] = @dragon["hit_dice_count"] + @dragon["chr_modifer"]
         @dragon["spell_caster_concentration"] = @dragon["spell_caster_level"] + @dragon["chr_modifer"]

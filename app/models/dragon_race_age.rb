@@ -1,8 +1,13 @@
 # -*- encoding: utf-8 -*-
 
 class DragonRaceAge < ActiveRecord::Base
-  def get_speed
-    speed = ""
+  def get_speed(dragon_race, dragon_age_category, size_category)
+    fly_category = size_category
+    sq_array = self.sq.split("、")
+    sq_array.each {|sqs|
+      fly_category = SizeCategory.find(:first, :conditions => ["size_id = ?", dragon_race.size + dragon_age_category.size + 1]) if sqs.strip == "高速飛行"
+    }
+    speed = dragon_race.get_speed + fly_category.get_speed
     speed = "; " + self.additional_move if self.additional_move != ""
     return speed
   end
