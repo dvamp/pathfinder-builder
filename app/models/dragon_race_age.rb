@@ -75,17 +75,17 @@ class DragonRaceAge < ActiveRecord::Base
           aura = aura + "(5ft.、1d6 ［火］)"
         end
       end
-#      if auras.strip == "Cold aura silver dragon"
-#        aura = aura + "、" if aura != ""
-#        aura = aura + "［冷気］"
-#        if dragon_race_age.age_id > 11
-#          aura = aura + "(10ft.、2d6 ［冷気］)"
-#        elsif dragon_race_age.age_id > 9
-#          aura = aura + "(10ft.、1d6 ［冷気］)"
-#        else
-#          aura = aura + "(5ft.、1d6 ［冷気］)"
-#        end
-#      end
+      if auras.strip == "Cold aura silver dragon"
+        aura = aura + "、" if aura != ""
+        aura = aura + "［冷気］"
+        if dragon_race_age.age_id > 11
+          aura = aura + "(10ft.、2d6 ［冷気］)"
+        elsif dragon_race_age.age_id > 9
+          aura = aura + "(10ft.、1d6 ［冷気］)"
+        else
+          aura = aura + "(5ft.、1d6 ［冷気］)"
+        end
+      end
     }
     return aura
   end
@@ -121,7 +121,7 @@ class DragonRaceAge < ActiveRecord::Base
       special_attack = special_attack + "、減速化のブレス" if sp.strip == "Slow breath"
       special_attack = special_attack + "、大受け(DC" + (10 + 6 + dragon["chr_modifer"]).to_s + ")" if sp.strip == "Mass laughter"
       special_attack = special_attack + "、アブないジョーク(DC" + (10 + 9 + dragon["chr_modifer"]).to_s + ")" if sp.strip == "Deadly joke"
-#      special_attack = special_attack + "、麻痺のブレス" if sp.strip == "Paralyzing breath"
+      special_attack = special_attack + "、麻痺のブレス" if sp.strip == "Paralyzing breath"
     }
     # サイズ段階で獲得する特殊攻撃
     if size_category.crush_damage != ""
@@ -133,5 +133,18 @@ class DragonRaceAge < ActiveRecord::Base
       special_attack = special_attack + "、尾による一掃(" + temp_size_category.name + "、 DC" + (10 + (dragon["hit_dice_count"] * 0.5).to_i + dragon["con_modifer"]).to_s + "、" + size_category.tail_sweep_damage + "+" + ((dragon["str_modifer"] * 1.5).to_i).to_s + ")"
     end
     return special_attack
+  end
+
+  def get_sense_local
+    sense = ""
+    sense_array = self.sense.split(",")
+    sense_array.each {|value|
+      if sense == ""
+        sense = I18n.t("models.dragon_race_age.sense.#{value}")
+      else
+        sense = sense + ", " + I18n.t("models.dragon_race_age.sense.#{value}")
+      end
+    }
+    return sense
   end
 end

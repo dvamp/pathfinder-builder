@@ -3,7 +3,7 @@
 Green wyrmling:
   race_id: 1
   age_id: 1
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -18,7 +18,7 @@ Green wyrmling:
 Green very young:
   race_id: 1
   age_id: 2
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -33,7 +33,7 @@ Green very young:
 Green young:
   race_id: 1
   age_id: 3
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -48,7 +48,7 @@ Green young:
 Green juvenile:
   race_id: 1
   age_id: 4
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: ""
@@ -63,7 +63,7 @@ Green juvenile:
 Green young adult:
   race_id: 1
   age_id: 5
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 5/魔法
@@ -78,7 +78,7 @@ Green young adult:
 Green adult:
   race_id: 1
   age_id: 6
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 5/魔法
@@ -93,7 +93,7 @@ Green adult:
 Green mature adult:
   race_id: 1
   age_id: 7
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 10/魔法
@@ -108,7 +108,7 @@ Green mature adult:
 Green old:
   race_id: 1
   age_id: 8
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 10/魔法
@@ -123,7 +123,7 @@ Green old:
 Green very old:
   race_id: 1
   age_id: 9
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 15/魔法
@@ -138,7 +138,7 @@ Green very old:
 Green ancient:
   race_id: 1
   age_id: 10
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 15/魔法
@@ -153,7 +153,7 @@ Green ancient:
 Green wyrm:
   race_id: 1
   age_id: 11
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 20/魔法
@@ -168,7 +168,7 @@ Green wyrm:
 Green great wyrm:
   race_id: 1
   age_id: 12
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 20/魔法
@@ -183,7 +183,7 @@ Green great wyrm:
 Black wyrmling:
   race_id: 2
   age_id: 1
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -198,7 +198,7 @@ Black wyrmling:
 Black very young:
   race_id: 2
   age_id: 2
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -213,7 +213,7 @@ Black very young:
 Black young:
   race_id: 2
   age_id: 3
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -228,7 +228,7 @@ Black young:
 Black juvenile:
   race_id: 2
   age_id: 4
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -243,7 +243,7 @@ Black juvenile:
 Black young adult:
   race_id: 2
   age_id: 5
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: 5/魔法
@@ -258,7 +258,7 @@ Black young adult:
 Black adult:
   race_id: 2
   age_id: 6
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 5/魔法
@@ -273,7 +273,7 @@ Black adult:
 Black mature adult:
   race_id: 2
   age_id: 7
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 10/魔法
@@ -288,7 +288,7 @@ Black mature adult:
 Black old:
   race_id: 2
   age_id: 8
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 10/魔法
@@ -303,7 +303,7 @@ Black old:
 Black very old:
   race_id: 2
   age_id: 9
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 15/魔法
@@ -318,7 +318,7 @@ Black very old:
 Black ancient:
   race_id: 2
   age_id: 10
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 15/魔法
@@ -333,7 +333,7 @@ Black ancient:
 Black wyrm:
   race_id: 2
   age_id: 11
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 20/魔法
@@ -348,7 +348,7 @@ Black wyrm:
 Black great wyrm:
   race_id: 2
   age_id: 12
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 20/魔法
@@ -363,7 +363,7 @@ Black great wyrm:
 Blue wyrmling:
   race_id: 3
   age_id: 1
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -378,7 +378,7 @@ Blue wyrmling:
 Blue very young:
   race_id: 3
   age_id: 2
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -393,7 +393,7 @@ Blue very young:
 Blue young:
   race_id: 3
   age_id: 3
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -408,7 +408,7 @@ Blue young:
 Blue juvenile:
   race_id: 3
   age_id: 4
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: ""
@@ -423,7 +423,7 @@ Blue juvenile:
 Blue young adult:
   race_id: 3
   age_id: 5
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 5/魔法
@@ -438,7 +438,7 @@ Blue young adult:
 Blue adult:
   race_id: 3
   age_id: 6
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Electricity aura
   defensive_ability: ""
   dr: 5/魔法
@@ -453,7 +453,7 @@ Blue adult:
 Blue mature adult:
   race_id: 3
   age_id: 7
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Electricity aura
   defensive_ability: ""
   dr: 10/魔法
@@ -468,7 +468,7 @@ Blue mature adult:
 Blue old:
   race_id: 3
   age_id: 8
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Electricity aura
   defensive_ability: ""
   dr: 10/魔法
@@ -483,7 +483,7 @@ Blue old:
 Blue very old:
   race_id: 3
   age_id: 9
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Electricity aura
   defensive_ability: ""
   dr: 15/魔法
@@ -498,7 +498,7 @@ Blue very old:
 Blue ancient:
   race_id: 3
   age_id: 10
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Electricity aura
   defensive_ability: ""
   dr: 15/魔法
@@ -513,7 +513,7 @@ Blue ancient:
 Blue wyrm:
   race_id: 3
   age_id: 11
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Electricity aura
   defensive_ability: ""
   dr: 20/魔法
@@ -528,7 +528,7 @@ Blue wyrm:
 Blue great wyrm:
   race_id: 3
   age_id: 12
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Electricity aura
   defensive_ability: ""
   dr: 20/魔法
@@ -543,7 +543,7 @@ Blue great wyrm:
 White wyrmling:
   race_id: 4
   age_id: 1
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -558,7 +558,7 @@ White wyrmling:
 White very young:
   race_id: 4
   age_id: 2
-  sense: 竜の超感覚、雪の見通し
+  sense: dragon senses, snow vision
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -573,7 +573,7 @@ White very young:
 White young:
   race_id: 4
   age_id: 3
-  sense: 竜の超感覚、雪の見通し
+  sense: dragon senses, snow vision
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -588,7 +588,7 @@ White young:
 White juvenile:
   race_id: 4
   age_id: 4
-  sense: 竜の超感覚、雪の見通し
+  sense: dragon senses, snow vision
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -603,7 +603,7 @@ White juvenile:
 White young adult:
   race_id: 4
   age_id: 5
-  sense: 竜の超感覚、雪の見通し
+  sense: dragon senses, snow vision
   aura: ""
   defensive_ability: ""
   dr: 5/魔法
@@ -618,7 +618,7 @@ White young adult:
 White adult:
   race_id: 4
   age_id: 6
-  sense: 竜の超感覚、雪の見通し
+  sense: dragon senses, snow vision
   aura: Cold aura, Frightful presence
   defensive_ability: ""
   dr: 5/魔法
@@ -633,7 +633,7 @@ White adult:
 White mature adult:
   race_id: 4
   age_id: 7
-  sense: 竜の超感覚、雪の見通し
+  sense: dragon senses, snow vision
   aura: Cold aura, Frightful presence
   defensive_ability: ""
   dr: 10/魔法
@@ -648,7 +648,7 @@ White mature adult:
 White old:
   race_id: 4
   age_id: 8
-  sense: 竜の超感覚、雪の見通し
+  sense: dragon senses, snow vision
   aura: Cold aura, Frightful presence
   defensive_ability: ""
   dr: 10/魔法
@@ -663,7 +663,7 @@ White old:
 White very old:
   race_id: 4
   age_id: 9
-  sense: 竜の超感覚、雪の見通し
+  sense: dragon senses, snow vision
   aura: Cold aura, Frightful presence
   defensive_ability: ""
   dr: 15/魔法
@@ -678,7 +678,7 @@ White very old:
 White ancient:
   race_id: 4
   age_id: 10
-  sense: 竜の超感覚、雪の見通し
+  sense: dragon senses, snow vision
   aura: Cold aura, Frightful presence
   defensive_ability: ""
   dr: 15/魔法
@@ -693,7 +693,7 @@ White ancient:
 White wyrm:
   race_id: 4
   age_id: 11
-  sense: 竜の超感覚、雪の見通し
+  sense: dragon senses, snow vision
   aura: Cold aura, Frightful presence
   defensive_ability: ""
   dr: 20/魔法
@@ -708,7 +708,7 @@ White wyrm:
 White great wyrm:
   race_id: 4
   age_id: 12
-  sense: 竜の超感覚、雪の見通し
+  sense: dragon senses, snow vision
   aura: Cold aura, Frightful presence
   defensive_ability: ""
   dr: 20/魔法
@@ -723,7 +723,7 @@ White great wyrm:
 Red wyrmling:
   race_id: 5
   age_id: 1
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -738,7 +738,7 @@ Red wyrmling:
 Red very young:
   race_id: 5
   age_id: 2
-  sense: 竜の超感覚、煙の見通し
+  sense: dragon senses, smoke vision
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -753,7 +753,7 @@ Red very young:
 Red young:
   race_id: 5
   age_id: 3
-  sense: 竜の超感覚、煙の見通し
+  sense: dragon senses, smoke vision
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -768,7 +768,7 @@ Red young:
 Red juvenile:
   race_id: 5
   age_id: 4
-  sense: 竜の超感覚、煙の見通し
+  sense: dragon senses, smoke vision
   aura: Frightful presence
   defensive_ability: ""
   dr: ""
@@ -783,7 +783,7 @@ Red juvenile:
 Red young adult:
   race_id: 5
   age_id: 5
-  sense: 竜の超感覚、煙の見通し
+  sense: dragon senses, smoke vision
   aura: Frightful presence
   defensive_ability: ""
   dr: 5/魔法
@@ -798,7 +798,7 @@ Red young adult:
 Red adult:
   race_id: 5
   age_id: 6
-  sense: 竜の超感覚、煙の見通し
+  sense: dragon senses, smoke vision
   aura: Frightful presence, Fire aura
   defensive_ability: ""
   dr: 5/魔法
@@ -813,7 +813,7 @@ Red adult:
 Red mature adult:
   race_id: 5
   age_id: 7
-  sense: 竜の超感覚、煙の見通し
+  sense: dragon senses, smoke vision
   aura: Frightful presence, Fire aura
   defensive_ability: ""
   dr: 10/魔法
@@ -828,7 +828,7 @@ Red mature adult:
 Red old:
   race_id: 5
   age_id: 8
-  sense: 竜の超感覚、煙の見通し
+  sense: dragon senses, smoke vision
   aura: Frightful presence, Fire aura
   defensive_ability: ""
   dr: 10/魔法
@@ -843,7 +843,7 @@ Red old:
 Red very old:
   race_id: 5
   age_id: 9
-  sense: 竜の超感覚、煙の見通し
+  sense: dragon senses, smoke vision
   aura: Frightful presence, Fire aura
   defensive_ability: ""
   dr: 15/魔法
@@ -858,7 +858,7 @@ Red very old:
 Red ancient:
   race_id: 5
   age_id: 10
-  sense: 竜の超感覚、煙の見通し
+  sense: dragon senses, smoke vision
   aura: Frightful presence, Fire aura
   defensive_ability: ""
   dr: 15/魔法
@@ -873,7 +873,7 @@ Red ancient:
 Red wyrm:
   race_id: 5
   age_id: 11
-  sense: 竜の超感覚、煙の見通し
+  sense: dragon senses, smoke vision
   aura: Frightful presence, Fire aura
   defensive_ability: ""
   dr: 20/魔法
@@ -888,7 +888,7 @@ Red wyrm:
 Red great wyrm:
   race_id: 5
   age_id: 12
-  sense: 竜の超感覚、煙の見通し
+  sense: dragon senses, smoke vision
   aura: Frightful presence, Fire aura
   defensive_ability: ""
   dr: 20/魔法
@@ -903,7 +903,7 @@ Red great wyrm:
 Copper wyrmling:
   race_id: 6
   age_id: 1
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -918,7 +918,7 @@ Copper wyrmling:
 Copper very young:
   race_id: 6
   age_id: 2
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -933,7 +933,7 @@ Copper very young:
 Copper young:
   race_id: 6
   age_id: 3
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: 直感回避
   dr: ""
@@ -948,7 +948,7 @@ Copper young:
 Copper juvenile:
   race_id: 6
   age_id: 4
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: 直感回避
   dr: ""
@@ -963,7 +963,7 @@ Copper juvenile:
 Copper young adult:
   race_id: 6
   age_id: 5
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: 直感回避
   dr: 5/魔法
@@ -978,7 +978,7 @@ Copper young adult:
 Copper adult:
   race_id: 6
   age_id: 6
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: 直感回避
   dr: 5/魔法
@@ -993,7 +993,7 @@ Copper adult:
 Copper mature adult:
   race_id: 6
   age_id: 7
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: 直感回避
   dr: 10/魔法
@@ -1008,7 +1008,7 @@ Copper mature adult:
 Copper old:
   race_id: 6
   age_id: 8
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Slow aura
   defensive_ability: 直感回避
   dr: 10/魔法
@@ -1023,7 +1023,7 @@ Copper old:
 Copper very old:
   race_id: 6
   age_id: 9
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Slow aura
   defensive_ability: 直感回避
   dr: 15/魔法
@@ -1038,7 +1038,7 @@ Copper very old:
 Copper ancient:
   race_id: 6
   age_id: 10
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Slow aura
   defensive_ability: 直感回避
   dr: 15/魔法
@@ -1053,7 +1053,7 @@ Copper ancient:
 Copper wyrm:
   race_id: 6
   age_id: 11
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Slow aura
   defensive_ability: 直感回避
   dr: 20/魔法
@@ -1068,7 +1068,7 @@ Copper wyrm:
 Copper great wyrm:
   race_id: 6
   age_id: 12
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Slow aura
   defensive_ability: 直感回避
   dr: 20/魔法
@@ -1083,7 +1083,7 @@ Copper great wyrm:
 Gold wyrmling:
   race_id: 7
   age_id: 1
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -1098,7 +1098,7 @@ Gold wyrmling:
 Gold very young:
   race_id: 7
   age_id: 2
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -1113,7 +1113,7 @@ Gold very young:
 Gold young:
   race_id: 7
   age_id: 3
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -1128,7 +1128,7 @@ Gold young:
 Gold juvenile:
   race_id: 7
   age_id: 4
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -1143,7 +1143,7 @@ Gold juvenile:
 Gold young adult:
   race_id: 7
   age_id: 5
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: 5/魔法
@@ -1158,7 +1158,7 @@ Gold young adult:
 Gold adult:
   race_id: 7
   age_id: 6
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 5/魔法
@@ -1173,7 +1173,7 @@ Gold adult:
 Gold mature adult:
   race_id: 7
   age_id: 7
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence
   defensive_ability: ""
   dr: 10/魔法
@@ -1188,7 +1188,7 @@ Gold mature adult:
 Gold old:
   race_id: 7
   age_id: 8
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Fire aura gold dragon
   defensive_ability: ""
   dr: 10/魔法
@@ -1203,7 +1203,7 @@ Gold old:
 Gold very old:
   race_id: 7
   age_id: 9
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Fire aura gold dragon
   defensive_ability: ""
   dr: 15/魔法
@@ -1218,7 +1218,7 @@ Gold very old:
 Gold ancient:
   race_id: 7
   age_id: 10
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Fire aura gold dragon
   defensive_ability: ""
   dr: 15/魔法
@@ -1233,7 +1233,7 @@ Gold ancient:
 Gold wyrm:
   race_id: 7
   age_id: 11
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Fire aura gold dragon
   defensive_ability: ""
   dr: 20/魔法
@@ -1248,7 +1248,7 @@ Gold wyrm:
 Gold great wyrm:
   race_id: 7
   age_id: 12
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: Frightful presence, Fire aura gold dragon
   defensive_ability: ""
   dr: 20/魔法
@@ -1263,7 +1263,7 @@ Gold great wyrm:
 Silver wyrmling:
   race_id: 8
   age_id: 1
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -1278,7 +1278,7 @@ Silver wyrmling:
 Silver very young:
   race_id: 8
   age_id: 2
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -1293,7 +1293,7 @@ Silver very young:
 Silver young:
   race_id: 8
   age_id: 3
-  sense: 竜の超感覚
+  sense: dragon senses
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -1308,7 +1308,7 @@ Silver young:
 Silver juvenile:
   race_id: 8
   age_id: 4
-  sense: 竜の超感覚、霧の見通し
+  sense: dragon senses, fog vision
   aura: ""
   defensive_ability: ""
   dr: ""
@@ -1323,7 +1323,7 @@ Silver juvenile:
 Silver young adult:
   race_id: 8
   age_id: 5
-  sense: 竜の超感覚、霧の見通し
+  sense: dragon senses, fog vision
   aura: ""
   defensive_ability: ""
   dr: 5/魔法
@@ -1338,7 +1338,7 @@ Silver young adult:
 Silver adult:
   race_id: 8
   age_id: 6
-  sense: 竜の超感覚、霧の見通し
+  sense: dragon senses, fog vision
   aura: Frightful presence
   defensive_ability: ""
   dr: 5/魔法
@@ -1353,7 +1353,7 @@ Silver adult:
 Silver mature adult:
   race_id: 8
   age_id: 7
-  sense: 竜の超感覚、霧の見通し
+  sense: dragon senses, fog vision
   aura: Frightful presence
   defensive_ability: ""
   dr: 10/魔法
@@ -1368,7 +1368,7 @@ Silver mature adult:
 Silver old:
   race_id: 8
   age_id: 8
-  sense: 竜の超感覚、霧の見通し
+  sense: dragon senses, fog vision
   aura: Frightful presence, Cold aura silver dragon
   defensive_ability: ""
   dr: 10/魔法
@@ -1383,7 +1383,7 @@ Silver old:
 Silver very old:
   race_id: 8
   age_id: 9
-  sense: 竜の超感覚、霧の見通し
+  sense: dragon senses, fog vision
   aura: Frightful presence, Cold aura silver dragon
   defensive_ability: ""
   dr: 15/魔法
@@ -1398,7 +1398,7 @@ Silver very old:
 Silver ancient:
   race_id: 8
   age_id: 10
-  sense: 竜の超感覚、霧の見通し
+  sense: dragon senses, fog vision
   aura: Frightful presence, Cold aura silver dragon
   defensive_ability: 鱗による反射
   dr: 15/魔法
@@ -1413,7 +1413,7 @@ Silver ancient:
 Silver wyrm:
   race_id: 8
   age_id: 11
-  sense: 竜の超感覚、霧の見通し
+  sense: dragon senses, fog vision
   aura: Frightful presence, Cold aura silver dragon
   defensive_ability: 鱗による反射
   dr: 20/魔法
@@ -1428,7 +1428,7 @@ Silver wyrm:
 Silver great wyrm:
   race_id: 8
   age_id: 12
-  sense: 竜の超感覚、霧の見通し
+  sense: dragon senses, fog vision
   aura: Frightful presence, Cold aura silver dragon
   defensive_ability: 鱗による反射
   dr: 20/魔法

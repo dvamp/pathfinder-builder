@@ -5,16 +5,28 @@
   end
 %>
 <%= form_tag({:action => :index}, :method => :get) do -%>
-ドラゴンの種類：<%= select_tag :dragon_race, options_from_collection_for_select(@dragon_races, :id, :name, {:selected => dragon_race}) %><br />
-ドラゴンの年齢段階：<%= select_tag :dragon_age, options_from_collection_for_select(@dragon_age_categories, :id, :age_category, {:selected => dragon_age}) %><br />
-  <%= submit_tag "生成", {:disable_with => "生成中"} %>
+  <%= t(:label_dragon_race) %>：<%#= select_tag :dragon_race, options_from_collection_for_select(@dragon_races, :id, :name, {:selected => dragon_race}) %><%= select_tag :dragon_race, options_for_select(
+  {t("models.dragon_race.name.green") => 1, t("models.dragon_race.name.black") => 2,
+  t("models.dragon_race.name.blue") => 3, t("models.dragon_race.name.white") => 4,
+  t("models.dragon_race.name.red") => 5, t("models.dragon_race.name.copper") => 6,
+  t("models.dragon_race.name.gold") => 7}, dragon_race) %><br />
+  <%= t(:label_age_category) %>：<%#= select_tag :dragon_age, options_from_collection_for_select(@dragon_age_categories, :id, :age_category, {:selected => dragon_age}) %><%= select_tag :dragon_age, options_for_select(
+  {t("models.dragon_age_category.age_category.wyrmling") => 1, t("models.dragon_age_category.age_category.very young") => 2,
+  t("models.dragon_age_category.age_category.young") => 3, t("models.dragon_age_category.age_category.juvenile") => 4,
+  t("models.dragon_age_category.age_category.young adult") => 5, t("models.dragon_age_category.age_category.adult") => 6,
+  t("models.dragon_age_category.age_category.mature young") => 7, t("models.dragon_age_category.age_category.old") => 8,
+  t("models.dragon_age_category.age_category.very old") => 9, t("models.dragon_age_category.age_category.ancient") => 10,
+  t("models.dragon_age_category.age_category.wyrm") => 11, t("models.dragon_age_category.age_category.great wyrm") => 12}, dragon_age) %><br />
+  <%= t(:label_language) %>：<%= select_tag :locale, options_for_select(
+  {t(:label_en) => "en", t(:label_ja) => "ja"}, I18n.locale) %><br />
+  <%= submit_tag t(:label_build), {:disable_with => t(:label_building)} %>
 <% end %>
 <% if @dragon != nil %>
 <div style="background-color:rgb(207, 226, 243);width:100%;font-variant:small-caps;margin-top:6px;margin-bottom:6px">
   <table width="100%">
     <tbody>
       <tr>
-        <td aligin="left" style="width:85%;font-variant:small-caps"><b><%= @dragon["dragon_age_name"] %>・<%= @dragon["dragon_race_name"] %>・ドラゴン</b></td>
+        <td aligin="left" style="width:85%;font-variant:small-caps"><b><%= @dragon["name"] %></b></td>
         <td align="right" style="font-variant:small-caps"><b>CR <%= @dragon["cr"] %></b></td>
       </tr>
     </tbody>
@@ -22,70 +34,70 @@
   <tbody>
 </div>
 <p>
-  <b>XP <%= number_to_currency(@dragon["xp"], :separator => ".", :delimiter => ",", :format => "%n", :precision => 0) %></b><br />
-  <b><%= @dragon["alignment"] %></b>/<%= @dragon["size"] %>サイズの<%= @dragon["types"] %>(<%= @dragon["subtypes"] %>)<br />
-  <b>イニシアチブ</b> <%= sprintf("%+d", @dragon["dex_modifer"]) %>; <b>感覚</b> <%= @dragon["sense"] %><br />
+  <b><%= t(:label_xp) %> <%= number_to_currency(@dragon["xp"], :separator => ".", :delimiter => ",", :format => "%n", :precision => 0) %></b><br />
+  <%= @dragon["alignment"] %> <%= @dragon["size"] %> <%= @dragon["types"] %>(<%= @dragon["subtypes"] %>)<br />
+  <b><%= t(:label_init) %></b> <%= sprintf("%+d", @dragon["dex_modifer"]) %>; <b><%= t(:label_senses) %></b> <%= @dragon["sense"] %><br />
   <% if @dragon["aura"] != "" %>
-  <b>オーラ</b> <%= @dragon["aura"] %>
+  <b><%= t(:label_aura) %></b> <%= @dragon["aura"] %>
   <% end %>
 </p>
-<div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b>防御</b></div>
+<div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b><%= t(:label_defense) %></b></div>
 <p>
-  <b>AC</b> <%= @dragon["ac"] %>, 接触 <%= @dragon["touch"] %>, 立ちすくみ <%= @dragon["flat_footed"] %> <%= @dragon["defence_describe"] %><br />
-  <b>hp</b> <%= @dragon["hp"] %> (<%= @dragon["hit_dice_count"] %>d<%= @dragon["hit_dice_number"] %><%= @dragon["hp_con_modifer"] %>)<br />
-  <b>頑健</b> <%= @dragon["fort"] %>, <b>反応</b> <%= @dragon["ref"] %>, <b>意志</b> <%= @dragon["will"] %><br />
+  <b><%= t(:label_ac) %></b> <%= @dragon["ac"] %>, <%= t(:label_touch) %> <%= @dragon["touch"] %>, <%= t(:label_flat_footed) %> <%= @dragon["flat_footed"] %> <%= @dragon["defence_describe"] %><br />
+  <b><%= t(:label_hp) %></b> <%= @dragon["hp"] %> (<%= @dragon["hit_dice_count"] %>d<%= @dragon["hit_dice_number"] %><%= @dragon["hp_con_modifer"] %>)<br />
+  <b><%= t(:label_fort) %></b> <%= @dragon["fort"] %>, <b><%= t(:label_ref) %></b> <%= @dragon["ref"] %>, <b><%= t(:label_will) %></b> <%= @dragon["will"] %><br />
   <% if @dragon["defensive_ability"] != ""
-  %><b>防御的能力</b> <%= @dragon["defensive_ability"] %><%
+  %><b><%= t(:label_defensive_abilities) %></b> <%= @dragon["defensive_ability"] %><%
   end
   if @dragon["dr"] != ""
   %><% if @dragon["defensive_ability"] != ""
   %>; <%
-  end %><b>DR</b> <%= @dragon["dr"] %>; <%
-  end %><b>完全耐性</b> <%= @dragon["immune"] %><%
+  end %><b><%= t(:label_dr) %></b> <%= @dragon["dr"] %>; <%
+  end %><b><%= t(:label_immune) %></b> <%= @dragon["immune"] %><%
   if @dragon["sr"] > 0
-  %>; <b>SR</b> <%= @dragon["sr"] %>
+  %>; <b><%= t(:label_sr) %></b> <%= @dragon["sr"] %>
   <% end
 if @dragon["weakness"] != ""
 %><br />
-<b>弱点</b> <%= @dragon["weakness"] %><%
+<b><%= t(:label_weaknesses) %></b> <%= @dragon["weakness"] %><%
 end %>
 </p>
-<div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b>攻撃</b></div>
+<div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b><%= t(:label_offense) %></b></div>
 <p>
-  <b>移動速度</b> <%= @dragon["speed"] %><br />
-  <b>近接</b>  <%= @dragon["melee"] %><br />
-  <b>接敵面</b> <%= @dragon["space"] %>; <b>間合い</b> <%= @dragon["reach"] %> (噛みつきの間合い <%= @dragon["bite_reach"] %>)<br />
-  <b>特殊攻撃</b> <%= @dragon["special_attack"] %><br />
+  <b><%= t(:label_speed) %></b> <%= @dragon["speed"] %><br />
+  <b><%= t(:label_melee) %></b>  <%= @dragon["melee"] %><br />
+  <b><%= t(:label_space) %></b> <%= @dragon["space"] %>; <b><%= t(:label_reach) %></b> <%= @dragon["reach"] %> (<%= @dragon["bite_reach"] %> <%= t(:label_reach_with_bite) %>)<br />
+  <b><%= t(:label_special_attacks) %></b> <%= @dragon["special_attack"] %><br />
   <% if @dragon["spell_like_ability"] != "" %>
-  <b>擬似呪文能力</b> (CL <%= @dragon["spell_like_ability_cl"] %>, 精神集中 +<%= @dragon["spell_like_ability_concentration"] %>)
+  <b><%= t(:label_spell_like_abilities) %></b> (CL <%= @dragon["spell_like_ability_cl"] %>, <%= t(:label_concentration) %> +<%= @dragon["spell_like_ability_concentration"] %>)
   <% end %>
 </p>
 <% if @dragon["spell_like_ability"] != "" %>
 <p style="margin-left:20px">
-回数無制限：<i><%= @dragon["spell_like_ability"] %></i>
+<b><%= t(:label_at_will) %></b>：<i><%= @dragon["spell_like_ability"] %></i>
 </p>
 <% end %>
 <% if @dragon["spell_caster_level"] > 0 %>
-<p><span style="font-size:medium"><b>修得呪文</b> (<%= @dragon["spell_caster_source"] %> CL <%= @dragon["spell_caster_level"] %>, 精神集中 +<%= @dragon["spell_caster_concentration"] %>)</span></p>
+<p><span style="font-size:medium"><b><%= t(:label_spells_known) %></b> (<%= @dragon["spell_caster_source"] %> CL <%= @dragon["spell_caster_level"] %>, <%= t(:label_concentration) %> +<%= @dragon["spell_caster_concentration"] %>)</span></p>
 <% end %>
-<div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b>一般データ</b></div>
+<div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b><%= t(:label_statistics) %></b></div>
 <p>
-<b>【筋】</b> <%= @dragon["str"] %>, <b>【敏】</b> <%= @dragon["dex"] %>, <b>【耐】</b> <%= @dragon["con"] %>, <b>【知】</b> <%= @dragon["int"] %>, <b>【判】</b> <%= @dragon["wis"] %>, <b>【魅】</b> <%= @dragon["chr"] %><br />
-<b>基本攻撃</b> <%= @dragon["base_attack"] %>; <b>CMB</b> <%= @dragon["cmb"] %>; <b>CMD</b> <%= @dragon["cmd"] %><br />
-<b>特技数</b> <%= @dragon["feet_count"] %><br />
-<b>ヒット・ダイス毎のランク数</b> <%= @dragon["skill_per_rank"] %>; <b>総ランク数</b> <%= @dragon["skill_sum_rank"] %><%
+<b><%= t(:label_str) %></b> <%= @dragon["str"] %>, <b><%= t(:label_dex) %></b> <%= @dragon["dex"] %>, <b><%= t(:label_con) %></b> <%= @dragon["con"] %>, <b><%= t(:label_int) %></b> <%= @dragon["int"] %>, <b><%= t(:label_wis) %></b> <%= @dragon["wis"] %>, <b><%= t(:label_cha) %></b> <%= @dragon["chr"] %><br />
+<b><%= t(:label_base_atk) %></b> <%= @dragon["base_attack"] %>; <b><%= t(:label_cmb) %></b> <%= @dragon["cmb"] %>; <b><%= t(:label_cmd) %></b> <%= @dragon["cmd"] %><br />
+<b><%= t(:label_feat_count) %></b> <%= @dragon["feet_count"] %><br />
+<b><%= t(:label_skill_ranks_per_hit_dice) %></b> <%= @dragon["skill_per_rank"] %>; <b><%= t(:label_skill_total_ranks) %></b> <%= @dragon["skill_sum_rank"] %><%
 if @dragon["racial_modifer"] != ""
-%>; <b>種族修正</b> <%= @dragon["racial_modifer"] %><br /><%
+%>; <b><%= t(:label_racial_modifiers) %></b> <%= @dragon["racial_modifer"] %><br /><%
 else
 %><br />
 <% end %>
-<b>言語</b> <%= @dragon["language"] %>; <b>追加言語数</b> <%= @dragon["language_count"] %><br />
+<b><%= t(:label_language) %></b> <%= @dragon["language"] %>; <b>追加言語数</b> <%= @dragon["language_count"] %><br />
 <% if @dragon["sq"] != "" %>
-<b>その他の特殊能力</b> <%= @dragon["sq"] %>
+<b><%= t(:label_sq) %></b> <%= @dragon["sq"] %>
 <% end %>
 </p>
-<div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b>生態</b></div>
-<b>出現環境</b> <%= @dragon["environment"] %><br />
-<b>編成</b> <%= @dragon["organization"] %><br />
-<b>宝物</b> <%= @dragon["treasure"] %>
+<div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b><%= t(:label_ecology) %></b></div>
+<b><%= t(:label_environment) %></b> <%= @dragon["environment"] %><br />
+<b><%= t(:label_organization) %></b> <%= @dragon["organization"] %><br />
+<b><%= t(:label_treasure) %></b> <%= @dragon["treasure"] %>
 <% end %>

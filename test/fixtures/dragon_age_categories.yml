@@ -2,8 +2,8 @@
 
 Wyrmling:
   id: 1
-  age_category: 'ワームリング'
-  age_in_years: '0-5'
+  age_category: wyrmling
+  age_in_years: 0-5
   cr: 0
   size: 0
   hit_dice: 0
@@ -18,8 +18,8 @@ Wyrmling:
 
 Very young:
   id: 2
-  age_category: 'ヴェリー・ヤング'
-  age_in_years: '6-15'
+  age_category: very young
+  age_in_years: 6-15
   cr: 2
   size: 1
   hit_dice: 2
@@ -34,8 +34,8 @@ Very young:
 
 Young:
   id: 3
-  age_category: 'ヤング'
-  age_in_years: '16-25'
+  age_category: young
+  age_in_years: 16-25
   cr: 4
   size: 2
   hit_dice: 4
@@ -50,8 +50,8 @@ Young:
 
 Juvenile:
   id: 4
-  age_category: 'ジュヴナイル'
-  age_in_years: '26-50'
+  age_category: juvenile
+  age_in_years: 26-50
   cr: 5
   size: 2
   hit_dice: 6
@@ -66,8 +66,8 @@ Juvenile:
 
 Young adult:
   id: 5
-  age_category: 'ヤング・アダルト'
-  age_in_years: '51-100'
+  age_category: young adult
+  age_in_years: 51-100
   cr: 7
   size: 3
   hit_dice: 8
@@ -82,8 +82,8 @@ Young adult:
 
 Adult:
   id: 6
-  age_category: 'アダルト'
-  age_in_years: '101-200'
+  age_category: adult
+  age_in_years: 101-200
   cr: 8
   size: 3
   hit_dice: 10
@@ -98,8 +98,8 @@ Adult:
 
 Mature adult:
   id: 7
-  age_category: 'マチュア・アダルト'
-  age_in_years: '201-400'
+  age_category: mature adult
+  age_in_years: 201-400
   cr: 9
   size: 3
   hit_dice: 12
@@ -114,8 +114,8 @@ Mature adult:
 
 Old:
   id: 8
-  age_category: 'オールド'
-  age_in_years: '401-600'
+  age_category: old
+  age_in_years: 401-600
   cr: 11
   size: 4
   hit_dice: 14
@@ -130,8 +130,8 @@ Old:
 
 Very old:
   id: 9
-  age_category: 'ヴェリー・オールド'
-  age_in_years: '601-800'
+  age_category: very old
+  age_in_years: 601-800
   cr: 12
   size: 4
   hit_dice: 16
@@ -146,8 +146,8 @@ Very old:
 
 Ancient:
   id: 10
-  age_category: 'エインシャント'
-  age_in_years: '801-1000'
+  age_category: ancient
+  age_in_years: 801-1000
   cr: 13
   size: 4
   hit_dice: 18
@@ -162,8 +162,8 @@ Ancient:
 
 Wyrm:
   id: 11
-  age_category: 'ワーム'
-  age_in_years: '1001-1200'
+  age_category: wyrm
+  age_in_years: 1001-1200
   cr: 14
   size: 4
   hit_dice: 20
@@ -178,8 +178,8 @@ Wyrm:
 
 Great wyrm:
   id: 12
-  age_category: 'グレート・ワーム'
-  age_in_years: '1200+'
+  age_category: great wyrm
+  age_in_years: 1200+
   cr: 16
   size: 5
   hit_dice: 22

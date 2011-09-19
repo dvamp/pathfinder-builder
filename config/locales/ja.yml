@@ -1,0 +1,113 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+# Japanese strings go here for Rails i18n
+ja:
+  label_dragon_race: ドラゴンの種類
+  label_age_category: ドラゴンの年齢段階
+  label_language: 言語
+  label_en: 英語
+  label_ja: 日本語
+  label_build: 生成
+  label_building: 生成中
+  label_xp: XP
+  label_dragon: 竜
+  label_cold: 冷気
+  label_init: イニシアチブ
+  label_senses: 感覚
+  label_aura: オーラ
+  label_defense: 防御
+  label_ac: AC
+  label_touch: 接触
+  label_flat_footed: 立ちすくみ
+  label_natural: 外皮
+  label_size: サイズ
+  label_hp: hp
+  label_fort: 頑健
+  label_ref: 反応
+  label_will: 意志
+  label_defensive_abilities: 防御的能力
+  label_dr: DR
+  label_immune: 完全耐性
+  label_sr: SR
+  label_weaknesses: 弱点
+  label_offense: 攻撃
+  label_speed: 移動速度
+  label_melee: 近接
+  label_space: 接敵面
+  label_reach: 間合い
+  label_reach_with_bite: 噛みつきの間合い
+  label_special_attacks: 特殊攻撃
+  label_spell_like_abilities: 擬似呪文能力
+  label_at_will: 回数無制限
+  label_spells_known: 修得呪文
+  label_concentration: 精神集中
+  label_statistics: 一般データ
+  label_str: 【筋】
+  label_dex: 【敏】
+  label_con: 【耐】
+  label_int: 【知】
+  label_wis: 【判】
+  label_cha: 【魅】
+  label_base_atk: 基本攻撃
+  label_cmb: CMB
+  label_cmd: CMD
+  label_feat_count: 特技数
+  label_skill_ranks_per_hit_dice: ヒット・ダイス毎のスキルランク数
+  label_skill_total_ranks: 総スキルランク数
+  label_racial_modifiers: 種族修正
+  label_languages: 言語
+  label_draconic: 竜語
+  label_sq: その他の特殊能力
+  label_ecology: 生態
+  label_environment: 出現環境
+  label_organization: 編成
+  label_treasure: 宝物
+
+  models:
+    dragon_race:
+      name:
+        green: グリーン
+        black: ブラック
+        blue: ブルー
+        white: ホワイト
+        red: レッド
+        copper: カッパー
+        gold: ゴールド
+        silver: シルヴァー
+        brass: ブラス
+        bronze: ブロンズ
+      creature_category:
+        dragon: 竜
+      creature_subcategory:
+        air: 風
+        cold: 冷気
+        earth: 地
+        fire: 火
+        water: 水
+    dragon_age_category:
+      age_category:
+        wyrmling: ワームリング
+        very young: ヴェリー・ヤング
+        young: ヤング
+        juvenile: ジュヴナイル
+        young adult: ヤング・アダルト
+        adult: アダルト
+        mature young: マチュア・アダルト
+        old: オールド
+        very old: ヴェリー・オールド
+        ancient: エインシャント
+        wyrm: ワーム
+        great wyrm: グレート・ワーム
+    dragon_race_age:
+      sense:
+        dragon senses: 竜の超感覚
+        fog vision: 霧の見通し
+        smoke vision: 煙の見通し
+        snow vision: 雪の見通し
+
+  label_strength: 筋力
+  label_dexterity: 敏捷力
+  label_constitution: 耐久力
+  label_intelligence: 知力
+  label_wisdom: 判断力
+  label_charisma: 魅力

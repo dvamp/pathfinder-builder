@@ -1,5 +1,113 @@
 # Sample localization file for English. Add more files in this directory for other locales.
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
-
+# English strings go here for Rails i18n
 en:
-  hello: "Hello world"
+  label_dragon_race: Dragon Races
+  label_age_category: Age Categories
+  label_language: Language
+  label_en: English
+  label_ja: Japanese
+  label_build: Build
+  label_building: Building
+  label_xp: XP
+  label_dragon: dragon
+  label_cold: cold
+  label_init: Init
+  label_senses: Senses
+  label_aura: Aura
+  label_defense: DEFENSE
+  label_ac: AC
+  label_touch: touch
+  label_flat_footed: flat-footed
+  label_natural: natural
+  label_size: size
+  label_hp: hp
+  label_fort: Fort
+  label_ref: Ref
+  label_will: Will
+  label_defensive_abilities: Defensive Abilities
+  label_dr: DR
+  label_immune: Immune
+  label_sr: SR
+  label_weaknesses: Weaknesses
+  label_offense: OFFENSE
+  label_speed: Speed
+  label_melee: Melee
+  label_space: Space
+  label_reach: Reach
+  label_reach_with_bite: with bite
+  label_special_attacks: Special Attacks
+  label_spell_like_abilities: Spell-Like Abilities
+  label_concentration: concentration
+  label_at_will: At will
+  label_spells_known: Spells Known
+  label_statistics: STATISTICS
+  label_str: Str
+  label_dex: Dex
+  label_con: Con
+  label_int: Int
+  label_wis: Wis
+  label_cha: Cha
+  label_base_atk: Base Atk
+  label_cmb: CMB
+  label_cmd: CMD
+  label_feat_count: Feat
+  label_skill_ranks_per_hit_dice: Skill Ranks per Hit Dice
+  label_skill_total_ranks: Skill total Ranks
+  label_racial_modifiers: Racial Modifiers
+  label_languages: Languages
+  label_draconic: Draconic
+  label_sq: SQ
+  label_ecology: ECOLOGY
+  label_environment: Environment
+  label_organization: Organization
+  label_treasure: Treasure
+
+  models:
+    dragon_race:
+      name:
+        green: Green
+        black: Black
+        blue: Blue
+        white: White
+        red: Red
+        copper: Copper
+        gold: Gold
+        silver: Silver
+        brass: Brass
+        bronze: Bronze
+      creature_category:
+        dragon: dragon
+      creature_subcategory:
+        air: air
+        cold: cold
+        earth: earth
+        fire: fire
+        water: water
+    dragon_age_category:
+      age_category:
+        wyrmling: Wyrmling
+        very young: Very Young
+        young: Young
+        juvenile: Juvenile
+        young adult: Young Adult
+        adult: Adult
+        mature young: Mature Adult
+        old: Old
+        very old: Very Old
+        ancient: Ancient
+        wyrm: Wyrm
+        great wyrm: Great Wyrm
+    dragon_race_age:
+      sense:
+        dragon senses: dragon senses
+        fog vision: fog vision
+        smoke vision: smoke vision
+        snow vision: snow vision
+
+  label_strength: 筋力
+  label_dexterity: 敏捷力
+  label_constitution: 耐久力
+  label_intelligence: 知力
+  label_wisdom: 判断力
+  label_charisma: 魅力

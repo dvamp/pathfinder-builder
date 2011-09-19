@@ -3,18 +3,18 @@
 Green:
   id: 1
   category_id: 1
-  name: グリーン
-  alignment: 秩序にして悪
-  creature_category: 竜
-  creature_subcategory: 風
+  name: green
+  alignment: LE
+  creature_category: dragon
+  creature_subcategory: air
   cr: 4
   size: 4
   hit_dice: 5
   immune: ［酸］、麻痺、睡眠
   weakness: ""
-  land_speed: "40ft."
+  land_speed: 40ft.
   burrow_speed: ""
-  swim_speed: "40ft."
+  swim_speed: 40ft.
   natural_armor: 4
   breath_shape: 円錐形
   breath_damage_num: 2
@@ -26,7 +26,7 @@ Green:
   int: 10
   wis: 11
   chr: 10
-  racial_modifer: "+8 〈水泳〉"
+  racial_modifer: +8 〈水泳〉
   language: 竜語
   env: 温暖/森林
   organization: 単体
@@ -35,18 +35,18 @@ Green:
 Black:
   id: 2
   category_id: 1
-  name: ブラック
-  alignment: 混沌にして悪
-  creature_category: 竜
-  creature_subcategory: 水
+  name: black
+  alignment: CE
+  creature_category: dragon
+  creature_subcategory: water
   cr: 3
   size: 3
   hit_dice: 4
   immune: ［酸］、麻痺、睡眠
   weakness: ""
-  land_speed: "60ft."
+  land_speed: 60ft.
   burrow_speed: ""
-  swim_speed: "60ft."
+  swim_speed: 60ft.
   natural_armor: 3
   breath_shape: 直線状
   breath_damage_num: 2
@@ -58,7 +58,7 @@ Black:
   int: 8
   wis: 11
   chr: 8
-  racial_modifer: "+8 〈水泳〉"
+  racial_modifer: +8 〈水泳〉
   language: 竜語
   env: 暑熱/湿地
   organization: 単体
@@ -67,17 +67,17 @@ Black:
 Blue:
   id: 3
   category_id: 1
-  name: ブルー
-  alignment: 秩序にして悪
-  creature_category: 竜
-  creature_subcategory: 地
+  name: blue
+  alignment: LE
+  creature_category: dragon
+  creature_subcategory: earth
   cr: 5
   size: 4
   hit_dice: 6
   immune: ［電気］、麻痺、睡眠
   weakness: ""
-  land_speed: "40ft."
-  burrow_speed: "20ft."
+  land_speed: 40ft.
+  burrow_speed: 20ft.
   swim_speed: ""
   natural_armor: 5
   breath_shape: 直線状
@@ -99,18 +99,18 @@ Blue:
 White:
   id: 4
   category_id: 1
-  name: ホワイト
-  alignment: 混沌にして悪
-  creature_category: 竜
-  creature_subcategory: 冷気
+  name: white
+  alignment: CE
+  creature_category: dragon
+  creature_subcategory: cold
   cr: 2
   size: 3
   hit_dice: 3
   immune: ［冷気］、麻痺、睡眠
   weakness: ［火］に対する脆弱性
-  land_speed: "60ft."
-  burrow_speed: "30ft."
-  swim_speed: "60ft."
+  land_speed: 60ft.
+  burrow_speed: 30ft.
+  swim_speed: 60ft.
   natural_armor: 2
   breath_shape: 円錐形
   breath_damage_num: 2
@@ -122,7 +122,7 @@ White:
   int: 6
   wis: 9
   chr: 6
-  racial_modifer: "+8 〈水泳〉"
+  racial_modifer: +8 〈水泳〉
   language: 竜語
   env: 寒冷/山岳
   organization: 単体
@@ -131,16 +131,16 @@ White:
 Red:
   id: 5
   category_id: 1
-  name: レッド
-  alignment: 混沌にして悪
-  creature_category: 竜
-  creature_subcategory: 火
+  name: red
+  alignment: CE
+  creature_category: dragon
+  creature_subcategory: fire
   cr: 6
   size: 4
   hit_dice: 7
   immune: ［火］、麻痺、睡眠
   weakness: ［冷気］に対する脆弱性
-  land_speed: "40ft."
+  land_speed: 40ft.
   burrow_speed: ""
   swim_speed: ""
   natural_armor: 6
@@ -163,16 +163,16 @@ Red:
 Copper:
   id: 6
   category_id: 2
-  name: カッパー
-  alignment: 混沌にして善
-  creature_category: 竜
-  creature_subcategory: 地
+  name: copper
+  alignment: CG
+  creature_category: dragon
+  creature_subcategory: earth
   cr: 4
   size: 3
   hit_dice: 5
   immune: ［酸］、麻痺、睡眠
   weakness: ""
-  land_speed: "40ft."
+  land_speed: 40ft.
   burrow_speed: ""
   swim_speed: ""
   natural_armor: 4
@@ -195,18 +195,18 @@ Copper:
 Gold:
   id: 7
   category_id: 2
-  name: ゴールド
-  alignment: 秩序にして善
-  creature_category: 竜
-  creature_subcategory: 火
+  name: gold
+  alignment: LG
+  creature_category: dragon
+  creature_subcategory: fire
   cr: 7
   size: 4
   hit_dice: 8
   immune: ［火］、麻痺、睡眠
   weakness: ［冷気］に対する脆弱性
-  land_speed: "60ft."
+  land_speed: 60ft.
   burrow_speed: ""
-  swim_speed: "60ft."
+  swim_speed: 60ft.
   natural_armor: 7
   breath_shape: 円錐形
   breath_damage_num: 2
@@ -218,40 +218,40 @@ Gold:
   int: 14
   wis: 15
   chr: 14
-  racial_modifer: "+8 〈水泳〉"
+  racial_modifer: +8 〈水泳〉
   language: 竜語
   env: 暑熱/平地
   organization: 単体
   treasure: x3
 
-#Silver:
-#  id: 8
-#  category_id: 2
-#  name: シルヴァー
-#  alignment: 秩序にして善
-#  creature_category: 竜
-#  creature_subcategory: 氷
-#  cr: 6
-#  size: 4
-#  hit_dice: 7
-#  immune: ［酸］、［冷気］、麻痺、睡眠
-#  weakness: ［火］に対する脆弱性
-#  land_speed: "40ft."
-#  burrow_speed: ""
-#  swim_speed: ""
-#  natural_armor: 6
-#  breath_shape: 円錐形
-#  breath_damage_num: 2
-#  breath_damage_dice: d8
-#  breath_category: 冷気
-#  str: 13
-#  dex: 14
-#  con: 13
-#  int: 14
-#  wis: 15
-#  chr: 14
-#  racial_modifer: ""
-#  language: 竜語
-#  env: 温暖/山岳
-#  organization: 単体
-#  treasure: x3
+Silver:
+  id: 8
+  category_id: 2
+  name: silver
+  alignment: LG
+  creature_category: dragon
+  creature_subcategory: cold
+  cr: 6
+  size: 4
+  hit_dice: 7
+  immune: ［酸］、［冷気］、麻痺、睡眠
+  weakness: ［火］に対する脆弱性
+  land_speed: 40ft.
+  burrow_speed: ""
+  swim_speed: ""
+  natural_armor: 6
+  breath_shape: 円錐形
+  breath_damage_num: 2
+  breath_damage_dice: d8
+  breath_category: cold
+  str: 13
+  dex: 14
+  con: 13
+  int: 14
+  wis: 15
+  chr: 14
+  racial_modifer: ""
+  language: 竜語
+  env: 温暖/山岳
+  organization: 単体
+  treasure: x3
