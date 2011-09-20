@@ -91,7 +91,10 @@ if @dragon["racial_modifer"] != ""
 else
 %><br />
 <% end %>
-<b><%= t(:label_language) %></b> <%= @dragon["language"] %>; <b>追加言語数</b> <%= @dragon["language_count"] %><br />
+<b><%= t(:label_languages) %></b> <%= @dragon["language"] %><%
+if @dragon["language_count"] > 0
+  %>, <%= @dragon["language_count"] %> <%= t(:label_languages_more) %><br /><%
+end %>
 <% if @dragon["sq"] != "" %>
 <b><%= t(:label_sq) %></b> <%= @dragon["sq"] %>
 <% end %>

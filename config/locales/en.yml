@@ -19,6 +19,7 @@ en:
   label_ac: AC
   label_touch: touch
   label_flat_footed: flat-footed
+  label_small_dex: dex
   label_natural: natural
   label_size: size
   label_hp: hp
@@ -32,15 +33,25 @@ en:
   label_weaknesses: Weaknesses
   label_offense: OFFENSE
   label_speed: Speed
+  label_burrow: burrow
+  label_swim: swim
+  label_fly: fly
   label_melee: Melee
+  label_bite: bite
+  label_plus: plus
+  label_claws: 2 claws
+  label_wings: 2 wings
+  label_tail_slap: tail slap
   label_space: Space
   label_reach: Reach
   label_reach_with_bite: with bite
   label_special_attacks: Special Attacks
+  label_radius: radius
   label_spell_like_abilities: Spell-Like Abilities
   label_concentration: concentration
   label_at_will: At will
   label_spells_known: Spells Known
+  label_concentration: concentration
   label_statistics: STATISTICS
   label_str: Str
   label_dex: Dex
@@ -51,11 +62,13 @@ en:
   label_base_atk: Base Atk
   label_cmb: CMB
   label_cmd: CMD
+  label_cmd_vs_trip: vs. trip
   label_feat_count: Feat
   label_skill_ranks_per_hit_dice: Skill Ranks per Hit Dice
   label_skill_total_ranks: Skill total Ranks
   label_racial_modifiers: Racial Modifiers
   label_languages: Languages
+  label_languages_more: more
   label_draconic: Draconic
   label_sq: SQ
   label_ecology: ECOLOGY
@@ -84,6 +97,41 @@ en:
         earth: earth
         fire: fire
         water: water
+      immune:
+        acid: acid
+        cold: cold
+        electricity: electricity
+        fire: fire
+        paralysis: paralysis
+        sleep: sleep
+      weakness:
+        cold: vulnerability to cold
+        fire: vulnerability to fire
+      breath_shape:
+        cone: cone
+        line: line
+      breath_category:
+        acid: acid
+        cold: cold
+        electricity: electricity
+        fire: fire
+      racial_modifer:
+        swim: Swim
+      language:
+        draconic: Draconic
+      env:
+        temperate forests: temperate forests
+        warm marshes: warm marshes
+        warm deserts: warm deserts
+        cold mountains: cold mountains
+        warm mountains: warm mountains
+        warm hills: warm hills
+        warm plains: warm plains
+        temperate mountains: temperate mountains
+      organization:
+        solitary: solitary
+      treasure:
+        triple: triple
     dragon_age_category:
       age_category:
         wyrmling: Wyrmling
@@ -104,6 +152,120 @@ en:
         fog vision: fog vision
         smoke vision: smoke vision
         snow vision: snow vision
+      aura:
+        frightful presence: frightful presence
+        slow aura: slow
+      defensive_ability:
+        uncanny dodge: uncanny dodge
+        reflective scales: reflective scales
+        true courage: true courage
+      dr:
+        magic: magic
+      additional_move:
+        climb stone: climb stone
+        cloudwalking: cloudwalking
+        graceful flight: graceful flight
+      special_attack:
+        breath weapon: breath weapon
+        miasma: miasma
+        awaken treants: awaken treants
+        corrupt water: corrupt water
+        acidic bite: acidic bite
+        acid pool: acid pool
+        desert thirst: desert thirst
+        mirage: mirage
+        storm breath: storm breath
+        sandstorm: sandstorm
+        freezing fog: freezing fog
+        blizzard: blizzard
+        ice tomb: ice tomb
+        manipulate flames: manipulate flames
+        melt stone: melt stone
+        incinerate: incinerate
+        slow breath: slow breath
+        mass laughter: mass laughter
+        deadly joke: deadly joke
+        weakening breath: weakening breath
+        paralyzing breath: paralyzing breath
+        crush: crush
+        tail sweep: tail sweep
+      sp:
+        entangle: entangle
+        charm person: charm person
+        suggestion: suggestion
+        plant growth: plant growth
+        dominate person: dominate person
+        command plants: command plants
+        darkness: darkness
+        insect plague: insect plague
+        ghost sound: ghost sound
+        minor image: minor image
+        ventriloquism: ventriloquism
+        hallucinatory terrain: hallucinatory terrain
+        veil: veil
+        mirage arcana: mirage arcana
+        fog cloud: fog cloud
+        gust of wind: gust of wind
+        wall of ice: wall of ice
+        control weather: control weather
+        detect magic: detect magic
+        pyrotechnics: pyrotechnics
+        wall of fire: wall of fire
+        find the path: find the path
+        discern location: discern location
+        grease: grease
+        hideous laughter: hideous laughter
+        stone shape: stone shape
+        transmute rock/mud: transmute mud to rock, transmute rock to mud
+        wall of stone: wall of stone
+        move earth: move earth
+        detect evil: detect evil
+        bless: bless
+        daylight: daylight
+        geas/quest: geas/quest
+        sunburst: sunburst
+        foresight: foresight
+        feather fall: feather fall
+        control winds: control winds
+        reverse gravity: reverse gravity
+      caster_source:
+        cleric: cleric
+        sorcerer: sorcerer
+      sq:
+        water breathing: water breathing
+        woodland stride: woodland stride
+        trackless step: trackless step
+        camouflage: camouflage
+        swamp stride: swamp stride
+        speak with reptiles: speak with reptiles
+        charm reptiles: charm reptiles
+        sound imitation: sound imitation
+        icewalking: icewalking
+        ice shape: ice shape
+        trap master: trap master
+        change shape: change shape
+        fast flight: fast flight
+        detect gems: detect gems
+        luck: luck
+        divine aid: divine aid
+    size_category:
+      name:
+        fine: Fine
+        diminutive: Diminutive
+        tiny: Tiny
+        small: Small
+        medium: Medium
+        large: Large
+        huge: Huge
+        gargantuan: Gargantuan
+        colossal: Colossal
+    fly_muverabillity:
+      name:
+        perfect: perfect
+        good: good
+        average: average
+        poor: poor
+        clumsy: clumsy
 
   label_strength: 筋力
   label_dexterity: 敏捷力

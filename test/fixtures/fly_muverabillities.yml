@@ -2,25 +2,20 @@
 
 Perfect:
   id: 1
-#  name: Perfect
-  name: 完璧
+  name: perfect
 
 Good:
   id: 2
-#  name: Good
-  name: 良好
+  name: good
 
 Average:
   id: 3
-#  name: Average
-  name: 標準
+  name: average
 
 Poor:
   id: 4
-#  name: Poor
-  name: 貧弱
+  name: poor
 
 Clumsy:
   id: 5
-#  name: Clumsy
-  name: 劣悪
+  name: clumsy

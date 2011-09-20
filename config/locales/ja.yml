@@ -19,6 +19,7 @@ ja:
   label_ac: AC
   label_touch: 接触
   label_flat_footed: 立ちすくみ
+  label_small_dex: 【敏】
   label_natural: 外皮
   label_size: サイズ
   label_hp: hp
@@ -32,11 +33,21 @@ ja:
   label_weaknesses: 弱点
   label_offense: 攻撃
   label_speed: 移動速度
+  label_burrow: 穴掘り
+  label_swim: 水泳
+  label_fly: 飛行
+  label_melee: 近接
+  label_bite: 噛みつき
+  label_plus: 加えて
+  label_claws: 爪(x2)
+  label_wings: 翼(x2)
+  label_tail_slap: 尾の打撃
   label_melee: 近接
   label_space: 接敵面
   label_reach: 間合い
   label_reach_with_bite: 噛みつきの間合い
   label_special_attacks: 特殊攻撃
+  label_radius: 半径
   label_spell_like_abilities: 擬似呪文能力
   label_at_will: 回数無制限
   label_spells_known: 修得呪文
@@ -51,11 +62,13 @@ ja:
   label_base_atk: 基本攻撃
   label_cmb: CMB
   label_cmd: CMD
+  label_cmd_vs_trip: 対足払い
   label_feat_count: 特技数
   label_skill_ranks_per_hit_dice: ヒット・ダイス毎のスキルランク数
   label_skill_total_ranks: 総スキルランク数
   label_racial_modifiers: 種族修正
   label_languages: 言語
+  label_languages_more: 個
   label_draconic: 竜語
   label_sq: その他の特殊能力
   label_ecology: 生態
@@ -84,6 +97,41 @@ ja:
         earth: 地
         fire: 火
         water: 水
+      immune:
+        acid: ［酸］
+        cold: ［冷気］
+        electricity: ［電気］
+        fire: ［火］
+        paralysis: 麻痺
+        sleep: 睡眠
+      weakness:
+        cold: ［冷気］に対する脆弱性
+        fire: ［火］に対する脆弱性
+      breath_shape:
+        cone: 円錐形
+        line: 直線状
+      breath_category:
+        acid: ［酸］
+        cold: ［冷気］
+        electricity: ［電気］
+        fire: ［火］
+      racial_modifer:
+        swim: 〈水泳〉
+      language:
+        draconic: 竜語
+      env:
+        temperate forests: 温暖/森林
+        warm marshes: 暑熱/湿地
+        warm deserts: 暑熱/砂漠
+        cold mountains: 寒冷/山岳
+        warm mountains: 暑熱/山岳
+        warm hills: 暑熱/丘陵
+        warm plains: 暑熱/平地
+        temperate mountains: 温暖/山岳
+      organization:
+        solitary: 単体
+      treasure:
+        triple: x3
     dragon_age_category:
       age_category:
         wyrmling: ワームリング
@@ -104,6 +152,120 @@ ja:
         fog vision: 霧の見通し
         smoke vision: 煙の見通し
         snow vision: 雪の見通し
+      aura:
+        frightful presence: 畏怖すべき存在
+        slow aura: 減速化
+      defensive_ability:
+        uncanny dodge: 直感回避
+        reflective scales: 鱗による反射
+        true courage: 真の勇気
+      dr:
+        magic: 魔法
+      additional_move:
+        climb stone: 石登り
+        cloudwalking: 雲歩き
+        graceful flight: 優雅なる飛行
+      special_attack:
+        breath weapon: ブレス攻撃
+        miasma: 瘴気
+        awaken treants: トリエント覚醒
+        corrupt water: 水穢し
+        acidic bite: ［酸］の噛みつき
+        acid pool: ［酸］の溜り
+        desert thirst: 砂漠の渇き
+        mirage: 蜃気楼
+        storm breath: 嵐のブレス
+        sandstorm: 砂塵嵐
+        freezing fog: 氷結の霧
+        blizzard: 猛吹雪
+        ice tomb: 氷の墓標
+        manipulate flames: 炎の制御
+        melt stone: 溶岩
+        incinerate: 火葬
+        slow breath: 減速化のブレス
+        mass laughter: 大受け
+        deadly joke: アブないジョーク
+        weakening breath: 弱体化のブレス
+        paralyzing breath: 麻痺のブレス
+        crush: 押し潰し
+        tail sweep: 尾による一掃
+      sp:
+        entangle: エンタングル
+        charm person: チャーム・パースン
+        suggestion: サジェスチョン
+        plant growth: プラント・グロウス
+        dominate person: ドミネイト・パースン
+        command plants: コマンド・プランツ
+        darkness: ダークネス
+        insect plague: インセクト・プレイグ
+        ghost sound: ゴースト・サウンド
+        minor image: マイナー・イメージ
+        ventriloquism: ヴェントリロキズム
+        hallucinatory terrain: ハリューサナトリ・テレイン
+        veil: ヴェイル
+        mirage arcana: ミラージュ・アーケイナ
+        fog cloud: フォッグ・クラウド
+        gust of wind: ガスト・オヴ・ウィンド
+        wall of ice: ウォール・オヴ・アイス
+        control weather: コントロール・ウェザー
+        detect magic: ディテクト・マジック
+        pyrotechnics: パイロテクニクス
+        wall of fire: ウォール・オヴ・ファイアー
+        find the path: ファインド・ザ・パス
+        discern location: ディサーン・ロケーション
+        grease: グリース
+        hideous laughter: ヒディアス・ラフター
+        stone shape: ストーン・シェイプ
+        transmute rock/mud: トランスミュート・ロック・トゥ・マッド, トランスミュート・マッド・トゥ・ロック
+        wall of stone: ウォール・オヴ・ストーン
+        move earth: ムーヴ・アース
+        detect evil: ディテクト・イーヴル
+        bless: ブレス
+        daylight: デイライト
+        geas/quest: ギアス/クエスト
+        sunburst: サンバースト
+        foresight: フォアサイト
+        feather fall: フェザー・フォール
+        control winds: コントロール・ウィンズ
+        reverse gravity: リヴァース・グラヴィティ
+      caster_source:
+        cleric: クレリック
+        sorcerer: ソーサラー
+      sq:
+        water breathing: 水中呼吸
+        woodland stride: 森渡り
+        trackless step: 跡なき足取り
+        camouflage: カモフラージュ
+        swamp stride: 沼渡り
+        speak with reptiles: 爬虫類との会話
+        charm reptiles: 爬虫類魅惑
+        sound imitation: 音真似
+        icewalking: 氷上歩行
+        ice shape: 氷の形成
+        trap master: 罠の達人
+        change shape: 変身
+        fast flight: 高速飛行
+        detect gems: 宝石感知
+        luck: 幸運
+        divine aid: 神性の助力
+    size_category:
+      name:
+        fine: 微小サイズ
+        diminutive: 
+        tiny: 超小型サイズ
+        small: 小型サイズ
+        medium: 中型サイズ
+        large: 大型サイズ
+        huge: 超大型サイズ
+        gargantuan: 巨大サイズ
+        colossal: 超巨大サイズ
+    fly_muverabillity:
+      name:
+        perfect: 完璧
+        good: 良好
+        average: 標準
+        poor: 貧弱
+        clumsy: 劣悪
 
   label_strength: 筋力
   label_dexterity: 敏捷力

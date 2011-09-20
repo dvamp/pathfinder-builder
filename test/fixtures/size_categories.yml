@@ -2,7 +2,7 @@
 
 Fine:
   size_id: 1
-  name: 極小
+  name: fine
   pose: ""
   ba_size_modifer: 8
   cmb_size_modifer: -8
@@ -22,7 +22,7 @@ Fine:
 
 Diminutive:
   size_id: 2
-  name: 微小
+  name: diminutive
   pose: ""
   ba_size_modifer: 4
   cmb_size_modifer: -4
@@ -42,7 +42,7 @@ Diminutive:
 
 Tiny:
   size_id: 3
-  name: 超小型
+  name: tiny
   pose: ""
   ba_size_modifer: 2
   cmb_size_modifer: -2
@@ -62,7 +62,7 @@ Tiny:
 
 Small:
   size_id: 4
-  name: 小型
+  name: small
   pose: ""
   ba_size_modifer: 1
   cmb_size_modifer: -1
@@ -82,7 +82,7 @@ Small:
 
 Medium:
   size_id: 5
-  name: 中型
+  name: medium
   pose: ""
   ba_size_modifer: 0
   cmb_size_modifer: 0
@@ -102,7 +102,7 @@ Medium:
 
 Large tall:
   size_id: 6
-  name: 大型
+  name: large
   pose: 立ち
   ba_size_modifer: -1
   cmb_size_modifer: 1
@@ -122,7 +122,7 @@ Large tall:
 
 Large long:
   size_id: 6
-  name: 大型
+  name: large
   pose: 伏せ
   ba_size_modifer: -1
   cmb_size_modifer: 1
@@ -142,7 +142,7 @@ Large long:
 
 Huge tall:
   size_id: 7
-  name: 超大型
+  name: huge
   pose: 立ち
   ba_size_modifer: -2
   cmb_size_modifer: 2
@@ -162,7 +162,7 @@ Huge tall:
 
 Huge long:
   size_id: 7
-  name: 超大型
+  name: huge
   pose: 伏せ
   ba_size_modifer: -2
   cmb_size_modifer: 2
@@ -182,7 +182,7 @@ Huge long:
 
 Gargantuan tall:
   size_id: 8
-  name: 巨大
+  name: gargantuan
   pose: 立ち
   ba_size_modifer: -4
   cmb_size_modifer: 4
@@ -202,7 +202,7 @@ Gargantuan tall:
 
 Gargantuan long:
   size_id: 8
-  name: 巨大
+  name: gargantuan
   pose: 伏せ
   ba_size_modifer: -4
   cmb_size_modifer: 4
@@ -222,7 +222,7 @@ Gargantuan long:
 
 Colossal tall:
   size_id: 9
-  name: 超巨大
+  name: colossal
   pose: 立ち
   ba_size_modifer: -8
   cmb_size_modifer: 8
@@ -242,7 +242,7 @@ Colossal tall:
 
 Colossal long:
   size_id: 9
-  name: 超巨大
+  name: colossal
   pose: 伏せ
   ba_size_modifer: -8
   cmb_size_modifer: 8

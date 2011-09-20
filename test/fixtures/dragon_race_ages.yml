@@ -9,11 +9,11 @@ Green wyrmling:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
+  special_attack: breath weapon
   sp: ""
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 水中呼吸
+  caster_source: sorcerer
+  sq: water breathing
 
 Green very young:
   race_id: 1
@@ -24,11 +24,11 @@ Green very young:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
+  special_attack: breath weapon
   sp: ""
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 水中呼吸、森渡り
+  caster_source: sorcerer
+  sq: water breathing, woodland stride
 
 Green young:
   race_id: 1
@@ -39,146 +39,146 @@ Green young:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: エンタングル
+  special_attack: breath weapon
+  sp: entangle
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 水中呼吸、森渡り
+  caster_source: sorcerer
+  sq: water breathing, woodland stride
 
 Green juvenile:
   race_id: 1
   age_id: 4
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: エンタングル、チャーム・パースン
+  special_attack: breath weapon
+  sp: entangle, charm person
   caster_level: 1
-  caster_source: ソーサラー
-  sq: 水中呼吸、森渡り
+  caster_source: sorcerer
+  sq: water breathing, woodland stride
 
 Green young adult:
   race_id: 1
   age_id: 5
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: エンタングル、チャーム・パースン
+  special_attack: breath weapon
+  sp: entangle, charm person
   caster_level: 3
-  caster_source: ソーサラー
-  sq: 水中呼吸、森渡り
+  caster_source: sorcerer
+  sq: water breathing, woodland stride
 
 Green adult:
   race_id: 1
   age_id: 6
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: エンタングル、チャーム・パースン、サジェスチョン
+  special_attack: breath weapon
+  sp: entangle, charm person, suggestion
   caster_level: 5
-  caster_source: ソーサラー
-  sq: 水中呼吸、森渡り、跡なき足取り
+  caster_source: sorcerer
+  sq: water breathing, woodland stride, trackless step
 
 Green mature adult:
   race_id: 1
   age_id: 7
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: エンタングル、チャーム・パースン、サジェスチョン
+  special_attack: breath weapon
+  sp: entangle, charm person, suggestion
   caster_level: 7
-  caster_source: ソーサラー
-  sq: 水中呼吸、森渡り、跡なき足取り
+  caster_source: sorcerer
+  sq: water breathing, woodland stride, trackless step
 
 Green old:
   race_id: 1
   age_id: 8
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: エンタングル、チャーム・パースン、サジェスチョン、プラント・グロウス
+  special_attack: breath weapon
+  sp: entangle, charm person, suggestion, plant growth
   caster_level: 9
-  caster_source: ソーサラー
-  sq: 水中呼吸、森渡り、跡なき足取り、カモフラージュ
+  caster_source: sorcerer
+  sq: water breathing, woodland stride, trackless step, camouflage
 
 Green very old:
   race_id: 1
   age_id: 9
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 15/魔法
+  dr: 15/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: エンタングル、チャーム・パースン、サジェスチョン、プラント・グロウス
+  special_attack: breath weapon
+  sp: entangle, charm person, suggestion, plant growth
   caster_level: 11
-  caster_source: ソーサラー
-  sq: 水中呼吸、森渡り、跡なき足取り、カモフラージュ
+  caster_source: sorcerer
+  sq: water breathing, woodland stride, trackless step, camouflage
 
 Green ancient:
   race_id: 1
   age_id: 10
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 15/魔法
+  dr: 15/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Miasma
-  sp: エンタングル、チャーム・パースン、サジェスチョン、プラント・グロウス、ドミネイト・パースン
+  special_attack: breath weapon, miasma
+  sp: entangle, charm person, suggestion, plant growth, dominate person
   caster_level: 13
-  caster_source: ソーサラー
-  sq: 水中呼吸、森渡り、跡なき足取り、カモフラージュ
+  caster_source: sorcerer
+  sq: water breathing, woodland stride, trackless step, camouflage
 
 Green wyrm:
   race_id: 1
   age_id: 11
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 20/魔法
+  dr: 20/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Miasma
-  sp: エンタングル、チャーム・パースン、サジェスチョン、プラント・グロウス、ドミネイト・パースン
+  special_attack: breath weapon, miasma
+  sp: entangle, charm person, suggestion, plant growth, dominate person
   caster_level: 15
-  caster_source: ソーサラー
-  sq: 水中呼吸、森渡り、跡なき足取り、カモフラージュ
+  caster_source: sorcerer
+  sq: water breathing, woodland stride, trackless step, camouflage
 
 Green great wyrm:
   race_id: 1
   age_id: 12
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 20/魔法
+  dr: 20/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Miasma, Awaken treants
-  sp: エンタングル、チャーム・パースン、サジェスチョン、プラント・グロウス、ドミネイト・パースン、コマンド・プランツ
+  special_attack: breath weapon, miasma, awaken treants
+  sp: entangle, charm person, suggestion, plant growth, dominate person, command plants
   caster_level: 17
-  caster_source: ソーサラー
-  sq: 水中呼吸、森渡り、跡なき足取り、カモフラージュ
+  caster_source: sorcerer
+  sq: water breathing, woodland stride, trackless step, camouflage
 
 Black wyrmling:
   race_id: 2
@@ -189,11 +189,11 @@ Black wyrmling:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
+  special_attack: breath weapon
   sp: ""
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 水中呼吸
+  caster_source: sorcerer
+  sq: water breathing
 
 Black very young:
   race_id: 2
@@ -204,11 +204,11 @@ Black very young:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
+  special_attack: breath weapon
   sp: ""
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 水中呼吸、沼渡り
+  caster_source: sorcerer
+  sq: water breathing, swamp stride
 
 Black young:
   race_id: 2
@@ -219,11 +219,11 @@ Black young:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
+  special_attack: breath weapon
   sp: ""
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 水中呼吸、沼渡り、爬虫類との会話
+  caster_source: sorcerer
+  sq: water breathing, swamp stride, speak with reptiles
 
 Black juvenile:
   race_id: 2
@@ -234,11 +234,11 @@ Black juvenile:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: ダークネス
+  special_attack: breath weapon
+  sp: darkness
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 水中呼吸、沼渡り、爬虫類との会話
+  caster_source: sorcerer
+  sq: water breathing, swamp stride, speak with reptiles
 
 Black young adult:
   race_id: 2
@@ -246,119 +246,119 @@ Black young adult:
   sense: dragon senses
   aura: ""
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: ダークネス
+  special_attack: breath weapon
+  sp: darkness
   caster_level: 1
-  caster_source: ソーサラー
-  sq: 水中呼吸、沼渡り、爬虫類との会話
+  caster_source: sorcerer
+  sq: water breathing, swamp stride, speak with reptiles
 
 Black adult:
   race_id: 2
   age_id: 6
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Corrupt water
-  sp: ダークネス
+  special_attack: breath weapon, corrupt water
+  sp: darkness
   caster_level: 3
-  caster_source: ソーサラー
-  sq: 水中呼吸、沼渡り、爬虫類との会話
+  caster_source: sorcerer
+  sq: water breathing, swamp stride, speak with reptiles
 
 Black mature adult:
   race_id: 2
   age_id: 7
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Corrupt water
-  sp: ダークネス
+  special_attack: breath weapon, corrupt water
+  sp: darkness
   caster_level: 5
-  caster_source: ソーサラー
-  sq: 水中呼吸、沼渡り、爬虫類との会話
+  caster_source: sorcerer
+  sq: water breathing, swamp stride, speak with reptiles
 
 Black old:
   race_id: 2
   age_id: 8
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Corrupt water, Acidic bite
-  sp: ダークネス、プラント・グロウス
+  special_attack: breath weapon, corrupt water, acidic bite
+  sp: darkness, plant growth
   caster_level: 7
-  caster_source: ソーサラー
-  sq: 水中呼吸、沼渡り、爬虫類との会話
+  caster_source: sorcerer
+  sq: water breathing, swamp stride, speak with reptiles
 
 Black very old:
   race_id: 2
   age_id: 9
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 15/魔法
+  dr: 15/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Corrupt water, Acidic bite
-  sp: ダークネス、プラント・グロウス
+  special_attack: breath weapon, corrupt water, acidic bite
+  sp: darkness, plant growth
   caster_level: 9
-  caster_source: ソーサラー
-  sq: 水中呼吸、沼渡り、爬虫類との会話
+  caster_source: sorcerer
+  sq: water breathing, swamp stride, speak with reptiles
 
 Black ancient:
   race_id: 2
   age_id: 10
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 15/魔法
+  dr: 15/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Corrupt water, Acidic bite, Acid pool
-  sp: ダークネス、プラント・グロウス、インセクト・プレイグ
+  special_attack: breath weapon, corrupt water, acidic bite, acid pool
+  sp: darkness, plant growth, insect plague
   caster_level: 11
-  caster_source: ソーサラー
-  sq: 水中呼吸、沼渡り、爬虫類との会話
+  caster_source: sorcerer
+  sq: water breathing, swamp stride, speak with reptiles
 
 Black wyrm:
   race_id: 2
   age_id: 11
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 20/魔法
+  dr: 20/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Corrupt water, Acidic bite, Acid pool
-  sp: ダークネス、プラント・グロウス、インセクト・プレイグ
+  special_attack: breath weapon, corrupt water, acidic bite, acid pool
+  sp: darkness, plant growth, insect plague
   caster_level: 13
-  caster_source: ソーサラー
-  sq: 水中呼吸、沼渡り、爬虫類との会話
+  caster_source: sorcerer
+  sq: water breathing, swamp stride, speak with reptiles
 
 Black great wyrm:
   race_id: 2
   age_id: 12
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 20/魔法
+  dr: 20/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Corrupt water, Acidic bite, Acid pool
-  sp: ダークネス、プラント・グロウス、インセクト・プレイグ
+  special_attack: breath weapon, corrupt water, acidic bite, acid pool
+  sp: darkness, plant growth, insect plague
   caster_level: 15
-  caster_source: ソーサラー
-  sq: 水中呼吸、沼渡り、爬虫類との会話、爬虫類魅惑
+  caster_source: sorcerer
+  sq: water breathing, swamp stride, speak with reptiles, charm reptiles
 
 Blue wyrmling:
   race_id: 3
@@ -369,10 +369,10 @@ Blue wyrmling:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon, Desert thirst
+  special_attack: breath weapon, desert thirst
   sp: ""
   caster_level: 0
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Blue very young:
@@ -384,11 +384,11 @@ Blue very young:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon, Desert thirst
+  special_attack: breath weapon, desert thirst
   sp: ""
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 音真似
+  caster_source: sorcerer
+  sq: sound imitation
 
 Blue young:
   race_id: 3
@@ -399,146 +399,146 @@ Blue young:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon, Desert thirst
-  sp: ゴースト・サウンド
+  special_attack: breath weapon, desert thirst
+  sp: ghost sound
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 音真似
+  caster_source: sorcerer
+  sq: sound imitation
 
 Blue juvenile:
   race_id: 3
   age_id: 4
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon, Desert thirst
-  sp: ゴースト・サウンド、マイナー・イメージ
+  special_attack: breath weapon, desert thirst
+  sp: ghost sound, minor image
   caster_level: 1
-  caster_source: ソーサラー
-  sq: 音真似
+  caster_source: sorcerer
+  sq: sound imitation
 
 Blue young adult:
   race_id: 3
   age_id: 5
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Desert thirst
-  sp: ゴースト・サウンド、マイナー・イメージ
+  special_attack: breath weapon, desert thirst
+  sp: ghost sound, minor image
   caster_level: 3
-  caster_source: ソーサラー
-  sq: 音真似
+  caster_source: sorcerer
+  sq: sound imitation
 
 Blue adult:
   race_id: 3
   age_id: 6
   sense: dragon senses
-  aura: Frightful presence, Electricity aura
+  aura: frightful presence, electricity aura
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Desert thirst
-  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム
+  special_attack: breath weapon, desert thirst
+  sp: ghost sound, minor image, ventriloquism
   caster_level: 5
-  caster_source: ソーサラー
-  sq: 音真似
+  caster_source: sorcerer
+  sq: sound imitation
 
 Blue mature adult:
   race_id: 3
   age_id: 7
   sense: dragon senses
-  aura: Frightful presence, Electricity aura
+  aura: frightful presence, electricity aura
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Desert thirst
-  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム
+  special_attack: breath weapon, desert thirst
+  sp: ghost sound, minor image, ventriloquism
   caster_level: 7
-  caster_source: ソーサラー
-  sq: 音真似
+  caster_source: sorcerer
+  sq: sound imitation
 
 Blue old:
   race_id: 3
   age_id: 8
   sense: dragon senses
-  aura: Frightful presence, Electricity aura
+  aura: frightful presence, electricity aura
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Desert thirst, Mirage
-  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム、ハリューサナトリ・テレイン
+  special_attack: breath weapon, desert thirst, mirage
+  sp: ghost sound, minor image, ventriloquism, hallucinatory terrain
   caster_level: 9
-  caster_source: ソーサラー
-  sq: 音真似
+  caster_source: sorcerer
+  sq: sound imitation
 
 Blue very old:
   race_id: 3
   age_id: 9
   sense: dragon senses
-  aura: Frightful presence, Electricity aura
+  aura: frightful presence, electricity aura
   defensive_ability: ""
-  dr: 15/魔法
+  dr: 15/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Desert thirst, Mirage
-  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム、ハリューサナトリ・テレイン
+  special_attack: breath weapon, desert thirst, mirage
+  sp: ghost sound, minor image, ventriloquism, hallucinatory terrain
   caster_level: 11
-  caster_source: ソーサラー
-  sq: 音真似
+  caster_source: sorcerer
+  sq: sound imitation
 
 Blue ancient:
   race_id: 3
   age_id: 10
   sense: dragon senses
-  aura: Frightful presence, Electricity aura
+  aura: frightful presence, electricity aura
   defensive_ability: ""
-  dr: 15/魔法
+  dr: 15/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Desert thirst, Mirage, Storm breath
-  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム、ハリューサナトリ・テレイン、ヴェイル
+  special_attack: breath weapon, desert thirst, mirage, storm breath
+  sp: ghost sound, minor image, ventriloquism, hallucinatory terrain, veil
   caster_level: 13
-  caster_source: ソーサラー
-  sq: 音真似
+  caster_source: sorcerer
+  sq: sound imitation
 
 Blue wyrm:
   race_id: 3
   age_id: 11
   sense: dragon senses
-  aura: Frightful presence, Electricity aura
+  aura: frightful presence, electricity aura
   defensive_ability: ""
-  dr: 20/魔法
+  dr: 20/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Desert thirst, Mirage, Storm breath
-  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム、ハリューサナトリ・テレイン、ヴェイル
+  special_attack: breath weapon, desert thirst, mirage, storm breath
+  sp: ghost sound, minor image, ventriloquism, hallucinatory terrain, veil
   caster_level: 15
-  caster_source: ソーサラー
-  sq: 音真似
+  caster_source: sorcerer
+  sq: sound imitation
 
 Blue great wyrm:
   race_id: 3
   age_id: 12
   sense: dragon senses
-  aura: Frightful presence, Electricity aura
+  aura: frightful presence, electricity aura
   defensive_ability: ""
-  dr: 20/魔法
+  dr: 20/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Desert thirst, Mirage, Storm breath, Sandstorm
-  sp: ゴースト・サウンド、マイナー・イメージ、ヴェントリロキズム、ハリューサナトリ・テレイン、ヴェイル、ミラージュ・アーケイナ
+  special_attack: breath weapon, desert thirst, mirage, storm breath, sandstorm
+  sp: ghost sound, minor image, ventriloquism, hallucinatory terrain, veil, mirage arcana
   caster_level: 17
-  caster_source: ソーサラー
-  sq: 音真似
+  caster_source: sorcerer
+  sq: sound imitation
 
 White wyrmling:
   race_id: 4
@@ -549,11 +549,11 @@ White wyrmling:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
+  special_attack: breath weapon
   sp: ""
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 氷上歩行
+  caster_source: sorcerer
+  sq: icewalking
 
 White very young:
   race_id: 4
@@ -564,11 +564,11 @@ White very young:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
+  special_attack: breath weapon
   sp: ""
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 氷上歩行
+  caster_source: sorcerer
+  sq: icewalking
 
 White young:
   race_id: 4
@@ -579,11 +579,11 @@ White young:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
+  special_attack: breath weapon
   sp: ""
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 氷上歩行、氷の形成
+  caster_source: sorcerer
+  sq: icewalking, ice shape
 
 White juvenile:
   race_id: 4
@@ -594,11 +594,11 @@ White juvenile:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: フォッグ・クラウド
+  special_attack: breath weapon
+  sp: fog cloud
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 氷上歩行、氷の形成
+  caster_source: sorcerer
+  sq: icewalking, ice shape
 
 White young adult:
   race_id: 4
@@ -606,119 +606,119 @@ White young adult:
   sense: dragon senses, snow vision
   aura: ""
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド
+  special_attack: breath weapon
+  sp: fog cloud, gust of wind
   caster_level: 0
-  caster_source: ソーサラー
-  sq: 氷上歩行、氷の形成
+  caster_source: sorcerer
+  sq: icewalking, ice shape
 
 White adult:
   race_id: 4
   age_id: 6
   sense: dragon senses, snow vision
-  aura: Cold aura, Frightful presence
+  aura: cold aura, frightful presence
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド
+  special_attack: breath weapon
+  sp: fog cloud, gust of wind
   caster_level: 1
-  caster_source: ソーサラー
-  sq: 氷上歩行、氷の形成
+  caster_source: sorcerer
+  sq: icewalking, ice shape
 
 White mature adult:
   race_id: 4
   age_id: 7
   sense: dragon senses, snow vision
-  aura: Cold aura, Frightful presence
+  aura: cold aura, frightful presence
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド
+  special_attack: breath weapon
+  sp: fog cloud, gust of wind
   caster_level: 3
-  caster_source: ソーサラー
-  sq: 氷上歩行、氷の形成
+  caster_source: sorcerer
+  sq: icewalking, ice shape
 
 White old:
   race_id: 4
   age_id: 8
   sense: dragon senses, snow vision
-  aura: Cold aura, Frightful presence
+  aura: cold aura, frightful presence
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Freezing fog
-  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド
+  special_attack: breath weapon, freezing fog
+  sp: fog cloud, gust of wind
   caster_level: 5
-  caster_source: ソーサラー
-  sq: 氷上歩行、氷の形成
+  caster_source: sorcerer
+  sq: icewalking, ice shape
 
 White very old:
   race_id: 4
   age_id: 9
   sense: dragon senses, snow vision
-  aura: Cold aura, Frightful presence
+  aura: cold aura, frightful presence
   defensive_ability: ""
-  dr: 15/魔法
+  dr: 15/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Freezing fog
-  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド
+  special_attack: breath weapon, freezing fog
+  sp: fog cloud, gust of wind
   caster_level: 7
-  caster_source: ソーサラー
-  sq: 氷上歩行、氷の形成
+  caster_source: sorcerer
+  sq: icewalking, ice shape
 
 White ancient:
   race_id: 4
   age_id: 10
   sense: dragon senses, snow vision
-  aura: Cold aura, Frightful presence
+  aura: cold aura, frightful presence
   defensive_ability: ""
-  dr: 15/魔法
+  dr: 15/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Freezing fog, Blizzard
-  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド、ウォール・オヴ・アイス
+  special_attack: breath weapon, freezing fog, blizzard
+  sp: fog cloud, gust of wind, control weather
   caster_level: 9
-  caster_source: ソーサラー
-  sq: 氷上歩行、氷の形成
+  caster_source: sorcerer
+  sq: icewalking, ice shape
 
 White wyrm:
   race_id: 4
   age_id: 11
   sense: dragon senses, snow vision
-  aura: Cold aura, Frightful presence
+  aura: cold aura, frightful presence
   defensive_ability: ""
-  dr: 20/魔法
+  dr: 20/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Freezing fog, Blizzard
-  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド、ウォール・オヴ・アイス
+  special_attack: breath weapon, freezing fog, blizzard
+  sp: fog cloud, gust of wind, control weather
   caster_level: 11
-  caster_source: ソーサラー
-  sq: 氷上歩行、氷の形成
+  caster_source: sorcerer
+  sq: icewalking, ice shape
 
 White great wyrm:
   race_id: 4
   age_id: 12
   sense: dragon senses, snow vision
-  aura: Cold aura, Frightful presence
+  aura: cold aura, frightful presence
   defensive_ability: ""
-  dr: 20/魔法
+  dr: 20/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Freezing fog, Blizzard, Ice tomb
-  sp: フォッグ・クラウド、ガスト・オヴ・ウィンド、ウォール・オヴ・アイス、コントロール・ウェザー
+  special_attack: breath weapon, freezing fog, blizzard, ice tomb
+  sp: fog cloud, gust of wind, control weather, control weather
   caster_level: 13
-  caster_source: ソーサラー
-  sq: 氷上歩行、氷の形成
+  caster_source: sorcerer
+  sq: icewalking, ice shape
 
 Red wyrmling:
   race_id: 5
@@ -729,10 +729,10 @@ Red wyrmling:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
+  special_attack: breath weapon
   sp: ""
   caster_level: 0
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Red very young:
@@ -744,10 +744,10 @@ Red very young:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
+  special_attack: breath weapon
   sp: ""
   caster_level: 0
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Red young:
@@ -759,145 +759,145 @@ Red young:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: ディテクト・マジック
+  special_attack: breath weapon
+  sp: detect magic
   caster_level: 1
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Red juvenile:
   race_id: 5
   age_id: 4
   sense: dragon senses, smoke vision
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: ディテクト・マジック、パイロテクニクス
+  special_attack: breath weapon
+  sp: detect magic, pyrotechnics
   caster_level: 3
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Red young adult:
   race_id: 5
   age_id: 5
   sense: dragon senses, smoke vision
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: ディテクト・マジック、パイロテクニクス
+  special_attack: breath weapon
+  sp: detect magic, pyrotechnics
   caster_level: 5
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Red adult:
   race_id: 5
   age_id: 6
   sense: dragon senses, smoke vision
-  aura: Frightful presence, Fire aura
+  aura: frightful presence, fire aura
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン
+  special_attack: breath weapon
+  sp: detect magic, pyrotechnics, suggestion
   caster_level: 7
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Red mature adult:
   race_id: 5
   age_id: 7
   sense: dragon senses, smoke vision
-  aura: Frightful presence, Fire aura
+  aura: frightful presence, fire aura
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon
-  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン
+  special_attack: breath weapon
+  sp: detect magic, pyrotechnics, suggestion
   caster_level: 9
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Red old:
   race_id: 5
   age_id: 8
   sense: dragon senses, smoke vision
-  aura: Frightful presence, Fire aura
+  aura: frightful presence, fire aura
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Manipulate flames
-  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン、ウォール・オヴ・ファイアー
+  special_attack: breath weapon, manipulate flames
+  sp: detect magic, pyrotechnics, suggestion, wall of fire
   caster_level: 11
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Red very old:
   race_id: 5
   age_id: 9
   sense: dragon senses, smoke vision
-  aura: Frightful presence, Fire aura
+  aura: frightful presence, fire aura
   defensive_ability: ""
-  dr: 15/魔法
+  dr: 15/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Manipulate flames
-  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン、ウォール・オヴ・ファイアー
+  special_attack: breath weapon, manipulate flames
+  sp: detect magic, pyrotechnics, suggestion, wall of fire
   caster_level: 13
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Red ancient:
   race_id: 5
   age_id: 10
   sense: dragon senses, smoke vision
-  aura: Frightful presence, Fire aura
+  aura: frightful presence, fire aura
   defensive_ability: ""
-  dr: 15/魔法
+  dr: 15/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Manipulate flames, Melt stone
-  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン、ウォール・オヴ・ファイアー、ファインド・ザ・パス
+  special_attack: breath weapon, manipulate flames, melt stone
+  sp: detect magic, pyrotechnics, suggestion, wall of fire, find the path
   caster_level: 15
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Red wyrm:
   race_id: 5
   age_id: 11
   sense: dragon senses, smoke vision
-  aura: Frightful presence, Fire aura
+  aura: frightful presence, fire aura
   defensive_ability: ""
-  dr: 20/魔法
+  dr: 20/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Manipulate flames, Melt stone
-  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン、ウォール・オヴ・ファイアー、ファインド・ザ・パス
+  special_attack: breath weapon, manipulate flames, melt stone
+  sp: detect magic, pyrotechnics, suggestion, wall of fire, find the path
   caster_level: 17
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Red great wyrm:
   race_id: 5
   age_id: 12
   sense: dragon senses, smoke vision
-  aura: Frightful presence, Fire aura
+  aura: frightful presence, fire aura
   defensive_ability: ""
-  dr: 20/魔法
+  dr: 20/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Manipulate flames, Melt stone, Incinerate
-  sp: ディテクト・マジック、パイロテクニクス、サジェスチョン、ウォール・オヴ・ファイアー、ファインド・ザ・パス、ディサーン・ロケーション
+  special_attack: breath weapon, manipulate flames, melt stone, incinerate
+  sp: detect magic, pyrotechnics, suggestion, wall of fire, find the path, discern location
   caster_level: 19
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Copper wyrmling:
@@ -909,10 +909,10 @@ Copper wyrmling:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon, Slow breath
+  special_attack: breath weapon, slow breath
   sp: ""
   caster_level: 0
-  caster_source: クレリック
+  caster_source: cleric
   sq: ""
 
 Copper very young:
@@ -923,11 +923,11 @@ Copper very young:
   defensive_ability: ""
   dr: ""
   sr: 0
-  additional_move: 石登り
-  special_attack: Breath Weapon, Slow breath
-  sp: グリース
+  additional_move: climb stone
+  special_attack: breath weapon, slow breath
+  sp: grease
   caster_level: 0
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Copper young:
@@ -935,14 +935,14 @@ Copper young:
   age_id: 3
   sense: dragon senses
   aura: ""
-  defensive_ability: 直感回避
+  defensive_ability: uncanny dodge
   dr: ""
   sr: 0
-  additional_move: 石登り
-  special_attack: Breath Weapon, Slow breath
-  sp: グリース
+  additional_move: climb stone
+  special_attack: breath weapon, slow breath
+  sp: grease
   caster_level: 1
-  caster_source: ソーサラー
+  caster_source: sorcerer
   sq: ""
 
 Copper juvenile:
@@ -950,135 +950,135 @@ Copper juvenile:
   age_id: 4
   sense: dragon senses
   aura: ""
-  defensive_ability: 直感回避
+  defensive_ability: uncanny dodge
   dr: ""
   sr: 0
-  additional_move: 石登り
-  special_attack: Breath Weapon, Slow breath
-  sp: グリース、ヒディアス・ラフター
+  additional_move: climb stone
+  special_attack: breath weapon, slow breath
+  sp: grease, hideous laughter
   caster_level: 3
-  caster_source: ソーサラー
-  sq: 罠の達人
+  caster_source: sorcerer
+  sq: trap master
 
 Copper young adult:
   race_id: 6
   age_id: 5
   sense: dragon senses
   aura: ""
-  defensive_ability: 直感回避
-  dr: 5/魔法
+  defensive_ability: uncanny dodge
+  dr: 5/magic
   sr: 1
-  additional_move: 石登り
-  special_attack: Breath Weapon, Slow breath
-  sp: グリース、ヒディアス・ラフター
+  additional_move: climb stone
+  special_attack: breath weapon, slow breath
+  sp: grease, hideous laughter
   caster_level: 5
-  caster_source: ソーサラー
-  sq: 罠の達人
+  caster_source: sorcerer
+  sq: trap master
 
 Copper adult:
   race_id: 6
   age_id: 6
   sense: dragon senses
-  aura: Frightful presence
-  defensive_ability: 直感回避
-  dr: 5/魔法
+  aura: frightful presence
+  defensive_ability: uncanny dodge
+  dr: 5/magic
   sr: 1
-  additional_move: 石登り
-  special_attack: Breath Weapon, Slow breath
-  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ
+  additional_move: climb stone
+  special_attack: breath weapon, slow breath
+  sp: grease, hideous laughter, stone shape
   caster_level: 7
-  caster_source: ソーサラー
-  sq: 罠の達人
+  caster_source: sorcerer
+  sq: trap master
 
 Copper mature adult:
   race_id: 6
   age_id: 7
   sense: dragon senses
-  aura: Frightful presence
-  defensive_ability: 直感回避
-  dr: 10/魔法
+  aura: frightful presence
+  defensive_ability: uncanny dodge
+  dr: 10/magic
   sr: 1
-  additional_move: 石登り
-  special_attack: Breath Weapon, Slow breath
-  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ
+  additional_move: climb stone
+  special_attack: breath weapon, slow breath
+  sp: grease, hideous laughter, stone shape
   caster_level: 9
-  caster_source: ソーサラー
-  sq: 罠の達人
+  caster_source: sorcerer
+  sq: trap master
 
 Copper old:
   race_id: 6
   age_id: 8
   sense: dragon senses
-  aura: Frightful presence, Slow aura
-  defensive_ability: 直感回避
-  dr: 10/魔法
+  aura: frightful presence, slow aura
+  defensive_ability: uncanny dodge
+  dr: 10/magic
   sr: 1
-  additional_move: 石登り
-  special_attack: Breath Weapon, Slow breath
-  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ、トランスミュート・ロック・トゥ・マッド
+  additional_move: climb stone
+  special_attack: breath weapon, slow breath
+  sp: grease, hideous laughter, stone shape, transmute rock/mud
   caster_level: 11
-  caster_source: ソーサラー
-  sq: 罠の達人
+  caster_source: sorcerer
+  sq: trap master
 
 Copper very old:
   race_id: 6
   age_id: 9
   sense: dragon senses
-  aura: Frightful presence, Slow aura
-  defensive_ability: 直感回避
-  dr: 15/魔法
+  aura: frightful presence, slow aura
+  defensive_ability: uncanny dodge
+  dr: 15/magic
   sr: 1
-  additional_move: 石登り
-  special_attack: Breath Weapon, Slow breath
-  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ、トランスミュート・ロック・トゥ・マッドトランスミュート・マッド・トゥ・ロック
+  additional_move: climb stone
+  special_attack: breath weapon, slow breath
+  sp: grease, hideous laughter, stone shape, transmute rock/mud
   caster_level: 13
-  caster_source: ソーサラー
-  sq: 罠の達人
+  caster_source: sorcerer
+  sq: trap master
 
 Copper ancient:
   race_id: 6
   age_id: 10
   sense: dragon senses
-  aura: Frightful presence, Slow aura
-  defensive_ability: 直感回避
-  dr: 15/魔法
+  aura: frightful presence, slow aura
+  defensive_ability: uncanny dodge
+  dr: 15/magic
   sr: 1
-  additional_move: 石登り
-  special_attack: Breath Weapon, Slow breath, Mass laughter
-  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ、トランスミュート・ロック・トゥ・マッド、トランスミュート・マッド・トゥ・ロック、ウォール・オヴ・ストーン
+  additional_move: climb stone
+  special_attack: breath weapon, slow breath, mass laughter
+  sp: grease, hideous laughter, stone shape, transmute rock/mud, wall of stone
   caster_level: 15
-  caster_source: ソーサラー
-  sq: 罠の達人
+  caster_source: sorcerer
+  sq: trap master
 
 Copper wyrm:
   race_id: 6
   age_id: 11
   sense: dragon senses
-  aura: Frightful presence, Slow aura
-  defensive_ability: 直感回避
-  dr: 20/魔法
+  aura: frightful presence, slow aura
+  defensive_ability: uncanny dodge
+  dr: 20/magic
   sr: 1
-  additional_move: 石登り
-  special_attack: Breath Weapon, Slow breath, Mass laughter
-  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ、トランスミュート・ロック・トゥ・マッド、トランスミュート・マッド・トゥ・ロック、ウォール・オヴ・ストーン
+  additional_move: climb stone
+  special_attack: breath weapon, slow breath, mass laughter
+  sp: grease, hideous laughter, stone shape, transmute rock/mud, wall of stone
   caster_level: 17
-  caster_source: ソーサラー
-  sq: 罠の達人
+  caster_source: sorcerer
+  sq: trap master
 
 Copper great wyrm:
   race_id: 6
   age_id: 12
   sense: dragon senses
-  aura: Frightful presence, Slow aura
-  defensive_ability: 直感回避
-  dr: 20/魔法
+  aura: frightful presence, slow aura
+  defensive_ability: uncanny dodge
+  dr: 20/magic
   sr: 1
-  additional_move: 石登り
-  special_attack: Breath Weapon, Slow breath, Mass laughter, Deadly joke
-  sp: グリース、ヒディアス・ラフター、ストーン・シェイプ、トランスミュート・ロック・トゥ・マッド、トランスミュート・マッド・トゥ・ロック、ウォール・オヴ・ストーン、ムーヴ・アース
+  additional_move: climb stone
+  special_attack: breath weapon, slow breath, mass laughter, deadly joke
+  sp: grease, hideous laughter, stone shape, transmute rock/mud, wall of stone, move earth
   caster_level: 19
-  caster_source: ソーサラー
-  sq: 罠の達人
+  caster_source: sorcerer
+  sq: trap master
 
 Gold wyrmling:
   race_id: 7
@@ -1089,10 +1089,10 @@ Gold wyrmling:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon, Weakening breath
+  special_attack: breath weapon, weakening breath
   sp: ""
   caster_level: 0
-  caster_source: クレリック
+  caster_source: cleric
   sq: ""
 
 Gold very young:
@@ -1104,11 +1104,11 @@ Gold very young:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon, Weakening breath
-  sp: ディテクト・イーヴル
+  special_attack: breath weapon, weakening breath
+  sp: detect evil
   caster_level: 0
-  caster_source: クレリック
-  sq: 変身
+  caster_source: cleric
+  sq: change shape
 
 Gold young:
   race_id: 7
@@ -1119,11 +1119,11 @@ Gold young:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon, Weakening breath
-  sp: ディテクト・イーヴル
+  special_attack: breath weapon, weakening breath
+  sp: detect evil
   caster_level: 1
-  caster_source: クレリック
-  sq: 変身、高速飛行、宝石感知
+  caster_source: cleric
+  sq: change shape, fast flight, detect gems
 
 Gold juvenile:
   race_id: 7
@@ -1134,11 +1134,11 @@ Gold juvenile:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon, Weakening breath
-  sp: ディテクト・イーヴル、ブレス
+  special_attack: breath weapon, weakening breath
+  sp: detect evil, bless
   caster_level: 3
-  caster_source: クレリック
-  sq: 変身、高速飛行、宝石感知
+  caster_source: cleric
+  sq: change shape, fast flight, detect gems
 
 Gold young adult:
   race_id: 7
@@ -1146,119 +1146,119 @@ Gold young adult:
   sense: dragon senses
   aura: ""
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Weakening breath
-  sp: ディテクト・イーヴル、ブレス
+  special_attack: breath weapon, weakening breath
+  sp: detect evil, bless
   caster_level: 5
-  caster_source: クレリック
-  sq: 変身、高速飛行、宝石感知
+  caster_source: cleric
+  sq: change shape, fast flight, detect gems
 
 Gold adult:
   race_id: 7
   age_id: 6
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Weakening breath
-  sp: ディテクト・イーヴル、ブレス、デイライト
+  special_attack: breath weapon, weakening breath
+  sp: detect evil, bless, daylight
   caster_level: 7
-  caster_source: クレリック
-  sq: 変身、高速飛行、宝石感知、幸運
+  caster_source: cleric
+  sq: change shape, fast flight, detect gems, luck
 
 Gold mature adult:
   race_id: 7
   age_id: 7
   sense: dragon senses
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Weakening breath
-  sp: ディテクト・イーヴル、ブレス、デイライト
+  special_attack: breath weapon, weakening breath
+  sp: detect evil, bless, daylight
   caster_level: 9
-  caster_source: クレリック
-  sq: 変身、高速飛行、宝石感知、幸運
+  caster_source: cleric
+  sq: change shape, fast flight, detect gems, luck
 
 Gold old:
   race_id: 7
   age_id: 8
   sense: dragon senses
-  aura: Frightful presence, Fire aura gold dragon
+  aura: frightful presence, fire aura
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Weakening breath
-  sp: ディテクト・イーヴル、ブレス、デイライト、ギアス/クエスト
+  special_attack: breath weapon, weakening breath
+  sp: detect evil, bless, daylight, geas/quest
   caster_level: 11
-  caster_source: クレリック
-  sq: 変身、高速飛行、宝石感知、幸運
+  caster_source: cleric
+  sq: change shape, fast flight, detect gems, luck
 
 Gold very old:
   race_id: 7
   age_id: 9
   sense: dragon senses
-  aura: Frightful presence, Fire aura gold dragon
+  aura: frightful presence, fire aura
   defensive_ability: ""
-  dr: 15/魔法
+  dr: 15/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Weakening breath
-  sp: ディテクト・イーヴル、ブレス、デイライト、ギアス/クエスト
+  special_attack: breath weapon, weakening breath
+  sp: detect evil, bless, daylight, geas/quest
   caster_level: 13
-  caster_source: クレリック
-  sq: 変身、高速飛行、宝石感知、幸運
+  caster_source: cleric
+  sq: change shape, fast flight, detect gems, luck
 
 Gold ancient:
   race_id: 7
   age_id: 10
   sense: dragon senses
-  aura: Frightful presence, Fire aura gold dragon
+  aura: frightful presence, fire aura
   defensive_ability: ""
-  dr: 15/魔法
+  dr: 15/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Weakening breath
-  sp: ディテクト・イーヴル、ブレス、デイライト、ギアス/クエスト、サンバースト
+  special_attack: breath weapon, weakening breath
+  sp: detect evil, bless, daylight, geas/quest, sunburst
   caster_level: 15
-  caster_source: クレリック
-  sq: 変身、高速飛行、宝石感知、幸運
+  caster_source: cleric
+  sq: change shape, fast flight, detect gems, luck
 
 Gold wyrm:
   race_id: 7
   age_id: 11
   sense: dragon senses
-  aura: Frightful presence, Fire aura gold dragon
+  aura: frightful presence, fire aura
   defensive_ability: ""
-  dr: 20/魔法
+  dr: 20/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Weakening breath
-  sp: ディテクト・イーヴル、ブレス、デイライト、ギアス/クエスト、サンバースト
+  special_attack: breath weapon, weakening breath
+  sp: detect evil, bless, daylight, geas/quest, sunburst
   caster_level: 17
-  caster_source: クレリック
-  sq: 変身、高速飛行、宝石感知、幸運
+  caster_source: cleric
+  sq: change shape, fast flight, detect gems, luck
 
 Gold great wyrm:
   race_id: 7
   age_id: 12
   sense: dragon senses
-  aura: Frightful presence, Fire aura gold dragon
+  aura: frightful presence, fire aura
   defensive_ability: ""
-  dr: 20/魔法
+  dr: 20/magic
   sr: 1
   additional_move: ""
-  special_attack: Breath Weapon, Weakening breath
-  sp: ディテクト・イーヴル、ブレス、デイライト、ギアス/クエスト、サンバースト、フォアサイト
+  special_attack: breath weapon, weakening breath
+  sp: detect evil, bless, daylight, geas/quest, sunburst, foresight
   caster_level: 19
-  caster_source: クレリック
-  sq: 変身、高速飛行、宝石感知、幸運、神性の助力
+  caster_source: cleric
+  sq: change shape, fast flight, detect gems, luck, divine aid
 
 Silver wyrmling:
   race_id: 8
@@ -1269,11 +1269,11 @@ Silver wyrmling:
   dr: ""
   sr: 0
   additional_move: ""
-  special_attack: Breath Weapon, Paralyzing breath
+  special_attack: breath weapon, paralyzing breath
   sp: ""
   caster_level: 0
-  caster_source: クレリック
-  sq: 変身
+  caster_source: cleric
+  sq: change shape
 
 Silver very young:
   race_id: 8
@@ -1283,12 +1283,12 @@ Silver very young:
   defensive_ability: ""
   dr: ""
   sr: 0
-  additional_move: 雲歩き
-  special_attack: Breath Weapon, Paralyzing breath
-  sp: ディテクト・イーヴル
+  additional_move: cloudwalking
+  special_attack: breath weapon, paralyzing breath
+  sp: detect evil
   caster_level: 0
-  caster_source: クレリック
-  sq: 変身
+  caster_source: cleric
+  sq: change shape
 
 Silver young:
   race_id: 8
@@ -1298,12 +1298,12 @@ Silver young:
   defensive_ability: ""
   dr: ""
   sr: 0
-  additional_move: 雲歩き、優雅なる飛行
-  special_attack: Breath Weapon, Paralyzing breath
-  sp: ディテクト・イーヴル
+  additional_move: cloudwalking, graceful flight
+  special_attack: breath weapon, paralyzing breath
+  sp: detect evil
   caster_level: 1
-  caster_source: クレリック
-  sq: 変身
+  caster_source: cleric
+  sq: change shape
 
 Silver juvenile:
   race_id: 8
@@ -1313,12 +1313,12 @@ Silver juvenile:
   defensive_ability: ""
   dr: ""
   sr: 0
-  additional_move: 雲歩き、優雅なる飛行
-  special_attack: Breath Weapon, Paralyzing breath
-  sp: ディテクト・イーヴル、フェザー・フォール
+  additional_move: cloudwalking, graceful flight
+  special_attack: breath weapon, paralyzing breath
+  sp: detect evil, feather fall
   caster_level: 3
-  caster_source: クレリック
-  sq: 変身
+  caster_source: cleric
+  sq: change shape
 
 Silver young adult:
   race_id: 8
@@ -1326,117 +1326,117 @@ Silver young adult:
   sense: dragon senses, fog vision
   aura: ""
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
-  additional_move: 雲歩き、優雅なる飛行
-  special_attack: Breath Weapon, Paralyzing breath
-  sp: ディテクト・イーヴル、フェザー・フォール
+  additional_move: cloudwalking, graceful flight
+  special_attack: breath weapon, paralyzing breath
+  sp: detect evil, feather fall
   caster_level: 5
-  caster_source: クレリック
-  sq: 変身
+  caster_source: cleric
+  sq: change shape
 
 Silver adult:
   race_id: 8
   age_id: 6
   sense: dragon senses, fog vision
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 5/魔法
+  dr: 5/magic
   sr: 1
-  additional_move: 雲歩き、優雅なる飛行
-  special_attack: Breath Weapon, Paralyzing breath
-  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド
+  additional_move: cloudwalking, graceful flight
+  special_attack: breath weapon, paralyzing breath
+  sp: detect evil, feather fall, fog cloud
   caster_level: 7
-  caster_source: クレリック
-  sq: 変身
+  caster_source: cleric
+  sq: change shape
 
 Silver mature adult:
   race_id: 8
   age_id: 7
   sense: dragon senses, fog vision
-  aura: Frightful presence
+  aura: frightful presence
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
-  additional_move: 雲歩き、優雅なる飛行
-  special_attack: Breath Weapon, Paralyzing breath
-  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド
+  additional_move: cloudwalking, graceful flight
+  special_attack: breath weapon, paralyzing breath
+  sp: detect evil, feather fall, fog cloud
   caster_level: 9
-  caster_source: クレリック
-  sq: 変身
+  caster_source: cleric
+  sq: change shape
 
 Silver old:
   race_id: 8
   age_id: 8
   sense: dragon senses, fog vision
-  aura: Frightful presence, Cold aura silver dragon
+  aura: frightful presence, cold aura
   defensive_ability: ""
-  dr: 10/魔法
+  dr: 10/magic
   sr: 1
-  additional_move: 雲歩き、優雅なる飛行
-  special_attack: Breath Weapon, Paralyzing breath
-  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド、コントロール・ウィンズ
+  additional_move: cloudwalking, graceful flight
+  special_attack: breath weapon, paralyzing breath
+  sp: detect evil, feather fall, fog cloud, control winds
   caster_level: 11
-  caster_source: クレリック
-  sq: 変身
+  caster_source: cleric
+  sq: change shape
 
 Silver very old:
   race_id: 8
   age_id: 9
   sense: dragon senses, fog vision
-  aura: Frightful presence, Cold aura silver dragon
+  aura: frightful presence, cold aura
   defensive_ability: ""
-  dr: 15/魔法
+  dr: 15/magic
   sr: 1
-  additional_move: 雲歩き、優雅なる飛行
-  special_attack: Breath Weapon, Paralyzing breath
-  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド、コントロール・ウィンズ
+  additional_move: cloudwalking, graceful flight
+  special_attack: breath weapon, paralyzing breath
+  sp: detect evil, feather fall, fog cloud, control winds
   caster_level: 13
-  caster_source: クレリック
-  sq: 変身
+  caster_source: cleric
+  sq: change shape
 
 Silver ancient:
   race_id: 8
   age_id: 10
   sense: dragon senses, fog vision
-  aura: Frightful presence, Cold aura silver dragon
-  defensive_ability: 鱗による反射
-  dr: 15/魔法
+  aura: frightful presence, cold aura
+  defensive_ability: reflective scales
+  dr: 15/magic
   sr: 1
-  additional_move: 雲歩き、優雅なる飛行
-  special_attack: Breath Weapon, Paralyzing breath
-  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド、コントロール・ウィンズ、コントロール・ウェザー
+  additional_move: cloudwalking, graceful flight
+  special_attack: breath weapon, paralyzing breath
+  sp: detect evil, feather fall, fog cloud, control winds, control weather
   caster_level: 15
-  caster_source: クレリック
-  sq: 変身
+  caster_source: cleric
+  sq: change shape
 
 Silver wyrm:
   race_id: 8
   age_id: 11
   sense: dragon senses, fog vision
-  aura: Frightful presence, Cold aura silver dragon
-  defensive_ability: 鱗による反射
-  dr: 20/魔法
+  aura: frightful presence, cold aura
+  defensive_ability: reflective scales
+  dr: 20/magic
   sr: 1
-  additional_move: 雲歩き、優雅なる飛行
-  special_attack: Breath Weapon, Paralyzing breath
-  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド、コントロール・ウィンズ、コントロール・ウェザー
+  additional_move: cloudwalking, graceful flight
+  special_attack: breath weapon, paralyzing breath
+  sp: detect evil, feather fall, fog cloud, control winds, control weather
   caster_level: 17
-  caster_source: クレリック
-  sq: 変身
+  caster_source: cleric
+  sq: change shape
 
 Silver great wyrm:
   race_id: 8
   age_id: 12
   sense: dragon senses, fog vision
-  aura: Frightful presence, Cold aura silver dragon
-  defensive_ability: 鱗による反射
-  dr: 20/魔法
+  aura: frightful presence, cold aura
+  defensive_ability: reflective scales, true courage
+  dr: 20/magic
   sr: 1
-  additional_move: 雲歩き、優雅なる飛行
-  special_attack: Breath Weapon, Paralyzing breath
-  sp: ディテクト・イーヴル、フェザー・フォール、フォッグ・クラウド、コントロール・ウィンズ、コントロール・ウェザー、リヴァース・グラヴィティ
+  additional_move: cloudwalking, graceful flight
+  special_attack: breath weapon, paralyzing breath
+  sp: detect evil, feather fall, fog cloud, control winds, control weather, reverse gravity
   caster_level: 19
-  caster_source: クレリック
-  sq: 変身、真の勇気
+  caster_source: cleric
+  sq: change shape
 

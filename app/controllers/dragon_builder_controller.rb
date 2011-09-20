@@ -24,29 +24,29 @@ class DragonBuilderController < ApplicationController
 
         if params[:locale] != ""
           if params[:locale] == "en"
-            @dragon["name"] = dragon_race.get_name_local + " Dragon, " + I18n.t("models.dragon_age_category.age_category.#{dragon_age_category.age_category}")
+            @dragon["name"] = dragon_race.name_localizable + " Dragon, " + I18n.t("models.dragon_age_category.age_category.#{dragon_age_category.age_category}")
           else
-            @dragon["name"] = I18n.t("models.dragon_age_category.age_category.#{dragon_age_category.age_category}") + "・" + dragon_race.get_name_local + "・ドラゴン "
+            @dragon["name"] = I18n.t("models.dragon_age_category.age_category.#{dragon_age_category.age_category}") + "・" + dragon_race.name_localizable + "・ドラゴン "
           end
         else
-          @dragon["name"] = dragon_race.get_name_local + " Dragon, " + I18n.t("models.dragon_age_category.age_category.#{dragon_age_category.age_category}")
+          @dragon["name"] = dragon_race.name_localizable + " Dragon, " + I18n.t("models.dragon_age_category.age_category.#{dragon_age_category.age_category}")
         end
 
         @dragon["cr"] = dragon_race.cr + dragon_age_category.cr
         size_category = SizeCategory.find(:first, :conditions => ["size_id = ?", dragon_race.size + dragon_age_category.size])
-        @dragon["size"] = size_category.name
+        @dragon["size"] = size_category.name_localizable
         @dragon["ba_size_modifer"] = size_category.ba_size_modifer
         @dragon["space"] = size_category.space
         @dragon["reach"] = size_category.reach
         @dragon["bite_reach"] = size_category.bite_reach
 
         @dragon["alignment"] = dragon_race.alignment
-        @dragon["types"] = dragon_race.get_creature_category_local
-        @dragon["subtypes"] = dragon_race.get_creature_subcategory_local
+        @dragon["types"] = dragon_race.creature_category_localizable
+        @dragon["subtypes"] = dragon_race.creature_subcategory_localizable
         @dragon["natural_armor"] = dragon_race.natural_armor + dragon_age_category.natural_armor
         @dragon["hit_dice_count"] = dragon_race.hit_dice + dragon_age_category.hit_dice
-        @dragon["immune"] = dragon_race.immune
-        @dragon["weakness"] = dragon_race.weakness
+        @dragon["immune"] = dragon_race.immune_localizable
+        @dragon["weakness"] = dragon_race.weakness_localizable
         @dragon["burrow_speed"] = dragon_race.burrow_speed
         @dragon["swim_speed"] = dragon_race.swim_speed
         @dragon["str"] = dragon_race.str + dragon_age_category.str
@@ -55,24 +55,22 @@ class DragonBuilderController < ApplicationController
         @dragon["int"] = dragon_race.int + dragon_age_category.int
         @dragon["wis"] = dragon_race.wis + dragon_age_category.wis
         @dragon["chr"] = dragon_race.chr + dragon_age_category.chr
-        @dragon["racial_modifer"] = dragon_race.racial_modifer
-        @dragon["language"] = dragon_race.language
-        @dragon["environment"] = dragon_race.env
-        @dragon["organization"] = dragon_race.organization
-        @dragon["treasure"] = dragon_race.treasure
+        @dragon["racial_modifer"] = dragon_race.racial_modifer_localizable
+        @dragon["language"] = dragon_race.language_localizable
+        @dragon["environment"] = dragon_race.env_localizable
+        @dragon["organization"] = dragon_race.organization_localizable
+        @dragon["treasure"] = dragon_race.treasure_localizable
 
-#        @dragon["sense"] = dragon_race_age.sense
-        @dragon["sense"] = dragon_race_age.get_sense_local
+        @dragon["sense"] = dragon_race_age.sense_localizable
 #        @dragon["aura"] = dragon_race_age.aura
-        @dragon["defensive_ability"] = dragon_race_age.defensive_ability
-        @dragon["dr"] = dragon_race_age.dr
+        @dragon["defensive_ability"] = dragon_race_age.defensive_ability_localizable
+        @dragon["dr"] = dragon_race_age.dr_localizable
         @dragon["sr_flag"] = dragon_race_age.sr
-        @dragon["additional_move"] = dragon_race_age.additional_move
 #        @dragon["special_attack"] = dragon_race_age.special_attack
-        @dragon["spell_like_ability"] = dragon_race_age.sp
+        @dragon["spell_like_ability"] = dragon_race_age.sp_localizable
         @dragon["spell_caster_level"] = dragon_race_age.caster_level
-        @dragon["spell_caster_source"] = dragon_race_age.caster_source
-        @dragon["sq"] = dragon_race_age.sq
+        @dragon["spell_caster_source"] = dragon_race_age.caster_source_localizable
+        @dragon["sq"] = dragon_race_age.sq_localizable
 
         @dragon["str_modifer"] = ((@dragon["str"] - 10) / 2).to_i
         @dragon["dex_modifer"] = ((@dragon["dex"] - 10) / 2).to_i
@@ -81,18 +79,18 @@ class DragonBuilderController < ApplicationController
         @dragon["wis_modifer"] = ((@dragon["wis"] - 10) / 2).to_i
         @dragon["chr_modifer"] = ((@dragon["chr"] - 10) / 2).to_i
 
-        @dragon["aura"] = dragon_race_age.get_aura(dragon_race_age, @dragon)
+        @dragon["aura"] = dragon_race_age.get_aura(dragon_race, @dragon)
         @dragon["melee"] = size_category.get_melee(dragon_race_age, @dragon)
         @dragon["special_attack"] = dragon_race_age.get_special_attack(dragon_race, dragon_age_category, size_category, @dragon)
 
-        @dragon["defence_describe"] = "(" + sprintf("%+d", @dragon["dex_modifer"]) + " 【敏】"
+        @dragon["defence_describe"] = "(" + sprintf("%+d", @dragon["dex_modifer"]) + " " + I18n.t(:label_small_dex)
         if @dragon["defence_describe"] != ""
-          @dragon["defence_describe"] = @dragon["defence_describe"] + ", " + sprintf("%+d", @dragon["natural_armor"]) + " 外皮"
+          @dragon["defence_describe"] = @dragon["defence_describe"] + ", " + sprintf("%+d", @dragon["natural_armor"]) + " " + I18n.t(:label_natural)
         else
-          @dragon["defence_describe"] = "(" + sprintf("%+d", @dragon["natural_armor"]) + " 外皮"
+          @dragon["defence_describe"] = "(" + sprintf("%+d", @dragon["natural_armor"]) + " " + I18n.t(:label_natural)
         end
         if @dragon["ba_size_modifer"] != 0
-          @dragon["defence_describe"] = @dragon["defence_describe"] + ", " + sprintf("%+d", @dragon["ba_size_modifer"]) + " サイズ)"
+          @dragon["defence_describe"] = @dragon["defence_describe"] + ", " + sprintf("%+d", @dragon["ba_size_modifer"]) + " " + I18n.t(:label_size) + ")"
         else
           @dragon["defence_describe"] = @dragon["defence_describe"] + ")"
         end
@@ -115,7 +113,7 @@ class DragonBuilderController < ApplicationController
         @dragon["base_attack"] = sprintf("%+d", @dragon["hit_dice_count"])
         @dragon["cmb"] = sprintf("%+d", (@dragon["hit_dice_count"] + size_category.cmb_size_modifer + @dragon["str_modifer"]))
         @dragon["cmd"] = (10 + @dragon["hit_dice_count"] + size_category.cmb_size_modifer + @dragon["str_modifer"] + @dragon["dex_modifer"])
-        @dragon["cmd"] = @dragon["cmd"].to_s + " (" + (@dragon["cmd"] + 4).to_s + " 対足払い)"
+        @dragon["cmd"] = @dragon["cmd"].to_s + " (" + (@dragon["cmd"] + 4).to_s + " " + I18n.t(:label_cmd_vs_trip) + ")"
         @dragon["feet_count"] = (@dragon["hit_dice_count"] / 2).to_i + 1
         @dragon["skill_per_rank"] = @dragon["int_modifer"] + 6
         @dragon["skill_sum_rank"] = @dragon["skill_per_rank"] * @dragon["hit_dice_count"]
