@@ -4,8 +4,8 @@ class SizeCategory < ActiveRecord::Base
   def get_speed(dragon_race_age)
     gra_fly_flag = 0
     additional_move_array = dragon_race_age.additional_move.split(",")
-    additional_move_array.each {|array|
-      gra_fly_flag = -1 if array.strip == "graceful flight"
+    additional_move_array.each {|elem|
+      gra_fly_flag = -1 if elem.strip == "graceful flight"
     }
     fly_muverabillity = FlyMuverabillity.find(:first, :conditions => ["id = ?", self.fly_muverabillity.to_i + gra_fly_flag])
     return ", " + I18n.t(:label_fly) + " " + self.fly_speed + "(" + fly_muverabillity.name_localizable + ")"
