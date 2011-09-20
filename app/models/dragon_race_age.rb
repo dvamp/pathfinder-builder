@@ -8,7 +8,7 @@ class DragonRaceAge < ActiveRecord::Base
       fly_category = SizeCategory.find(:first, :conditions => ["size_id = ?", dragon_race.size + dragon_age_category.size + 1]) if elem.strip == "fast flight"
     }
     speed = dragon_race.get_speed + fly_category.get_speed(self)
-    speed = speed + "; " + self.additional_move if self.additional_move != ""
+    speed = speed + "; " + self.additional_move_localizable if self.additional_move_localizable != ""
     return speed
   end
 
@@ -55,9 +55,9 @@ class DragonRaceAge < ActiveRecord::Base
 
   def get_special_attack(dragon_race, dragon_age_category, size_category, dragon)
     special_attack = ""
-    sp_array = self.special_attack.split(",")
+    spa_array = self.special_attack.split(",")
     # 成長段階で獲得する特殊攻撃
-    sp_array.each {|elem|
+    spa_array.each {|elem|
       special_attack = special_attack + ", " if special_attack != ""
       if elem.strip == "breath weapon"
         special_attack = special_attack + I18n.t("models.#{self.class.model_name.underscore}.special_attack.#{elem.strip}") + "(" + dragon_race.breath_shape_localizable
