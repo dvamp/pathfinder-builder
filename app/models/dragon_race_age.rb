@@ -67,9 +67,15 @@ class DragonRaceAge < ActiveRecord::Base
           special_attack = special_attack + " " + size_category.breath_range_cone
         end
         special_attack = special_attack + " DC" + (10 + (dragon["hit_dice_count"] * 0.5).to_i + dragon["con_modifer"]).to_s + " " + (dragon_race.breath_damage_num * dragon_age_category.breath).to_s + dragon_race.breath_damage_dice + " " + dragon_race.breath_category_localizable + ")"
-      elsif elem.strip == "miasma" or elem.strip == "awaken treants" or elem.strip == "corrupt water" or elem.strip == "acidic bite" or elem.strip == "mirage" or
-          elem.strip == "sandstorm" or elem.strip == "blizzard" or elem.strip == "manipulate flames" or elem.strip == "melt stone" or elem.strip == "incinerate" or
-          elem.strip == "slow breath" or elem.strip == "weakening breath" or elem.strip == "paralyzing breath"
+      elsif elem.strip == "miasma" or elem.strip == "awaken treants" or
+          elem.strip == "corrupt water" or elem.strip == "acidic bite" or
+          elem.strip == "mirage" or elem.strip == "sandstorm" or
+          elem.strip == "blizzard" or elem.strip == "manipulate flames" or
+          elem.strip == "melt stone" or elem.strip == "incinerate" or
+          elem.strip == "slow breath" or elem.strip == "weakening breath" or
+          elem.strip == "paralyzing breath" or elem.strip == "sleep breath" or
+          elem.strip == "desert wind" or elem.strip == "sandstorm" or
+          elem.strip == "tidal wave"
         special_attack = special_attack + I18n.t("models.#{self.class.model_name.underscore}.special_attack.#{elem.strip}")
       elsif elem.strip == "acid pool"
         special_attack = special_attack + I18n.t("models.#{self.class.model_name.underscore}.special_attack.#{elem.strip}") + "(" + I18n.t(:label_radius) + " " + (dragon_age_category.id * 5).to_s + "ft.)"

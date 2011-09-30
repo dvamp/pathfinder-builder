@@ -187,6 +187,9 @@ ja:
         deadly joke: アブないジョーク
         weakening breath: 弱体化のブレス
         paralyzing breath: 麻痺のブレス
+        sleep breath: 睡眠のブレス
+        desert wind: 砂漠の風
+        sandstorm: 砂塵嵐
         crush: 押し潰し
         tail sweep: 尾による一掃
       sp:
@@ -228,6 +231,9 @@ ja:
         feather fall: フェザー・フォール
         control winds: コントロール・ウィンズ
         reverse gravity: リヴァース・グラヴィティ
+        speak with animals: スピーク・ウィズ・アニマルズ
+        endure elements: エンデュア・エレメンツ
+        whirlwind: ワールウィンド
       caster_source:
         cleric: クレリック
         sorcerer: ソーサラー
@@ -248,6 +254,8 @@ ja:
         detect gems: 宝石感知
         luck: 幸運
         divine aid: 神性の助力
+        move sand: 砂漠鳴動
+        summon djinni: ジン招来
     size_category:
       name:
         fine: 微小サイズ

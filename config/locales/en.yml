@@ -187,6 +187,9 @@ en:
         deadly joke: deadly joke
         weakening breath: weakening breath
         paralyzing breath: paralyzing breath
+        sleep breath: sleep breath
+        desert wind: desert wind
+        sandstorm: sandstorm
         crush: crush
         tail sweep: tail sweep
       sp:
@@ -228,6 +231,9 @@ en:
         feather fall: feather fall
         control winds: control winds
         reverse gravity: reverse gravity
+        speak with animals: speak with animals
+        endure elements: endure elements
+        whirlwind: whirlwind
       caster_source:
         cleric: cleric
         sorcerer: sorcerer
@@ -248,6 +254,8 @@ en:
         detect gems: detect gems
         luck: luck
         divine aid: divine aid
+        move sand: move sand
+        summon djinni: summon djinni
     size_category:
       name:
         fine: Fine

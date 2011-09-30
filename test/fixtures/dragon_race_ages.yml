@@ -1440,3 +1440,362 @@ Silver great wyrm:
   caster_source: cleric
   sq: change shape
 
+Brass wyrmling:
+  race_id: 9
+  age_id: 1
+  sense: dragon senses
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: breath weapon, sleep breath
+  sp: ""
+  caster_level: 0
+  caster_source: sorcerer
+  sq: ""
+
+Brass very young:
+  race_id: 9
+  age_id: 2
+  sense: dragon senses
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: breath weapon, sleep breath
+  sp: speak with animals
+  caster_level: 0
+  caster_source: sorcerer
+  sq: ""
+
+Brass young:
+  race_id: 9
+  age_id: 3
+  sense: dragon senses
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: breath weapon, sleep breath
+  sp: speak with animals
+  caster_level: 1
+  caster_source: sorcerer
+  sq: move sand
+
+Brass juvenile:
+  race_id: 9
+  age_id: 4
+  sense: dragon senses
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: breath weapon, sleep breath, desert wind
+  sp: speak with animals, endure elements
+  caster_level: 3
+  caster_source: sorcerer
+  sq: move sand
+
+Brass young adult:
+  race_id: 9
+  age_id: 5
+  sense: dragon senses
+  aura: ""
+  defensive_ability: ""
+  dr: 5/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, sleep breath, desert wind
+  sp: speak with animals, endure elements
+  caster_level: 5
+  caster_source: sorcerer
+  sq: move sand
+
+Brass adult:
+  race_id: 9
+  age_id: 6
+  sense: dragon senses
+  aura: frightful presence
+  defensive_ability: ""
+  dr: 5/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, sleep breath, desert wind
+  sp: speak with animals, endure elements, suggestion
+  caster_level: 7
+  caster_source: sorcerer
+  sq: move sand
+
+Brass mature adult:
+  race_id: 9
+  age_id: 7
+  sense: dragon senses
+  aura: frightful presence
+  defensive_ability: ""
+  dr: 10/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, sleep breath, desert wind
+  sp: speak with animals, endure elements, suggestion
+  caster_level: 9
+  caster_source: sorcerer
+  sq: move sand
+
+Brass old:
+  race_id: 9
+  age_id: 8
+  sense: dragon senses
+  aura: frightful presence, fire aura
+  defensive_ability: ""
+  dr: 10/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, sleep breath, desert wind
+  sp: speak with animals, endure elements, suggestion, control winds
+  caster_level: 11
+  caster_source: sorcerer
+  sq: move sand
+
+Brass very old:
+  race_id: 9
+  age_id: 9
+  sense: dragon senses
+  aura: frightful presence, fire aura
+  defensive_ability: ""
+  dr: 15/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, sleep breath, desert wind
+  sp: speak with animals, endure elements, suggestion, control winds
+  caster_level: 13
+  caster_source: sorcerer
+  sq: move sand
+
+Brass ancient:
+  race_id: 9
+  age_id: 10
+  sense: dragon senses
+  aura: frightful presence, fire aura
+  defensive_ability: ""
+  dr: 15/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, sleep breath, desert wind, sandstorm
+  sp: speak with animals, endure elements, suggestion, control winds, control weather
+  caster_level: 15
+  caster_source: sorcerer
+  sq: move sand
+
+Brass wyrm:
+  race_id: 9
+  age_id: 11
+  sense: dragon senses
+  aura: frightful presence, fire aura
+  defensive_ability: ""
+  dr: 20/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, sleep breath, desert wind, sandstorm
+  sp: speak with animals, endure elements, suggestion, control winds, control weather
+  caster_level: 17
+  caster_source: sorcerer
+  sq: move sand
+
+Brass great wyrm:
+  race_id: 9
+  age_id: 12
+  sense: dragon senses
+  aura: frightful presence, fire aura
+  defensive_ability: ""
+  dr: 20/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, sleep breath, desert wind, sandstorm
+  sp: speak with animals, endure elements, suggestion, control winds, control weather, whirlwind
+  caster_level: 19
+  caster_source: sorcerer
+  sq: move sand, summon djinni
+
+Bronze wyrmling:
+  race_id: 10
+  age_id: 1
+  sense: dragon senses
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: breath weapon, repulsion breath
+  sp: ""
+  caster_level: 0
+  caster_source: sorcerer
+  sq: water breathing
+
+Bronze very young:
+  race_id: 10
+  age_id: 2
+  sense: dragon senses
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: breath weapon, repulsion breath
+  sp: speak with animals
+  caster_level: 0
+  caster_source: sorcerer
+  sq: water breathing
+
+Bronze young:
+  race_id: 10
+  age_id: 3
+  sense: dragon senses
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: breath weapon, repulsion breath
+  sp: speak with animals
+  caster_level: 1
+  caster_source: sorcerer
+  sq: water breathing, change shape
+
+Bronze juvenile:
+  race_id: 10
+  age_id: 4
+  sense: dragon senses
+  aura: ""
+  defensive_ability: ""
+  dr: ""
+  sr: 0
+  additional_move: ""
+  special_attack: breath weapon, repulsion breath
+  sp: speak with animals, create food and water
+  caster_level: 3
+  caster_source: sorcerer
+  sq: water breathing, change shape, wave mastery
+
+Bronze young adult:
+  race_id: 10
+  age_id: 5
+  sense: dragon senses
+  aura: ""
+  defensive_ability: ""
+  dr: 5/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, repulsion breath
+  sp: speak with animals, create food and water
+  caster_level: 5
+  caster_source: sorcerer
+  sq: water breathing, change shape, wave mastery
+
+Bronze adult:
+  race_id: 10
+  age_id: 6
+  sense: dragon senses
+  aura: frightful presence
+  defensive_ability: ""
+  dr: 5/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, repulsion breath
+  sp: speak with animals, create food and water, fog cloud
+  caster_level: 7
+  caster_source: sorcerer
+  sq: water breathing, change shape, wave mastery
+
+Bronze mature adult:
+  race_id: 10
+  age_id: 7
+  sense: dragon senses
+  aura: frightful presence
+  defensive_ability: ""
+  dr: 10/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, repulsion breath
+  sp: speak with animals, create food and water, fog cloud
+  caster_level: 9
+  caster_source: sorcerer
+  sq: water breathing, change shape, wave mastery
+
+Bronze old:
+  race_id: 10
+  age_id: 8
+  sense: dragon senses
+  aura: frightful presence, electricity aura
+  defensive_ability: ""
+  dr: 10/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, repulsion breath
+  sp: speak with animals, create food and water, fog cloud, detect thoughts
+  caster_level: 11
+  caster_source: sorcerer
+  sq: water breathing, change shape, wave mastery
+
+Bronze very old:
+  race_id: 10
+  age_id: 9
+  sense: dragon senses
+  aura: frightful presence, electricity aura
+  defensive_ability: ""
+  dr: 15/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, repulsion breath
+  sp: speak with animals, create food and water, fog cloud, detect thoughts
+  caster_level: 13
+  caster_source: sorcerer
+  sq: water breathing, change shape, wave mastery
+
+Bronze ancient:
+  race_id: 10
+  age_id: 10
+  sense: dragon senses
+  aura: frightful presence, electricity aura
+  defensive_ability: ""
+  dr: 15/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, repulsion breath, vortex
+  sp: speak with animals, create food and water, fog cloud, detect thoughts, control water
+  caster_level: 15
+  caster_source: sorcerer
+  sq: water breathing, change shape, wave mastery
+
+Bronze wyrm:
+  race_id: 10
+  age_id: 11
+  sense: dragon senses
+  aura: frightful presence, electricity aura
+  defensive_ability: ""
+  dr: 20/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, repulsion breath, vortex
+  sp: speak with animals, create food and water, fog cloud, detect thoughts, control water
+  caster_level: 17
+  caster_source: sorcerer
+  sq: water breathing, change shape, wave mastery, vortex
+
+Bronze great wyrm:
+  race_id: 10
+  age_id: 12
+  sense: dragon senses
+  aura: frightful presence, electricity aura
+  defensive_ability: ""
+  dr: 20/magic
+  sr: 1
+  additional_move: ""
+  special_attack: breath weapon, repulsion breath, vortex, tidal wave
+  sp: speak with animals, create food and water, fog cloud, detect thoughts, control water, control weather
+  caster_level: 19
+  caster_source: sorcerer
+  sq: water breathing, change shape, wave mastery
