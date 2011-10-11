@@ -75,6 +75,7 @@ class DragonRaceAge < ActiveRecord::Base
           elem.strip == "slow breath" or elem.strip == "weakening breath" or
           elem.strip == "paralyzing breath" or elem.strip == "sleep breath" or
           elem.strip == "desert wind" or elem.strip == "sandstorm" or
+          elem.strip == "repulsion breath" or elem.strip == "vortex" or
           elem.strip == "tidal wave"
         special_attack = special_attack + I18n.t("models.#{self.class.model_name.underscore}.special_attack.#{elem.strip}")
       elsif elem.strip == "acid pool"

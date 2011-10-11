@@ -128,6 +128,7 @@ en:
         warm hills: warm hills
         warm plains: warm plains
         temperate mountains: temperate mountains
+        temperate coastlines: temperate coastlines
       organization:
         solitary: solitary
       treasure:
@@ -190,6 +191,9 @@ en:
         sleep breath: sleep breath
         desert wind: desert wind
         sandstorm: sandstorm
+        repulsion breath: repulsion breath
+        vortex: vortex
+        tidal wave: tidal wave
         crush: crush
         tail sweep: tail sweep
       sp:
@@ -234,6 +238,9 @@ en:
         speak with animals: speak with animals
         endure elements: endure elements
         whirlwind: whirlwind
+        create food and water: create food and water
+        detect thoughts: detect thoughts
+        control water: control water
       caster_source:
         cleric: cleric
         sorcerer: sorcerer
@@ -255,7 +262,7 @@ en:
         luck: luck
         divine aid: divine aid
         move sand: move sand
-        summon djinni: summon djinni
+        wave mastery: wave mastery
     size_category:
       name:
         fine: Fine

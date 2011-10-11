@@ -128,6 +128,7 @@ ja:
         warm hills: 暑熱/丘陵
         warm plains: 暑熱/平地
         temperate mountains: 温暖/山岳
+        temperate coastlines: 温暖/湾岸
       organization:
         solitary: 単体
       treasure:
@@ -190,6 +191,9 @@ ja:
         sleep breath: 睡眠のブレス
         desert wind: 砂漠の風
         sandstorm: 砂塵嵐
+        repulsion breath: 追い払いのブレス
+        vortex: 渦巻変化
+        tidal wave: 津波
         crush: 押し潰し
         tail sweep: 尾による一掃
       sp:
@@ -234,6 +238,9 @@ ja:
         speak with animals: スピーク・ウィズ・アニマルズ
         endure elements: エンデュア・エレメンツ
         whirlwind: ワールウィンド
+        create food and water: クリエイト・フード・アンド・ウォーター
+        detect thoughts: ディテクト・ソウツ
+        control water: コントロール・ウォーター
       caster_source:
         cleric: クレリック
         sorcerer: ソーサラー
@@ -256,6 +263,7 @@ ja:
         divine aid: 神性の助力
         move sand: 砂漠鳴動
         summon djinni: ジン招来
+        wave mastery: 波乗り体得
     size_category:
       name:
         fine: 微小サイズ
