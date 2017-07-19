@@ -1,6 +1,7 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 Fine:
+  id: 1
   size_id: 1
   name: fine
   pose: ""
@@ -21,6 +22,7 @@ Fine:
   breath_range_cone: ""
 
 Diminutive:
+  id: 2
   size_id: 2
   name: diminutive
   pose: ""
@@ -41,6 +43,7 @@ Diminutive:
   breath_range_cone: ""
 
 Tiny:
+  id: 3
   size_id: 3
   name: tiny
   pose: ""
@@ -61,6 +64,7 @@ Tiny:
   breath_range_cone: 15ft.
 
 Small:
+  id: 4
   size_id: 4
   name: small
   pose: ""
@@ -81,6 +85,7 @@ Small:
   breath_range_cone: 20ft.
 
 Medium:
+  id: 5
   size_id: 5
   name: medium
   pose: ""
@@ -101,6 +106,7 @@ Medium:
   breath_range_cone: 30ft.
 
 Large tall:
+  id: 6
   size_id: 6
   name: large
   pose: 立ち
@@ -121,6 +127,7 @@ Large tall:
   breath_range_cone: 40ft.
 
 Large long:
+  id: 7
   size_id: 6
   name: large
   pose: 伏せ
@@ -141,6 +148,7 @@ Large long:
   breath_range_cone: 40ft.
 
 Huge tall:
+  id: 8
   size_id: 7
   name: huge
   pose: 立ち
@@ -161,6 +169,7 @@ Huge tall:
   breath_range_cone: 50ft.
 
 Huge long:
+  id: 9
   size_id: 7
   name: huge
   pose: 伏せ
@@ -181,6 +190,7 @@ Huge long:
   breath_range_cone: 50ft.
 
 Gargantuan tall:
+  id: 10
   size_id: 8
   name: gargantuan
   pose: 立ち
@@ -201,6 +211,7 @@ Gargantuan tall:
   breath_range_cone: 60ft.
 
 Gargantuan long:
+  id: 11
   size_id: 8
   name: gargantuan
   pose: 伏せ
@@ -221,6 +232,7 @@ Gargantuan long:
   breath_range_cone: 60ft.
 
 Colossal tall:
+  id: 12
   size_id: 9
   name: colossal
   pose: 立ち
@@ -241,6 +253,7 @@ Colossal tall:
   breath_range_cone: 70ft.
 
 Colossal long:
+  id: 13
   size_id: 9
   name: colossal
   pose: 伏せ
@@ -261,6 +274,7 @@ Colossal long:
   breath_range_cone: 70ft.
 
 x number:
+  id: 14
   size_id: 10
   name: －
   pose: －

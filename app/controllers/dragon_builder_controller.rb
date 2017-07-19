@@ -1,5 +1,5 @@
 class DragonBuilderController < ApplicationController
-  before_filter :set_locale
+  before_action :set_locale
 
   def index
     @dragon_races = DragonRace.all
@@ -17,7 +17,7 @@ class DragonBuilderController < ApplicationController
       else
         dragon_race = DragonRace.find(params[:dragon_race].to_i)
         dragon_age_category = DragonAgeCategory.find(params[:dragon_age].to_i)
-        dragon_race_age = DragonRaceAge.find(:first, :conditions => ["race_id = ? and age_id = ?", params[:dragon_race].to_i, params[:dragon_age].to_i])
+        dragon_race_age = DragonRaceAge.find_by(["race_id = ? and age_id = ?", params[:dragon_race].to_i, params[:dragon_age].to_i])
         @dragon = {}
         @dragon["hit_dice_number"] = 12
         @dragon["defence_describe"] = ""
@@ -33,7 +33,7 @@ class DragonBuilderController < ApplicationController
         end
 
         @dragon["cr"] = dragon_race.cr + dragon_age_category.cr
-        size_category = SizeCategory.find(:first, :conditions => ["size_id = ?", dragon_race.size + dragon_age_category.size])
+        size_category = SizeCategory.find_by(["size_id = ?", dragon_race.size + dragon_age_category.size])
         @dragon["size"] = size_category.name_localizable
         @dragon["ba_size_modifer"] = size_category.ba_size_modifer
         @dragon["space"] = size_category.space
@@ -62,11 +62,9 @@ class DragonBuilderController < ApplicationController
         @dragon["treasure"] = dragon_race.treasure_localizable
 
         @dragon["sense"] = dragon_race_age.sense_localizable
-#        @dragon["aura"] = dragon_race_age.aura
         @dragon["defensive_ability"] = dragon_race_age.defensive_ability_localizable
         @dragon["dr"] = dragon_race_age.dr_localizable
         @dragon["sr_flag"] = dragon_race_age.sr
-#        @dragon["special_attack"] = dragon_race_age.special_attack
         @dragon["spell_like_ability"] = dragon_race_age.sp_localizable
         @dragon["spell_caster_level"] = dragon_race_age.caster_level
         @dragon["spell_caster_source"] = dragon_race_age.caster_source_localizable

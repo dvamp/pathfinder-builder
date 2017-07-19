@@ -1,4 +1,4 @@
-class CreateSizeCategories < ActiveRecord::Migration
+class CreateSizeCategories < ActiveRecord::Migration[4.2]
   def self.up
     create_table :size_categories do |t|
       t.integer :size_id

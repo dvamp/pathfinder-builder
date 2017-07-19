@@ -7,7 +7,7 @@ class SizeCategory < ActiveRecord::Base
     additional_move_array.each {|elem|
       gra_fly_flag = -1 if elem.strip == "graceful flight"
     }
-    fly_muverabillity = FlyMuverabillity.find(:first, :conditions => ["id = ?", self.fly_muverabillity.to_i + gra_fly_flag])
+    fly_muverabillity = FlyMuverabillity.find_by(["id = ?", self.fly_muverabillity.to_i + gra_fly_flag])
     return ", " + I18n.t(:label_fly) + " " + self.fly_speed + "(" + fly_muverabillity.name_localizable + ")"
   end
 
@@ -34,6 +34,6 @@ class SizeCategory < ActiveRecord::Base
   end
 
   def name_localizable
-    return I18n.t("models.#{self.class.model_name.underscore}.name.#{self.name}")
+    return I18n.t("models.size_category.name.#{self.name}")
   end
 end

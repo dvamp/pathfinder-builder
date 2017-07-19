@@ -12,15 +12,15 @@ class DragonRace < ActiveRecord::Base
   end
 
   def name_localizable
-    return I18n.t("models.#{self.class.model_name.underscore}.name.#{self.name}")
+    return I18n.t("models.dragon_race.name.#{self.name}")
   end
 
   def creature_category_localizable
-    return I18n.t("models.#{self.class.model_name.underscore}.creature_category.#{self.creature_category}")
+    return I18n.t("models.dragon_race.creature_category.#{self.creature_category}")
   end
 
   def creature_subcategory_localizable
-    return I18n.t("models.#{self.class.model_name.underscore}.creature_subcategory.#{self.creature_subcategory}")
+    return I18n.t("models.dragon_race.creature_subcategory.#{self.creature_subcategory}")
   end
 
   def immune_localizable
@@ -28,9 +28,9 @@ class DragonRace < ActiveRecord::Base
     immune_array = self.immune.split(", ")
     immune_array.each {|imm|
       if immune == ""
-        immune = I18n.t("models.#{self.class.model_name.underscore}.immune.#{imm.strip}")
+        immune = I18n.t("models.dragon_race.immune.#{imm.strip}")
       else
-        immune = immune + ", " + I18n.t("models.#{self.class.model_name.underscore}.immune.#{imm.strip}")
+        immune = immune + ", " + I18n.t("models.dragon_race.immune.#{imm.strip}")
       end
     }
     return immune
@@ -38,18 +38,18 @@ class DragonRace < ActiveRecord::Base
 
   def weakness_localizable
     if self.weakness != ""
-      return I18n.t("models.#{self.class.model_name.underscore}.weakness.#{self.weakness}")
+      return I18n.t("models.dragon_race.weakness.#{self.weakness}")
     else
       self.weakness
     end
   end
 
   def breath_shape_localizable
-    return I18n.t("models.#{self.class.model_name.underscore}.breath_shape.#{self.breath_shape}")
+    return I18n.t("models.dragon_race.breath_shape.#{self.breath_shape}")
   end
 
   def breath_category_localizable
-    return I18n.t("models.#{self.class.model_name.underscore}.breath_category.#{self.breath_category}")
+    return I18n.t("models.dragon_race.breath_category.#{self.breath_category}")
   end
 
   def racial_modifer_localizable
@@ -60,7 +60,7 @@ class DragonRace < ActiveRecord::Base
         if i%2 == 0
           racial_modifer = elem
         else
-          racial_modifer = racial_modifer + " " + I18n.t("models.#{self.class.model_name.underscore}.racial_modifer.#{elem.strip}")
+          racial_modifer = racial_modifer + " " + I18n.t("models.dragon_race.racial_modifer.#{elem.strip}")
         end
       }
       return racial_modifer
@@ -70,18 +70,18 @@ class DragonRace < ActiveRecord::Base
   end
 
   def language_localizable
-    return I18n.t("models.#{self.class.model_name.underscore}.language.#{self.language}")
+    return I18n.t("models.dragon_race.language.#{self.language}")
   end
 
   def env_localizable
-    return I18n.t("models.#{self.class.model_name.underscore}.env.#{self.env}")
+    return I18n.t("models.dragon_race.env.#{self.env}")
   end
 
   def organization_localizable
-    return I18n.t("models.#{self.class.model_name.underscore}.organization.#{self.organization}")
+    return I18n.t("models.dragon_race.organization.#{self.organization}")
   end
 
   def treasure_localizable
-    return I18n.t("models.#{self.class.model_name.underscore}.treasure.#{self.treasure}")
+    return I18n.t("models.dragon_race.treasure.#{self.treasure}")
   end
 end

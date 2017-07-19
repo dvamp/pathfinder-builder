@@ -1,10 +1,7 @@
-class CreateFlyMuverabillities < ActiveRecord::Migration
+class CreateFlyMuverabillities < ActiveRecord::Migration[4.2]
   def self.up
     create_table :fly_muverabillities do |t|
-      t.integer :id
       t.string :name
-
-      t.timestamps
     end
   end
 

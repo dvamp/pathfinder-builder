@@ -1,6 +1,7 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 Green wyrmling:
+  id: 1
   race_id: 1
   age_id: 1
   sense: dragon senses
@@ -16,6 +17,7 @@ Green wyrmling:
   sq: water breathing
 
 Green very young:
+  id: 2
   race_id: 1
   age_id: 2
   sense: dragon senses
@@ -31,6 +33,7 @@ Green very young:
   sq: water breathing, woodland stride
 
 Green young:
+  id: 3
   race_id: 1
   age_id: 3
   sense: dragon senses
@@ -46,6 +49,7 @@ Green young:
   sq: water breathing, woodland stride
 
 Green juvenile:
+  id: 4
   race_id: 1
   age_id: 4
   sense: dragon senses
@@ -61,6 +65,7 @@ Green juvenile:
   sq: water breathing, woodland stride
 
 Green young adult:
+  id: 5
   race_id: 1
   age_id: 5
   sense: dragon senses
@@ -76,6 +81,7 @@ Green young adult:
   sq: water breathing, woodland stride
 
 Green adult:
+  id: 6
   race_id: 1
   age_id: 6
   sense: dragon senses
@@ -91,6 +97,7 @@ Green adult:
   sq: water breathing, woodland stride, trackless step
 
 Green mature adult:
+  id: 7
   race_id: 1
   age_id: 7
   sense: dragon senses
@@ -106,6 +113,7 @@ Green mature adult:
   sq: water breathing, woodland stride, trackless step
 
 Green old:
+  id: 8
   race_id: 1
   age_id: 8
   sense: dragon senses
@@ -121,6 +129,7 @@ Green old:
   sq: water breathing, woodland stride, trackless step, camouflage
 
 Green very old:
+  id: 9
   race_id: 1
   age_id: 9
   sense: dragon senses
@@ -136,6 +145,7 @@ Green very old:
   sq: water breathing, woodland stride, trackless step, camouflage
 
 Green ancient:
+  id: 10
   race_id: 1
   age_id: 10
   sense: dragon senses
@@ -151,6 +161,7 @@ Green ancient:
   sq: water breathing, woodland stride, trackless step, camouflage
 
 Green wyrm:
+  id: 11
   race_id: 1
   age_id: 11
   sense: dragon senses
@@ -166,6 +177,7 @@ Green wyrm:
   sq: water breathing, woodland stride, trackless step, camouflage
 
 Green great wyrm:
+  id: 12
   race_id: 1
   age_id: 12
   sense: dragon senses
@@ -181,6 +193,7 @@ Green great wyrm:
   sq: water breathing, woodland stride, trackless step, camouflage
 
 Black wyrmling:
+  id: 13
   race_id: 2
   age_id: 1
   sense: dragon senses
@@ -196,6 +209,7 @@ Black wyrmling:
   sq: water breathing
 
 Black very young:
+  id: 14
   race_id: 2
   age_id: 2
   sense: dragon senses
@@ -211,6 +225,7 @@ Black very young:
   sq: water breathing, swamp stride
 
 Black young:
+  id: 15
   race_id: 2
   age_id: 3
   sense: dragon senses
@@ -226,6 +241,7 @@ Black young:
   sq: water breathing, swamp stride, speak with reptiles
 
 Black juvenile:
+  id: 16
   race_id: 2
   age_id: 4
   sense: dragon senses
@@ -241,6 +257,7 @@ Black juvenile:
   sq: water breathing, swamp stride, speak with reptiles
 
 Black young adult:
+  id: 17
   race_id: 2
   age_id: 5
   sense: dragon senses
@@ -256,6 +273,7 @@ Black young adult:
   sq: water breathing, swamp stride, speak with reptiles
 
 Black adult:
+  id: 18
   race_id: 2
   age_id: 6
   sense: dragon senses
@@ -271,6 +289,7 @@ Black adult:
   sq: water breathing, swamp stride, speak with reptiles
 
 Black mature adult:
+  id: 19
   race_id: 2
   age_id: 7
   sense: dragon senses
@@ -286,6 +305,7 @@ Black mature adult:
   sq: water breathing, swamp stride, speak with reptiles
 
 Black old:
+  id: 20
   race_id: 2
   age_id: 8
   sense: dragon senses
@@ -301,6 +321,7 @@ Black old:
   sq: water breathing, swamp stride, speak with reptiles
 
 Black very old:
+  id: 21
   race_id: 2
   age_id: 9
   sense: dragon senses
@@ -316,6 +337,7 @@ Black very old:
   sq: water breathing, swamp stride, speak with reptiles
 
 Black ancient:
+  id: 22
   race_id: 2
   age_id: 10
   sense: dragon senses
@@ -331,6 +353,7 @@ Black ancient:
   sq: water breathing, swamp stride, speak with reptiles
 
 Black wyrm:
+  id: 23
   race_id: 2
   age_id: 11
   sense: dragon senses
@@ -346,6 +369,7 @@ Black wyrm:
   sq: water breathing, swamp stride, speak with reptiles
 
 Black great wyrm:
+  id: 24
   race_id: 2
   age_id: 12
   sense: dragon senses
@@ -361,6 +385,7 @@ Black great wyrm:
   sq: water breathing, swamp stride, speak with reptiles, charm reptiles
 
 Blue wyrmling:
+  id: 25
   race_id: 3
   age_id: 1
   sense: dragon senses
@@ -376,6 +401,7 @@ Blue wyrmling:
   sq: ""
 
 Blue very young:
+  id: 26
   race_id: 3
   age_id: 2
   sense: dragon senses
@@ -391,6 +417,7 @@ Blue very young:
   sq: sound imitation
 
 Blue young:
+  id: 27
   race_id: 3
   age_id: 3
   sense: dragon senses
@@ -406,6 +433,7 @@ Blue young:
   sq: sound imitation
 
 Blue juvenile:
+  id: 28
   race_id: 3
   age_id: 4
   sense: dragon senses
@@ -421,6 +449,7 @@ Blue juvenile:
   sq: sound imitation
 
 Blue young adult:
+  id: 29
   race_id: 3
   age_id: 5
   sense: dragon senses
@@ -436,6 +465,7 @@ Blue young adult:
   sq: sound imitation
 
 Blue adult:
+  id: 30
   race_id: 3
   age_id: 6
   sense: dragon senses
@@ -451,6 +481,7 @@ Blue adult:
   sq: sound imitation
 
 Blue mature adult:
+  id: 31
   race_id: 3
   age_id: 7
   sense: dragon senses
@@ -466,6 +497,7 @@ Blue mature adult:
   sq: sound imitation
 
 Blue old:
+  id: 32
   race_id: 3
   age_id: 8
   sense: dragon senses
@@ -481,6 +513,7 @@ Blue old:
   sq: sound imitation
 
 Blue very old:
+  id: 33
   race_id: 3
   age_id: 9
   sense: dragon senses
@@ -496,6 +529,7 @@ Blue very old:
   sq: sound imitation
 
 Blue ancient:
+  id: 34
   race_id: 3
   age_id: 10
   sense: dragon senses
@@ -511,6 +545,7 @@ Blue ancient:
   sq: sound imitation
 
 Blue wyrm:
+  id: 35
   race_id: 3
   age_id: 11
   sense: dragon senses
@@ -526,6 +561,7 @@ Blue wyrm:
   sq: sound imitation
 
 Blue great wyrm:
+  id: 36
   race_id: 3
   age_id: 12
   sense: dragon senses
@@ -541,6 +577,7 @@ Blue great wyrm:
   sq: sound imitation
 
 White wyrmling:
+  id: 37
   race_id: 4
   age_id: 1
   sense: dragon senses
@@ -556,6 +593,7 @@ White wyrmling:
   sq: icewalking
 
 White very young:
+  id: 38
   race_id: 4
   age_id: 2
   sense: dragon senses, snow vision
@@ -571,6 +609,7 @@ White very young:
   sq: icewalking
 
 White young:
+  id: 39
   race_id: 4
   age_id: 3
   sense: dragon senses, snow vision
@@ -586,6 +625,7 @@ White young:
   sq: icewalking, ice shape
 
 White juvenile:
+  id: 40
   race_id: 4
   age_id: 4
   sense: dragon senses, snow vision
@@ -601,6 +641,7 @@ White juvenile:
   sq: icewalking, ice shape
 
 White young adult:
+  id: 41
   race_id: 4
   age_id: 5
   sense: dragon senses, snow vision
@@ -616,6 +657,7 @@ White young adult:
   sq: icewalking, ice shape
 
 White adult:
+  id: 42
   race_id: 4
   age_id: 6
   sense: dragon senses, snow vision
@@ -631,6 +673,7 @@ White adult:
   sq: icewalking, ice shape
 
 White mature adult:
+  id: 43
   race_id: 4
   age_id: 7
   sense: dragon senses, snow vision
@@ -646,6 +689,7 @@ White mature adult:
   sq: icewalking, ice shape
 
 White old:
+  id: 44
   race_id: 4
   age_id: 8
   sense: dragon senses, snow vision
@@ -661,6 +705,7 @@ White old:
   sq: icewalking, ice shape
 
 White very old:
+  id: 45
   race_id: 4
   age_id: 9
   sense: dragon senses, snow vision
@@ -676,6 +721,7 @@ White very old:
   sq: icewalking, ice shape
 
 White ancient:
+  id: 46
   race_id: 4
   age_id: 10
   sense: dragon senses, snow vision
@@ -691,6 +737,7 @@ White ancient:
   sq: icewalking, ice shape
 
 White wyrm:
+  id: 47
   race_id: 4
   age_id: 11
   sense: dragon senses, snow vision
@@ -706,6 +753,7 @@ White wyrm:
   sq: icewalking, ice shape
 
 White great wyrm:
+  id: 48
   race_id: 4
   age_id: 12
   sense: dragon senses, snow vision
@@ -721,6 +769,7 @@ White great wyrm:
   sq: icewalking, ice shape
 
 Red wyrmling:
+  id: 49
   race_id: 5
   age_id: 1
   sense: dragon senses
@@ -736,6 +785,7 @@ Red wyrmling:
   sq: ""
 
 Red very young:
+  id: 50
   race_id: 5
   age_id: 2
   sense: dragon senses, smoke vision
@@ -751,6 +801,7 @@ Red very young:
   sq: ""
 
 Red young:
+  id: 51
   race_id: 5
   age_id: 3
   sense: dragon senses, smoke vision
@@ -766,6 +817,7 @@ Red young:
   sq: ""
 
 Red juvenile:
+  id: 52
   race_id: 5
   age_id: 4
   sense: dragon senses, smoke vision
@@ -781,6 +833,7 @@ Red juvenile:
   sq: ""
 
 Red young adult:
+  id: 53
   race_id: 5
   age_id: 5
   sense: dragon senses, smoke vision
@@ -796,6 +849,7 @@ Red young adult:
   sq: ""
 
 Red adult:
+  id: 54
   race_id: 5
   age_id: 6
   sense: dragon senses, smoke vision
@@ -811,6 +865,7 @@ Red adult:
   sq: ""
 
 Red mature adult:
+  id: 55
   race_id: 5
   age_id: 7
   sense: dragon senses, smoke vision
@@ -826,6 +881,7 @@ Red mature adult:
   sq: ""
 
 Red old:
+  id: 56
   race_id: 5
   age_id: 8
   sense: dragon senses, smoke vision
@@ -841,6 +897,7 @@ Red old:
   sq: ""
 
 Red very old:
+  id: 57
   race_id: 5
   age_id: 9
   sense: dragon senses, smoke vision
@@ -856,6 +913,7 @@ Red very old:
   sq: ""
 
 Red ancient:
+  id: 58
   race_id: 5
   age_id: 10
   sense: dragon senses, smoke vision
@@ -871,6 +929,7 @@ Red ancient:
   sq: ""
 
 Red wyrm:
+  id: 59
   race_id: 5
   age_id: 11
   sense: dragon senses, smoke vision
@@ -886,6 +945,7 @@ Red wyrm:
   sq: ""
 
 Red great wyrm:
+  id: 60
   race_id: 5
   age_id: 12
   sense: dragon senses, smoke vision
@@ -901,6 +961,7 @@ Red great wyrm:
   sq: ""
 
 Copper wyrmling:
+  id: 61
   race_id: 6
   age_id: 1
   sense: dragon senses
@@ -916,6 +977,7 @@ Copper wyrmling:
   sq: ""
 
 Copper very young:
+  id: 62
   race_id: 6
   age_id: 2
   sense: dragon senses
@@ -931,6 +993,7 @@ Copper very young:
   sq: ""
 
 Copper young:
+  id: 63
   race_id: 6
   age_id: 3
   sense: dragon senses
@@ -946,6 +1009,7 @@ Copper young:
   sq: ""
 
 Copper juvenile:
+  id: 64
   race_id: 6
   age_id: 4
   sense: dragon senses
@@ -961,6 +1025,7 @@ Copper juvenile:
   sq: trap master
 
 Copper young adult:
+  id: 65
   race_id: 6
   age_id: 5
   sense: dragon senses
@@ -976,6 +1041,7 @@ Copper young adult:
   sq: trap master
 
 Copper adult:
+  id: 66
   race_id: 6
   age_id: 6
   sense: dragon senses
@@ -991,6 +1057,7 @@ Copper adult:
   sq: trap master
 
 Copper mature adult:
+  id: 67
   race_id: 6
   age_id: 7
   sense: dragon senses
@@ -1006,6 +1073,7 @@ Copper mature adult:
   sq: trap master
 
 Copper old:
+  id: 68
   race_id: 6
   age_id: 8
   sense: dragon senses
@@ -1021,6 +1089,7 @@ Copper old:
   sq: trap master
 
 Copper very old:
+  id: 69
   race_id: 6
   age_id: 9
   sense: dragon senses
@@ -1036,6 +1105,7 @@ Copper very old:
   sq: trap master
 
 Copper ancient:
+  id: 70
   race_id: 6
   age_id: 10
   sense: dragon senses
@@ -1051,6 +1121,7 @@ Copper ancient:
   sq: trap master
 
 Copper wyrm:
+  id: 71
   race_id: 6
   age_id: 11
   sense: dragon senses
@@ -1066,6 +1137,7 @@ Copper wyrm:
   sq: trap master
 
 Copper great wyrm:
+  id: 72
   race_id: 6
   age_id: 12
   sense: dragon senses
@@ -1081,6 +1153,7 @@ Copper great wyrm:
   sq: trap master
 
 Gold wyrmling:
+  id: 73
   race_id: 7
   age_id: 1
   sense: dragon senses
@@ -1096,6 +1169,7 @@ Gold wyrmling:
   sq: ""
 
 Gold very young:
+  id: 74
   race_id: 7
   age_id: 2
   sense: dragon senses
@@ -1111,6 +1185,7 @@ Gold very young:
   sq: change shape
 
 Gold young:
+  id: 75
   race_id: 7
   age_id: 3
   sense: dragon senses
@@ -1126,6 +1201,7 @@ Gold young:
   sq: change shape, fast flight, detect gems
 
 Gold juvenile:
+  id: 76
   race_id: 7
   age_id: 4
   sense: dragon senses
@@ -1141,6 +1217,7 @@ Gold juvenile:
   sq: change shape, fast flight, detect gems
 
 Gold young adult:
+  id: 77
   race_id: 7
   age_id: 5
   sense: dragon senses
@@ -1156,6 +1233,7 @@ Gold young adult:
   sq: change shape, fast flight, detect gems
 
 Gold adult:
+  id: 78
   race_id: 7
   age_id: 6
   sense: dragon senses
@@ -1171,6 +1249,7 @@ Gold adult:
   sq: change shape, fast flight, detect gems, luck
 
 Gold mature adult:
+  id: 79
   race_id: 7
   age_id: 7
   sense: dragon senses
@@ -1186,6 +1265,7 @@ Gold mature adult:
   sq: change shape, fast flight, detect gems, luck
 
 Gold old:
+  id: 80
   race_id: 7
   age_id: 8
   sense: dragon senses
@@ -1201,6 +1281,7 @@ Gold old:
   sq: change shape, fast flight, detect gems, luck
 
 Gold very old:
+  id: 81
   race_id: 7
   age_id: 9
   sense: dragon senses
@@ -1216,6 +1297,7 @@ Gold very old:
   sq: change shape, fast flight, detect gems, luck
 
 Gold ancient:
+  id: 82
   race_id: 7
   age_id: 10
   sense: dragon senses
@@ -1231,6 +1313,7 @@ Gold ancient:
   sq: change shape, fast flight, detect gems, luck
 
 Gold wyrm:
+  id: 83
   race_id: 7
   age_id: 11
   sense: dragon senses
@@ -1246,6 +1329,7 @@ Gold wyrm:
   sq: change shape, fast flight, detect gems, luck
 
 Gold great wyrm:
+  id: 84
   race_id: 7
   age_id: 12
   sense: dragon senses
@@ -1261,6 +1345,7 @@ Gold great wyrm:
   sq: change shape, fast flight, detect gems, luck, divine aid
 
 Silver wyrmling:
+  id: 85
   race_id: 8
   age_id: 1
   sense: dragon senses
@@ -1276,6 +1361,7 @@ Silver wyrmling:
   sq: change shape
 
 Silver very young:
+  id: 86
   race_id: 8
   age_id: 2
   sense: dragon senses
@@ -1291,6 +1377,7 @@ Silver very young:
   sq: change shape
 
 Silver young:
+  id: 87
   race_id: 8
   age_id: 3
   sense: dragon senses
@@ -1306,6 +1393,7 @@ Silver young:
   sq: change shape
 
 Silver juvenile:
+  id: 88
   race_id: 8
   age_id: 4
   sense: dragon senses, fog vision
@@ -1321,6 +1409,7 @@ Silver juvenile:
   sq: change shape
 
 Silver young adult:
+  id: 89
   race_id: 8
   age_id: 5
   sense: dragon senses, fog vision
@@ -1336,6 +1425,7 @@ Silver young adult:
   sq: change shape
 
 Silver adult:
+  id: 90
   race_id: 8
   age_id: 6
   sense: dragon senses, fog vision
@@ -1351,6 +1441,7 @@ Silver adult:
   sq: change shape
 
 Silver mature adult:
+  id: 91
   race_id: 8
   age_id: 7
   sense: dragon senses, fog vision
@@ -1366,6 +1457,7 @@ Silver mature adult:
   sq: change shape
 
 Silver old:
+  id: 92
   race_id: 8
   age_id: 8
   sense: dragon senses, fog vision
@@ -1381,6 +1473,7 @@ Silver old:
   sq: change shape
 
 Silver very old:
+  id: 93
   race_id: 8
   age_id: 9
   sense: dragon senses, fog vision
@@ -1396,6 +1489,7 @@ Silver very old:
   sq: change shape
 
 Silver ancient:
+  id: 94
   race_id: 8
   age_id: 10
   sense: dragon senses, fog vision
@@ -1411,6 +1505,7 @@ Silver ancient:
   sq: change shape
 
 Silver wyrm:
+  id: 95
   race_id: 8
   age_id: 11
   sense: dragon senses, fog vision
@@ -1426,6 +1521,7 @@ Silver wyrm:
   sq: change shape
 
 Silver great wyrm:
+  id: 96
   race_id: 8
   age_id: 12
   sense: dragon senses, fog vision
@@ -1441,6 +1537,7 @@ Silver great wyrm:
   sq: change shape
 
 Brass wyrmling:
+  id: 97
   race_id: 9
   age_id: 1
   sense: dragon senses
@@ -1456,6 +1553,7 @@ Brass wyrmling:
   sq: ""
 
 Brass very young:
+  id: 98
   race_id: 9
   age_id: 2
   sense: dragon senses
@@ -1471,6 +1569,7 @@ Brass very young:
   sq: ""
 
 Brass young:
+  id: 99
   race_id: 9
   age_id: 3
   sense: dragon senses
@@ -1486,6 +1585,7 @@ Brass young:
   sq: move sand
 
 Brass juvenile:
+  id: 100
   race_id: 9
   age_id: 4
   sense: dragon senses
@@ -1501,6 +1601,7 @@ Brass juvenile:
   sq: move sand
 
 Brass young adult:
+  id: 101
   race_id: 9
   age_id: 5
   sense: dragon senses
@@ -1516,6 +1617,7 @@ Brass young adult:
   sq: move sand
 
 Brass adult:
+  id: 102
   race_id: 9
   age_id: 6
   sense: dragon senses
@@ -1531,6 +1633,7 @@ Brass adult:
   sq: move sand
 
 Brass mature adult:
+  id: 103
   race_id: 9
   age_id: 7
   sense: dragon senses
@@ -1546,6 +1649,7 @@ Brass mature adult:
   sq: move sand
 
 Brass old:
+  id: 104
   race_id: 9
   age_id: 8
   sense: dragon senses
@@ -1561,6 +1665,7 @@ Brass old:
   sq: move sand
 
 Brass very old:
+  id: 105
   race_id: 9
   age_id: 9
   sense: dragon senses
@@ -1576,6 +1681,7 @@ Brass very old:
   sq: move sand
 
 Brass ancient:
+  id: 106
   race_id: 9
   age_id: 10
   sense: dragon senses
@@ -1591,6 +1697,7 @@ Brass ancient:
   sq: move sand
 
 Brass wyrm:
+  id: 107
   race_id: 9
   age_id: 11
   sense: dragon senses
@@ -1606,6 +1713,7 @@ Brass wyrm:
   sq: move sand
 
 Brass great wyrm:
+  id: 108
   race_id: 9
   age_id: 12
   sense: dragon senses
@@ -1621,6 +1729,7 @@ Brass great wyrm:
   sq: move sand, summon djinni
 
 Bronze wyrmling:
+  id: 109
   race_id: 10
   age_id: 1
   sense: dragon senses
@@ -1636,6 +1745,7 @@ Bronze wyrmling:
   sq: water breathing
 
 Bronze very young:
+  id: 110
   race_id: 10
   age_id: 2
   sense: dragon senses
@@ -1651,6 +1761,7 @@ Bronze very young:
   sq: water breathing
 
 Bronze young:
+  id: 111
   race_id: 10
   age_id: 3
   sense: dragon senses
@@ -1666,6 +1777,7 @@ Bronze young:
   sq: water breathing, change shape
 
 Bronze juvenile:
+  id: 112
   race_id: 10
   age_id: 4
   sense: dragon senses
@@ -1681,6 +1793,7 @@ Bronze juvenile:
   sq: water breathing, change shape, wave mastery
 
 Bronze young adult:
+  id: 113
   race_id: 10
   age_id: 5
   sense: dragon senses
@@ -1696,6 +1809,7 @@ Bronze young adult:
   sq: water breathing, change shape, wave mastery
 
 Bronze adult:
+  id: 114
   race_id: 10
   age_id: 6
   sense: dragon senses
@@ -1711,6 +1825,7 @@ Bronze adult:
   sq: water breathing, change shape, wave mastery
 
 Bronze mature adult:
+  id: 115
   race_id: 10
   age_id: 7
   sense: dragon senses
@@ -1726,6 +1841,7 @@ Bronze mature adult:
   sq: water breathing, change shape, wave mastery
 
 Bronze old:
+  id: 116
   race_id: 10
   age_id: 8
   sense: dragon senses
@@ -1741,6 +1857,7 @@ Bronze old:
   sq: water breathing, change shape, wave mastery
 
 Bronze very old:
+  id: 117
   race_id: 10
   age_id: 9
   sense: dragon senses
@@ -1756,6 +1873,7 @@ Bronze very old:
   sq: water breathing, change shape, wave mastery
 
 Bronze ancient:
+  id: 118
   race_id: 10
   age_id: 10
   sense: dragon senses
@@ -1771,6 +1889,7 @@ Bronze ancient:
   sq: water breathing, change shape, wave mastery
 
 Bronze wyrm:
+  id: 119
   race_id: 10
   age_id: 11
   sense: dragon senses
@@ -1786,6 +1905,7 @@ Bronze wyrm:
   sq: water breathing, change shape, wave mastery, vortex
 
 Bronze great wyrm:
+  id: 120
   race_id: 10
   age_id: 12
   sense: dragon senses

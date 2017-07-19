@@ -1,4 +1,4 @@
-class CreateDragonAgeCategories < ActiveRecord::Migration
+class CreateDragonAgeCategories < ActiveRecord::Migration[4.2]
   def self.up
     create_table :dragon_age_categories do |t|
       t.string :age_category

@@ -1,4 +1,4 @@
-class CreateDragonRaceAges < ActiveRecord::Migration
+class CreateDragonRaceAges < ActiveRecord::Migration[4.2]
   def self.up
     create_table :dragon_race_ages do |t|
       t.integer :race_id
