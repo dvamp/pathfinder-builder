@@ -281,10 +281,3 @@ en:
         average: average
         poor: poor
         clumsy: clumsy
-
-  label_strength: 筋力
-  label_dexterity: 敏捷力
-  label_constitution: 耐久力
-  label_intelligence: 知力
-  label_wisdom: 判断力
-  label_charisma: 魅力
