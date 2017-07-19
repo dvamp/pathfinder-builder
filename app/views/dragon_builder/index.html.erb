@@ -1,25 +1,19 @@
-<h2>Dragon Builder</h2><%
-  if @dragon_id != nil
-    dragon_race = @dragon_id[:dragon_race] if @dragon_id[:dragon_race] != nil
-    dragon_age = @dragon_id[:dragon_age] if @dragon_id[:dragon_age] != nil
-  end
-%>
+<h2>Dragon Builder</h2>
 <%= form_tag({:action => :index}, :method => :get) do -%>
+  <%= t(:label_language) %>：<%= select_tag :locale, options_for_select({t(:label_en) => 'en', t(:label_ja) => 'ja'}, I18n.locale) %><br />
   <%= t(:label_dragon_race) %>：<%#= select_tag :dragon_race, options_from_collection_for_select(@dragon_races, :id, :name, {:selected => dragon_race}) %><%= select_tag :dragon_race, options_for_select(
   {t("models.dragon_race.name.green") => 1, t("models.dragon_race.name.black") => 2,
   t("models.dragon_race.name.blue") => 3, t("models.dragon_race.name.white") => 4,
   t("models.dragon_race.name.red") => 5, t("models.dragon_race.name.copper") => 6,
   t("models.dragon_race.name.gold") => 7, t("models.dragon_race.name.silver") => 8,
-  t("models.dragon_race.name.brass") => 9, t("models.dragon_race.name.bronze") => 10}, dragon_race) %><br />
+  t("models.dragon_race.name.brass") => 9, t("models.dragon_race.name.bronze") => 10}, @selected[:dragon_race]) %><br />
   <%= t(:label_age_category) %>：<%#= select_tag :dragon_age, options_from_collection_for_select(@dragon_age_categories, :id, :age_category, {:selected => dragon_age}) %><%= select_tag :dragon_age, options_for_select(
   {t("models.dragon_age_category.age_category.wyrmling") => 1, t("models.dragon_age_category.age_category.very young") => 2,
   t("models.dragon_age_category.age_category.young") => 3, t("models.dragon_age_category.age_category.juvenile") => 4,
   t("models.dragon_age_category.age_category.young adult") => 5, t("models.dragon_age_category.age_category.adult") => 6,
   t("models.dragon_age_category.age_category.mature adult") => 7, t("models.dragon_age_category.age_category.old") => 8,
   t("models.dragon_age_category.age_category.very old") => 9, t("models.dragon_age_category.age_category.ancient") => 10,
-  t("models.dragon_age_category.age_category.wyrm") => 11, t("models.dragon_age_category.age_category.great wyrm") => 12}, dragon_age) %><br />
-  <%= t(:label_language) %>：<%= select_tag :locale, options_for_select(
-  {t(:label_en) => "en", t(:label_ja) => "ja"}, I18n.locale) %><br />
+  t("models.dragon_age_category.age_category.wyrm") => 11, t("models.dragon_age_category.age_category.great wyrm") => 12}, @selected[:dragon_age]) %><br />
   <%= submit_tag t(:label_build), {:disable_with => t(:label_building)} %>
 <% end %>
 <% if @dragon != nil %>
@@ -27,7 +21,7 @@
   <table width="100%">
     <tbody>
       <tr>
-        <td aligin="left" style="width:85%;font-variant:small-caps"><b><%= @dragon["name"] %></b></td>
+        <td aligin="left" style="width:85%;font-variant:small-caps"><b><%= @dragon[:name] %></b></td>
         <td align="right" style="font-variant:small-caps"><b>CR <%= @dragon["cr"] %></b></td>
       </tr>
     </tbody>
@@ -44,8 +38,8 @@
 </p>
 <div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b><%= t(:label_defense) %></b></div>
 <p>
-  <b><%= t(:label_ac) %></b> <%= @dragon["ac"] %>, <%= t(:label_touch) %> <%= @dragon["touch"] %>, <%= t(:label_flat_footed) %> <%= @dragon["flat_footed"] %> <%= @dragon["defence_describe"] %><br />
-  <b><%= t(:label_hp) %></b> <%= @dragon["hp"] %> (<%= @dragon["hit_dice_count"] %>d<%= @dragon["hit_dice_number"] %><%= @dragon["hp_con_modifer"] %>)<br />
+  <b><%= t(:label_ac) %></b> <%= @dragon["ac"] %>, <%= t(:label_touch) %> <%= @dragon["touch"] %>, <%= t(:label_flat_footed) %> <%= @dragon["flat_footed"] %> <%= @dragon[:defence_describe] %><br />
+  <b><%= t(:label_hp) %></b> <%= @dragon["hp"] %> (<%= @dragon["hit_dice_count"] %>d<%= @dragon[:hit_dice_number] %><%= @dragon["hp_con_modifer"] %>)<br />
   <b><%= t(:label_fort) %></b> <%= @dragon["fort"] %>, <b><%= t(:label_ref) %></b> <%= @dragon["ref"] %>, <b><%= t(:label_will) %></b> <%= @dragon["will"] %><br />
   <% if @dragon["defensive_ability"] != ""
   %><b><%= t(:label_defensive_abilities) %></b> <%= @dragon["defensive_ability"] %><%
