@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 5) do
   enable_extension "plpgsql"
 
   create_table "dragon_age_categories", id: :serial, force: :cascade do |t|
-    t.string "age_category"
+    t.integer "age_category"
     t.string "age_in_years"
     t.integer "cr"
     t.integer "size"

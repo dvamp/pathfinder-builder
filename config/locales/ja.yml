@@ -282,3 +282,19 @@ ja:
         average: 標準
         poor: 貧弱
         clumsy: 劣悪
+
+  enums:
+    dragon_age_category:
+      age_category:
+        wyrmling: ワームリング
+        very_young: ヴェリー・ヤング
+        young: ヤング
+        juvenile: ジュヴナイル
+        young_adult: ヤング・アダルト
+        adult: アダルト
+        mature_adult: マチュア・アダルト
+        old: オールド
+        very_old: ヴェリー・オールド
+        ancient: エインシャント
+        wyrm: ワーム
+        great_wyrm: グレート・ワーム

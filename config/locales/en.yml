@@ -281,3 +281,19 @@ en:
         average: average
         poor: poor
         clumsy: clumsy
+
+  enums:
+    dragon_age_category:
+      age_category:
+        wyrmling: Wyrmling
+        very_young: Very Young
+        young: Young
+        juvenile: Juvenile
+        young_adult: Young Adult
+        adult: Adult
+        mature_adult: Mature Adult
+        old: Old
+        very_old: Very Old
+        ancient: Ancient
+        wyrm: Wyrm
+        great_wyrm: Great Wyrm

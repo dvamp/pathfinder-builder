@@ -16,9 +16,9 @@ class DragonBuilderController < ApplicationController
       @dragon[:defence_describe] = ""
 
       if params[:locale] == 'ja'
-        @dragon[:name] = I18n.t("models.dragon_age_category.age_category.#{dragon_age_category.age_category}") + "・" + dragon_race.name_localizable + "・ドラゴン"
+        @dragon[:name] = dragon_age_category.age_category_i18n + "・" + dragon_race.name_localizable + "・ドラゴン"
       else
-        @dragon[:name] = dragon_race.name_localizable + " Dragon, " + I18n.t("models.dragon_age_category.age_category.#{dragon_age_category.age_category}")
+        @dragon[:name] = dragon_race.name_localizable + " Dragon, " + dragon_age_category.age_category_i18n
       end
 
       @dragon[:cr] = dragon_race.cr + dragon_age_category.cr
