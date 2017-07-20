@@ -21,9 +21,9 @@ class DragonBuilderController < ApplicationController
         @dragon[:name] = dragon_race.name_localizable + " Dragon, " + I18n.t("models.dragon_age_category.age_category.#{dragon_age_category.age_category}")
       end
 
-      @dragon["cr"] = dragon_race.cr + dragon_age_category.cr
+      @dragon[:cr] = dragon_race.cr + dragon_age_category.cr
       size_category = SizeCategory.find_by(["size_id = ?", dragon_race.size + dragon_age_category.size])
-      @dragon["size"] = size_category.name_localizable
+      @dragon[:size] = size_category.name_localizable
       @dragon["ba_size_modifer"] = size_category.ba_size_modifer
       @dragon["space"] = size_category.space
       @dragon["reach"] = size_category.reach
@@ -51,7 +51,7 @@ class DragonBuilderController < ApplicationController
       @dragon["treasure"] = dragon_race.treasure_localizable
 
       @dragon["sense"] = dragon_race_age.sense_localizable
-      @dragon["defensive_ability"] = dragon_race_age.defensive_ability_localizable
+      @dragon[:defensive_ability] = dragon_race_age.defensive_ability_localizable
       @dragon["dr"] = dragon_race_age.dr_localizable
       @dragon["sr_flag"] = dragon_race_age.sr
       @dragon["spell_like_ability"] = dragon_race_age.sp_localizable
@@ -66,7 +66,7 @@ class DragonBuilderController < ApplicationController
       @dragon["wis_modifer"] = ((@dragon["wis"] - 10) / 2).to_i
       @dragon["chr_modifer"] = ((@dragon["chr"] - 10) / 2).to_i
 
-      @dragon["aura"] = dragon_race_age.get_aura(dragon_race, @dragon)
+      @dragon[:aura] = dragon_race_age.get_aura(dragon_race, @dragon)
       @dragon["melee"] = size_category.get_melee(dragon_race_age, @dragon)
       @dragon["special_attack"] = dragon_race_age.get_special_attack(dragon_race, dragon_age_category, size_category, @dragon)
 
@@ -111,19 +111,19 @@ class DragonBuilderController < ApplicationController
       end
       i = 0
       base = 1
-      while i < (@dragon["cr"] / 2).to_i
+      while i < (@dragon[:cr] / 2).to_i
         base = base * 2
         i += 1
       end
-      if (@dragon["cr"] & 1) == 1
+      if (@dragon[:cr] & 1) == 1
         @dragon["xp"] = 400 * base
       else
         @dragon["xp"] = 300 * base
       end
       if @dragon["sr_flag"] == 1
-        @dragon["sr"] = @dragon["cr"] + 11
+        @dragon[:sr] = @dragon[:cr] + 11
       else
-        @dragon["sr"] = 0
+        @dragon[:sr] = 0
       end
     end
   end

@@ -68,7 +68,7 @@ ja:
   label_skill_total_ranks: 総スキルランク数
   label_racial_modifiers: 種族修正
   label_languages: 言語
-  label_languages_more: 個
+  label_languages_more: ', 追加で%{count}個'
   label_draconic: 竜語
   label_sq: その他の特殊能力
   label_ecology: 生態

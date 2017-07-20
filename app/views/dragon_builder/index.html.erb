@@ -22,7 +22,7 @@
     <tbody>
       <tr>
         <td aligin="left" style="width:85%;font-variant:small-caps"><b><%= @dragon[:name] %></b></td>
-        <td align="right" style="font-variant:small-caps"><b>CR <%= @dragon["cr"] %></b></td>
+        <td align="right" style="font-variant:small-caps"><b>CR <%= @dragon[:cr] %></b></td>
       </tr>
     </tbody>
   </table>
@@ -30,10 +30,10 @@
 </div>
 <p>
   <b><%= t(:label_xp) %> <%= number_to_currency(@dragon["xp"], :separator => ".", :delimiter => ",", :format => "%n", :precision => 0) %></b><br />
-  <%= @dragon["alignment"] %> <%= @dragon["size"] %> <%= @dragon["types"] %>(<%= @dragon["subtypes"] %>)<br />
+  <%= @dragon["alignment"] %> <%= @dragon[:size] %> <%= @dragon["types"] %>(<%= @dragon["subtypes"] %>)<br />
   <b><%= t(:label_init) %></b> <%= sprintf("%+d", @dragon["dex_modifer"]) %>; <b><%= t(:label_senses) %></b> <%= @dragon["sense"] %><br />
-  <% if @dragon["aura"] != "" %>
-  <b><%= t(:label_aura) %></b> <%= @dragon["aura"] %>
+  <% if @dragon[:aura] != "" %>
+  <b><%= t(:label_aura) %></b> <%= @dragon[:aura] %>
   <% end %>
 </p>
 <div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b><%= t(:label_defense) %></b></div>
@@ -41,16 +41,17 @@
   <b><%= t(:label_ac) %></b> <%= @dragon["ac"] %>, <%= t(:label_touch) %> <%= @dragon["touch"] %>, <%= t(:label_flat_footed) %> <%= @dragon["flat_footed"] %> <%= @dragon[:defence_describe] %><br />
   <b><%= t(:label_hp) %></b> <%= @dragon["hp"] %> (<%= @dragon["hit_dice_count"] %>d<%= @dragon[:hit_dice_number] %><%= @dragon["hp_con_modifer"] %>)<br />
   <b><%= t(:label_fort) %></b> <%= @dragon["fort"] %>, <b><%= t(:label_ref) %></b> <%= @dragon["ref"] %>, <b><%= t(:label_will) %></b> <%= @dragon["will"] %><br />
-  <% if @dragon["defensive_ability"] != ""
-  %><b><%= t(:label_defensive_abilities) %></b> <%= @dragon["defensive_ability"] %><%
+  <%
+  if @dragon[:defensive_ability] != ''
+  %><b><%= t(:label_defensive_abilities) %></b> <%= @dragon[:defensive_ability] %><%
   end
   if @dragon["dr"] != ""
-  %><% if @dragon["defensive_ability"] != ""
+  %><% if @dragon[:defensive_ability] != ''
   %>; <%
   end %><b><%= t(:label_dr) %></b> <%= @dragon["dr"] %>; <%
   end %><b><%= t(:label_immune) %></b> <%= @dragon["immune"] %><%
-  if @dragon["sr"] > 0
-  %>; <b><%= t(:label_sr) %></b> <%= @dragon["sr"] %>
+  if @dragon[:sr] > 0
+  %>; <b><%= t(:label_sr) %></b> <%= @dragon[:sr] %>
   <% end
 if @dragon["weakness"] != ""
 %><br />
@@ -88,7 +89,7 @@ else
 <% end %>
 <b><%= t(:label_languages) %></b> <%= @dragon["language"] %><%
 if @dragon["language_count"] > 0
-  %>, <%= @dragon["language_count"] %> <%= t(:label_languages_more) %><br /><%
+  %><%= t(:label_languages_more, count: @dragon["language_count"]) %><br /><%
 end %>
 <% if @dragon["sq"] != "" %>
 <b><%= t(:label_sq) %></b> <%= @dragon["sq"] %>

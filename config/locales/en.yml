@@ -68,7 +68,7 @@ en:
   label_skill_total_ranks: Skill total Ranks
   label_racial_modifiers: Racial Modifiers
   label_languages: Languages
-  label_languages_more: more
+  label_languages_more: ', in addition %{count}'
   label_draconic: Draconic
   label_sq: SQ
   label_ecology: ECOLOGY
