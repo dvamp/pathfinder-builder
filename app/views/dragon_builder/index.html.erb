@@ -29,74 +29,74 @@
   <tbody>
 </div>
 <p>
-  <b><%= t(:label_xp) %> <%= number_to_currency(@dragon["xp"], :separator => ".", :delimiter => ",", :format => "%n", :precision => 0) %></b><br />
-  <%= @dragon["alignment"] %> <%= @dragon[:size] %> <%= @dragon["types"] %>(<%= @dragon["subtypes"] %>)<br />
-  <b><%= t(:label_init) %></b> <%= sprintf("%+d", @dragon["dex_modifer"]) %>; <b><%= t(:label_senses) %></b> <%= @dragon["sense"] %><br />
+  <b><%= t(:label_xp) %> <%= number_to_currency(@dragon[:xp], :separator => ".", :delimiter => ",", :format => "%n", :precision => 0) %></b><br />
+  <%= @dragon[:alignment] %> <%= @dragon[:size] %> <%= @dragon[:types] %>(<%= @dragon[:subtypes] %>)<br />
+  <b><%= t(:label_init) %></b> <%= sprintf("%+d", @dragon[:dex_modifer]) %>; <b><%= t(:label_senses) %></b> <%= @dragon[:sense] %><br />
   <% if @dragon[:aura] != "" %>
   <b><%= t(:label_aura) %></b> <%= @dragon[:aura] %>
   <% end %>
 </p>
 <div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b><%= t(:label_defense) %></b></div>
 <p>
-  <b><%= t(:label_ac) %></b> <%= @dragon["ac"] %>, <%= t(:label_touch) %> <%= @dragon["touch"] %>, <%= t(:label_flat_footed) %> <%= @dragon["flat_footed"] %> <%= @dragon[:defence_describe] %><br />
-  <b><%= t(:label_hp) %></b> <%= @dragon["hp"] %> (<%= @dragon["hit_dice_count"] %>d<%= @dragon[:hit_dice_number] %><%= @dragon["hp_con_modifer"] %>)<br />
-  <b><%= t(:label_fort) %></b> <%= @dragon["fort"] %>, <b><%= t(:label_ref) %></b> <%= @dragon["ref"] %>, <b><%= t(:label_will) %></b> <%= @dragon["will"] %><br />
+  <b><%= t(:label_ac) %></b> <%= @dragon[:ac] %>, <%= t(:label_touch) %> <%= @dragon[:touch] %>, <%= t(:label_flat_footed) %> <%= @dragon[:flat_footed] %> <%= @dragon[:defence_describe] %><br />
+  <b><%= t(:label_hp) %></b> <%= @dragon[:hp] %> (<%= @dragon[:hit_dice_count] %>d<%= @dragon[:hit_dice_number] %><%= @dragon[:hp_con_modifer] %>)<br />
+  <b><%= t(:label_fort) %></b> <%= @dragon[:fort] %>, <b><%= t(:label_ref) %></b> <%= @dragon[:ref] %>, <b><%= t(:label_will) %></b> <%= @dragon[:will] %><br />
   <%
   if @dragon[:defensive_ability] != ''
   %><b><%= t(:label_defensive_abilities) %></b> <%= @dragon[:defensive_ability] %><%
   end
-  if @dragon["dr"] != ""
+  if @dragon[:dr] != ""
   %><% if @dragon[:defensive_ability] != ''
   %>; <%
-  end %><b><%= t(:label_dr) %></b> <%= @dragon["dr"] %>; <%
-  end %><b><%= t(:label_immune) %></b> <%= @dragon["immune"] %><%
+  end %><b><%= t(:label_dr) %></b> <%= @dragon[:dr] %>; <%
+  end %><b><%= t(:label_immune) %></b> <%= @dragon[:immune] %><%
   if @dragon[:sr] > 0
   %>; <b><%= t(:label_sr) %></b> <%= @dragon[:sr] %>
   <% end
-if @dragon["weakness"] != ""
+if @dragon[:weakness] != ""
 %><br />
-<b><%= t(:label_weaknesses) %></b> <%= @dragon["weakness"] %><%
+<b><%= t(:label_weaknesses) %></b> <%= @dragon[:weakness] %><%
 end %>
 </p>
 <div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b><%= t(:label_offense) %></b></div>
 <p>
-  <b><%= t(:label_speed) %></b> <%= @dragon["speed"] %><br />
-  <b><%= t(:label_melee) %></b>  <%= @dragon["melee"] %><br />
-  <b><%= t(:label_space) %></b> <%= @dragon["space"] %>; <b><%= t(:label_reach) %></b> <%= @dragon["reach"] %> (<%= @dragon["bite_reach"] %> <%= t(:label_reach_with_bite) %>)<br />
-  <b><%= t(:label_special_attacks) %></b> <%= @dragon["special_attack"] %><br />
-  <% if @dragon["spell_like_ability"] != "" %>
-  <b><%= t(:label_spell_like_abilities) %></b> (CL <%= @dragon["spell_like_ability_cl"] %>, <%= t(:label_concentration) %> +<%= @dragon["spell_like_ability_concentration"] %>)
+  <b><%= t(:label_speed) %></b> <%= @dragon[:speed] %><br />
+  <b><%= t(:label_melee) %></b>  <%= @dragon[:melee] %><br />
+  <b><%= t(:label_space) %></b> <%= @dragon[:space] %>; <b><%= t(:label_reach) %></b> <%= @dragon[:reach] %> (<%= @dragon[:bite_reach] %> <%= t(:label_reach_with_bite) %>)<br />
+  <b><%= t(:label_special_attacks) %></b> <%= @dragon[:special_attack] %><br />
+  <% if @dragon[:spell_like_ability] != "" %>
+  <b><%= t(:label_spell_like_abilities) %></b> (CL <%= @dragon[:spell_like_ability_cl] %>, <%= t(:label_concentration) %> +<%= @dragon[:spell_like_ability_concentration] %>)
   <% end %>
 </p>
-<% if @dragon["spell_like_ability"] != "" %>
+<% if @dragon[:spell_like_ability] != "" %>
 <p style="margin-left:20px">
-<b><%= t(:label_at_will) %></b>：<i><%= @dragon["spell_like_ability"] %></i>
+<b><%= t(:label_at_will) %></b>：<i><%= @dragon[:spell_like_ability] %></i>
 </p>
 <% end %>
-<% if @dragon["spell_caster_level"] > 0 %>
-<p><span style="font-size:medium"><b><%= t(:label_spells_known) %></b> (<%= @dragon["spell_caster_source"] %> CL <%= @dragon["spell_caster_level"] %>, <%= t(:label_concentration) %> +<%= @dragon["spell_caster_concentration"] %>)</span></p>
+<% if @dragon[:spell_caster_level] > 0 %>
+<p><span style="font-size:medium"><b><%= t(:label_spells_known) %></b> (<%= @dragon[:spell_caster_source] %> CL <%= @dragon[:spell_caster_level] %>, <%= t(:label_concentration) %> +<%= @dragon[:spell_caster_concentration] %>)</span></p>
 <% end %>
 <div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b><%= t(:label_statistics) %></b></div>
 <p>
-<b><%= t(:label_str) %></b> <%= @dragon["str"] %>, <b><%= t(:label_dex) %></b> <%= @dragon["dex"] %>, <b><%= t(:label_con) %></b> <%= @dragon["con"] %>, <b><%= t(:label_int) %></b> <%= @dragon["int"] %>, <b><%= t(:label_wis) %></b> <%= @dragon["wis"] %>, <b><%= t(:label_cha) %></b> <%= @dragon["chr"] %><br />
-<b><%= t(:label_base_atk) %></b> <%= @dragon["base_attack"] %>; <b><%= t(:label_cmb) %></b> <%= @dragon["cmb"] %>; <b><%= t(:label_cmd) %></b> <%= @dragon["cmd"] %><br />
-<b><%= t(:label_feat_count) %></b> <%= @dragon["feet_count"] %><br />
-<b><%= t(:label_skill_ranks_per_hit_dice) %></b> <%= @dragon["skill_per_rank"] %>; <b><%= t(:label_skill_total_ranks) %></b> <%= @dragon["skill_sum_rank"] %><%
-if @dragon["racial_modifer"] != ""
-%>; <b><%= t(:label_racial_modifiers) %></b> <%= @dragon["racial_modifer"] %><br /><%
+<b><%= t(:label_str) %></b> <%= @dragon[:str] %>, <b><%= t(:label_dex) %></b> <%= @dragon[:dex] %>, <b><%= t(:label_con) %></b> <%= @dragon[:con] %>, <b><%= t(:label_int) %></b> <%= @dragon[:int] %>, <b><%= t(:label_wis) %></b> <%= @dragon[:wis] %>, <b><%= t(:label_cha) %></b> <%= @dragon[:chr] %><br />
+<b><%= t(:label_base_atk) %></b> <%= @dragon[:base_attack] %>; <b><%= t(:label_cmb) %></b> <%= @dragon[:cmb] %>; <b><%= t(:label_cmd) %></b> <%= @dragon[:cmd] %><br />
+<b><%= t(:label_feat_count) %></b> <%= @dragon[:feet_count] %><br />
+<b><%= t(:label_skill_ranks_per_hit_dice) %></b> <%= @dragon[:skill_per_rank] %>; <b><%= t(:label_skill_total_ranks) %></b> <%= @dragon[:skill_sum_rank] %><%
+if @dragon[:racial_modifer] != ""
+%>; <b><%= t(:label_racial_modifiers) %></b> <%= @dragon[:racial_modifer] %><br /><%
 else
 %><br />
 <% end %>
-<b><%= t(:label_languages) %></b> <%= @dragon["language"] %><%
-if @dragon["language_count"] > 0
-  %><%= t(:label_languages_more, count: @dragon["language_count"]) %><br /><%
+<b><%= t(:label_languages) %></b> <%= @dragon[:language] %><%
+if @dragon[:language_count] > 0
+  %><%= t(:label_languages_more, count: @dragon[:language_count]) %><br /><%
 end %>
-<% if @dragon["sq"] != "" %>
-<b><%= t(:label_sq) %></b> <%= @dragon["sq"] %>
+<% if @dragon[:sq] != "" %>
+<b><%= t(:label_sq) %></b> <%= @dragon[:sq] %>
 <% end %>
 </p>
 <div style="border-top:1px solid rgb(0, 0, 0);border-bottom:1px solid rgb(0, 0, 0);margin-top:6px;margin-bottom:6px;width:100%"><b><%= t(:label_ecology) %></b></div>
-<b><%= t(:label_environment) %></b> <%= @dragon["environment"] %><br />
-<b><%= t(:label_organization) %></b> <%= @dragon["organization"] %><br />
-<b><%= t(:label_treasure) %></b> <%= @dragon["treasure"] %>
+<b><%= t(:label_environment) %></b> <%= @dragon[:environment] %><br />
+<b><%= t(:label_organization) %></b> <%= @dragon[:organization] %><br />
+<b><%= t(:label_treasure) %></b> <%= @dragon[:treasure] %>
 <% end %>

@@ -12,7 +12,7 @@ class SizeCategory < ActiveRecord::Base
   end
 
   def get_melee(dragon_race_age, dragon)
-    melee = I18n.t(:label_bite) + " (" + self.bite_damage + sprintf("%+d", (dragon["str_modifer"] * 1.5).to_i)
+    melee = I18n.t(:label_bite) + " (" + self.bite_damage + sprintf("%+d", (dragon[:str_modifer] * 1.5).to_i)
     sp_array = dragon_race_age.special_attack.split(",")
     sp_array.each {|sp|
       if sp.strip == "acidic bite"
@@ -27,9 +27,9 @@ class SizeCategory < ActiveRecord::Base
       end
     }
     melee = melee + ")"
-    melee = melee + ", " + I18n.t(:label_claws) + " (" + self.claws_damage + sprintf("%+d", dragon["str_modifer"].to_i) + ")"
-    melee = melee + ", " + I18n.t(:label_wings) + " (" + self.wings_damage + sprintf("%+d", (dragon["str_modifer"] * 0.5).to_i) + ")" if self.wings_damage != ""
-    melee = melee + ", " + I18n.t(:label_tail_slap) + " (" + self.tail_slap_damage + sprintf("%+d", (dragon["str_modifer"] * 1.5).to_i) + ")" if self.tail_slap_damage != ""
+    melee = melee + ", " + I18n.t(:label_claws) + " (" + self.claws_damage + sprintf("%+d", dragon[:str_modifer].to_i) + ")"
+    melee = melee + ", " + I18n.t(:label_wings) + " (" + self.wings_damage + sprintf("%+d", (dragon[:str_modifer] * 0.5).to_i) + ")" if self.wings_damage != ""
+    melee = melee + ", " + I18n.t(:label_tail_slap) + " (" + self.tail_slap_damage + sprintf("%+d", (dragon[:str_modifer] * 1.5).to_i) + ")" if self.tail_slap_damage != ""
     return melee
   end
 
