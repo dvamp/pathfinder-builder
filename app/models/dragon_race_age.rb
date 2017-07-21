@@ -96,11 +96,11 @@ class DragonRaceAge < ActiveRecord::Base
       end
     }
     # サイズ段階で獲得する特殊攻撃
-    if size_category.crush_damage != ""
+    if size_category.crush_damage?
       temp_size_category = SizeCategory.find_by(["size_id = ?", dragon_race.size + dragon_age_category.size - 3])
       special_attack = special_attack + ", " + I18n.t("models.dragon_race_age.special_attack.crush") +"(" + temp_size_category.name_localizable + " DC" + (10 + (dragon[:hit_dice_count] * 0.5).to_i + dragon[:con_modifer]).to_s + " " + size_category.crush_damage + "+" + ((dragon[:str_modifer] * 1.5).to_i).to_s + ")"
     end
-    if size_category.tail_sweep_damage != ""
+    if size_category.tail_sweep_damage?
       temp_size_category = SizeCategory.find_by(["size_id = ?", dragon_race.size + dragon_age_category.size - 4])
       special_attack = special_attack + ", " + I18n.t("models.dragon_race_age.special_attack.tail sweep") +"(" + temp_size_category.name_localizable + " DC" + (10 + (dragon[:hit_dice_count] * 0.5).to_i + dragon[:con_modifer]).to_s + " " + size_category.tail_sweep_damage + "+" + ((dragon[:str_modifer] * 1.5).to_i).to_s + ")"
     end
