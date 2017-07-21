@@ -21,7 +21,7 @@
   <table width="100%">
     <tbody>
       <tr>
-        <td aligin="left" style="width:85%;font-variant:small-caps"><b><%= @dragon[:name] %></b></td>
+        <td aligin="left" style="width:85%;font-variant:small-caps"><b><%= t(:dragon_name, race: @dragon[:race_category], age: @dragon[:age_category]) %></b></td>
         <td align="right" style="font-variant:small-caps"><b>CR <%= @dragon[:cr] %></b></td>
       </tr>
     </tbody>

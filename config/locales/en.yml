@@ -275,6 +275,7 @@ en:
         gargantuan: Gargantuan
         colossal: Colossal
 
+  dragon_name: '%{race} Dragon, %{age}'
   enums:
     dragon_age_category:
       age_category:

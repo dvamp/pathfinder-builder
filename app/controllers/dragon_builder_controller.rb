@@ -15,11 +15,8 @@ class DragonBuilderController < ApplicationController
       size_category = SizeCategory.find_by(["size_id = ?", dragon_race.size + dragon_age_category.size])
 
       @dragon = {hit_dice_number: 12, defence_describe: ''}
-      if params[:locale] == 'ja'
-        @dragon[:name] = dragon_age_category.age_category_i18n + "・" + dragon_race.name_localizable + "・ドラゴン"
-      else
-        @dragon[:name] = dragon_race.name_localizable + " Dragon, " + dragon_age_category.age_category_i18n
-      end
+      @dragon[:race_category] = dragon_race.name_localizable
+      @dragon[:age_category] = dragon_age_category.age_category_i18n
       @dragon[:cr] = dragon_race.cr + dragon_age_category.cr
       @dragon[:size] = size_category.name_localizable
       @dragon[:ba_size_modifer] = size_category.ba_size_modifer

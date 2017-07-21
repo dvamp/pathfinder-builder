@@ -276,6 +276,7 @@ ja:
         gargantuan: 巨大サイズ
         colossal: 超巨大サイズ
 
+  dragon_name: '%{age}・%{race}・ドラゴン'
   enums:
     dragon_age_category:
       age_category:
