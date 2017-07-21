@@ -2,20 +2,20 @@
 
 Perfect:
   id: 1
-  name: perfect
+  name: 1
 
 Good:
   id: 2
-  name: good
+  name: 2
 
 Average:
   id: 3
-  name: average
+  name: 3
 
 Poor:
   id: 4
-  name: poor
+  name: 4
 
 Clumsy:
   id: 5
-  name: clumsy
+  name: 5

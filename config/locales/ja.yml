@@ -275,13 +275,6 @@ ja:
         huge: 超大型サイズ
         gargantuan: 巨大サイズ
         colossal: 超巨大サイズ
-    fly_muverabillity:
-      name:
-        perfect: 完璧
-        good: 良好
-        average: 標準
-        poor: 貧弱
-        clumsy: 劣悪
 
   enums:
     dragon_age_category:
@@ -298,3 +291,10 @@ ja:
         ancient: エインシャント
         wyrm: ワーム
         great_wyrm: グレート・ワーム
+    fly_muverabillity:
+      name:
+        perfect: 完璧
+        good: 良好
+        average_: 標準
+        poor: 貧弱
+        clumsy: 劣悪

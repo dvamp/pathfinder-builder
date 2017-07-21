@@ -8,7 +8,7 @@ class SizeCategory < ActiveRecord::Base
       gra_fly_flag = -1 if elem.strip == "graceful flight"
     }
     fly_muverabillity = FlyMuverabillity.find_by(["id = ?", self.fly_muverabillity.to_i + gra_fly_flag])
-    return ", " + I18n.t(:label_fly) + " " + self.fly_speed + "(" + fly_muverabillity.name_localizable + ")"
+    return ', ' + I18n.t(:label_fly) + ' ' + self.fly_speed + '(' + fly_muverabillity.name_i18n + ')'
   end
 
   def get_melee(dragon_race_age, dragon)

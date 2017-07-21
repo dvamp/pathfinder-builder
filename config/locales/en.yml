@@ -274,13 +274,6 @@ en:
         huge: Huge
         gargantuan: Gargantuan
         colossal: Colossal
-    fly_muverabillity:
-      name:
-        perfect: perfect
-        good: good
-        average: average
-        poor: poor
-        clumsy: clumsy
 
   enums:
     dragon_age_category:
@@ -297,3 +290,10 @@ en:
         ancient: Ancient
         wyrm: Wyrm
         great_wyrm: Great Wyrm
+    fly_muverabillity:
+      name:
+        perfect: perfect
+        good: good
+        average_: average
+        poor: poor
+        clumsy: clumsy
